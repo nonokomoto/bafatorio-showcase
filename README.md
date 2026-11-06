@@ -17,7 +17,6 @@ This repository is a public snapshot of the application code. Production identif
 | Email | Amazon SES behind an SQS queue |
 | Secrets | AWS KMS for third-party OAuth tokens (Notion, Fidelize) |
 | Payments | Stripe: free plan, pay-per-event by participant tier, and a Pro subscription |
-| AI | Event assistant on the Claude API, with retrieval over the event's own data |
 | Quality | Jest (125 test files), ESLint with zero warnings, React Doctor score in CI, Sentry |
 
 ## Architecture
@@ -30,8 +29,8 @@ React (Vite) ── RTK Query ── Amplify client ── AppSync (GraphQL)
                DynamoDB tables            Lambda resolvers         Cognito
                                      (role check → action)
                                                   │
-                     ┌──────────┬─────────────────┼──────────┬──────────┐
-                     S3        SQS → SES        Stripe      KMS      Claude API
+                     ┌──────────┬─────────────────┼──────────┐
+                     S3        SQS → SES        Stripe      KMS
 ```
 
 Every operation that depends on a user's role in an event goes through a Lambda that reads the caller's identity, checks ownership or collaborator role, and only then writes. The pattern is documented in [ADR-019](docs/adr/ADR-019-event-scoped-roles.md).
@@ -74,7 +73,7 @@ npm test
 npm run lint
 ```
 
-The sandbox expects secrets for Stripe, the Claude API and the integrations (`npx ampx sandbox secret set <NAME>`). Without them the related features stay off.
+The sandbox expects secrets for Stripe and the integrations (`npx ampx sandbox secret set <NAME>`). Without them the related features stay off.
 
 ## Author
 

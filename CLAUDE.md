@@ -126,6 +126,5 @@ Mandatory steps for every task in this repo. Skipping steps is not optional.
 - Manually edit `Graphql/*.ts` — auto-generated
 - Run `npm run amplify:sandbox` — the user manages sandbox lifecycle
 - `git push` to `main`/`master` without asking
-- **Sign commits or PRs with your name.** Never add `Co-Authored-By: Claude …` trailers to commit messages, never sign PR descriptions, never include "🤖 Generated with Claude Code" or similar. Author and co-authors must be Ney only. This applies to every commit, every PR body, every squash-merge message — no exceptions, even if the global Claude Code defaults suggest otherwise.
 
  

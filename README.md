@@ -78,4 +78,6 @@ The sandbox expects secrets for Stripe, the Claude API and the integrations (`np
 
 ## Author
 
-Ney Carvalho. The code is shared to show how the product is built. All rights reserved.
+Ney Carvalho. Built with AI coding agents (Claude Code) under my direction: I own the architecture, the decisions in the ADRs and the review of every change. [`CLAUDE.md`](CLAUDE.md) holds the rules the agents follow.
+
+The code is shared to show how the product is built. All rights reserved.

@@ -1,0 +1,97 @@
+/* react-big-calendar visual overrides — only loaded by ScheduleCalendar.jsx.
+   All values reference design tokens defined in src/index.css per ADR-025. */
+
+.rbc-calendar {
+  font-family: inherit;
+  color: rgb(var(--foreground));
+  background: rgb(var(--card));
+}
+
+.rbc-header {
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: rgb(var(--muted-foreground));
+  padding: 8px 6px;
+  border-color: rgb(var(--border));
+}
+
+/* Today — month view uses a pill via components.month.dateHeader (no cell tint).
+   Week/day views keep a faint brand-coloured column to mark current day. */
+.rbc-month-view .rbc-today { background-color: transparent; }
+.rbc-time-view  .rbc-today { background-color: rgb(var(--primary) / 0.05); }
+
+/* The event's own days. Every date accepts entries (ADR-029, Leitura A) — this
+   is emphasis, not a gate. Month view tints the BG slab; the number is weighted
+   via dateHeader. Week/day view gets the className on the day slot. */
+.rbc-month-view .rbc-day-bg.rbc-event-day {
+  background-color: rgb(var(--primary) / 0.06);
+}
+.rbc-time-view .rbc-day-slot.rbc-event-day,
+.rbc-time-view .rbc-time-column.rbc-event-day {
+  background-color: rgb(var(--primary) / 0.04);
+}
+
+/* Cursor + hover affordance — only when the user can manage entries. */
+[data-manage="true"] .rbc-month-view .rbc-day-bg:not(.rbc-off-range-bg) {
+  cursor: pointer;
+  transition: background-color 120ms ease;
+}
+[data-manage="true"] .rbc-month-view .rbc-day-bg:not(.rbc-off-range-bg):hover {
+  background-color: rgb(var(--primary) / 0.04);
+}
+/* Must outrank the rule above (same specificity, declared later) — otherwise
+   hovering an event day would wash it lighter than its resting tint. */
+[data-manage="true"] .rbc-month-view .rbc-day-bg.rbc-event-day:hover {
+  background-color: rgb(var(--primary) / 0.10);
+}
+[data-manage="true"] .rbc-month-view .rbc-day-bg.rbc-off-range-bg {
+  cursor: not-allowed;
+}
+[data-manage="true"] .rbc-time-view .rbc-day-slot {
+  cursor: pointer;
+}
+
+.rbc-off-range-bg { background-color: rgb(var(--muted)); }
+.rbc-off-range    { color: rgb(var(--muted-foreground) / 0.5); }
+
+.rbc-time-gutter,
+.rbc-time-header-gutter {
+  font-variant-numeric: tabular-nums;
+  font-size: 12px;
+  color: rgb(var(--muted-foreground));
+}
+
+.rbc-month-view,
+.rbc-time-view,
+.rbc-day-bg + .rbc-day-bg,
+.rbc-month-row + .rbc-month-row,
+.rbc-time-content,
+.rbc-time-header-content,
+.rbc-time-header.rbc-overflowing,
+.rbc-timeslot-group { border-color: rgb(var(--border)); }
+
+.rbc-slot-selection { background-color: rgb(var(--primary) / 0.18); }
+
+.rbc-event {
+  border: 0;
+  border-radius: 4px;
+  /* 4px vertical: dá ao bloco ~24px de altura — 2px deixava-o fino demais
+     para ler e para acertar com o rato, e sem espaço para o avatar do autor. */
+  padding: 4px 7px;
+  font-size: 12px;
+  line-height: 1.35;
+}
+.rbc-event:focus {
+  outline: 2px solid rgb(var(--ring));
+  outline-offset: 1px;
+}
+
+.rbc-show-more {
+  color: rgb(var(--primary));
+  font-weight: 600;
+  background: transparent;
+  padding: 0 4px;
+}
+.rbc-show-more:hover { text-decoration: underline; }

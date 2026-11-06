@@ -1,0 +1,30 @@
+name: React Doctor Score
+
+# Advisory only: reports the whole-repo health score for visibility. Moved off
+# the per-PR CI so it stops billing ~4 min on every pull request — the score is
+# informational (never blocks) and only needs to be sampled periodically.
+on:
+  schedule:
+    - cron: '0 6 * * 1' # Mondays 06:00 UTC
+  workflow_dispatch: # allow manual runs on demand
+
+jobs:
+  react-doctor-score:
+    name: React Doctor Score (advisory)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: React Doctor whole-repo score
+        continue-on-error: true
+        run: |
+          SCORE=$(npx react-doctor@0.7.4 . --score 2>&1 | grep -oE '^[0-9]+$' | tail -1)
+          echo "React Doctor whole-repo score: ${SCORE:-unknown}/100"
+          echo "### React Doctor whole-repo score: ${SCORE:-unknown}/100" >> "$GITHUB_STEP_SUMMARY"

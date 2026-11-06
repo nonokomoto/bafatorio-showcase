@@ -1,0 +1,110 @@
+{
+  "terms": {
+    "title": "Termos de Utilização",
+    "lastUpdated": "Última atualização:",
+    "sections": {
+      "introduction": {
+        "title": "1. Introdução e Aceitação dos Termos",
+        "content": "Bem-vindo ao Bafatorio, uma plataforma completa de gestão de eventos que permite organizar, gerir e coordenar participantes, documentação, fornecedores e comunicações de forma centralizada e eficiente. Estes Termos de Utilização estabelecem as condições e responsabilidades para a utilização de todos os serviços oferecidos pela plataforma Bafatorio. Ao criar uma conta, aceder ou utilizar qualquer funcionalidade da plataforma, incluindo a importação de participantes, gestão de eventos, armazenamento de documentos, comunicação com participantes e integração com ferramentas externas, concorda integralmente com estes termos. Se não concordar com alguma disposição, solicitamos que não utilize o serviço."
+      },
+      "userResponsibilities": {
+        "title": "2. Responsabilidades e Obrigações do Utilizador",
+        "content": "É responsável pela manutenção da confidencialidade das suas credenciais de acesso e pela segurança da sua conta. Todas as atividades realizadas na sua conta são da sua responsabilidade, incluindo a criação de eventos, importação de dados de participantes, carregamento de documentos e comunicações enviadas. Concorda em notificar-nos imediatamente sobre qualquer acesso não autorizado ou utilização indevida da sua conta. É proibido utilizar a plataforma para: (a) atividades ilegais ou fraudulentas; (b) armazenar ou partilhar informações que violem direitos de terceiros; (c) realizar spam ou enviar comunicações não solicitadas; (d) contornar medidas de segurança da plataforma; (e) utilizar os dados de participantes de forma contrária às leis de proteção de dados e privacidade aplicáveis."
+      },
+      "intellectualProperty": {
+        "title": "3. Proteção de Direitos Intelectuais e Propriedade",
+        "content": "Todo o conteúdo da plataforma Bafatorio, incluindo interface, design, funcionalidades, código-fonte, textos, gráficos, logótipos, ícones, imagens e compilação de dados, é protegido por direitos de autor e leis de propriedade intelectual. É-lhe concedida uma licença limitada e não-exclusiva para utilizar a plataforma exclusivamente para fins de gestão de eventos pessoais ou organizacionais. É expressamente proibido: reproduzir, modificar, distribuir, vender ou tentar obter acesso ao código-fonte; criar versões derivadas da plataforma; ou utilizar qualquer conteúdo da plataforma sem autorização prévia por escrito. Os dados e informações que inserir na plataforma (eventos, participantes, documentos) continuam a ser da sua propriedade, mas concede-nos os direitos para processar, armazenar e gerir esses dados conforme necessário para a prestação do serviço."
+      },
+      "limitations": {
+        "title": "4. Limitações de Responsabilidade",
+        "content": "A plataforma Bafatorio é fornecida tal como está. Na máxima extensão permitida pela lei, o Bafatorio, os seus proprietários, diretores, colaboradores e agentes não se responsabilizam por: danos diretos, indiretos, incidentais, especiais ou consequentes; perda de dados ou informações; perda de receita ou lucros; ou qualquer outro dano decorrente da utilização da plataforma. A utilização da plataforma é feita por sua conta e risco. O Bafatorio não garante que o serviço será ininterrupto, isento de erros ou que todos os problemas serão resolvidos. Em caso de insatisfação com o serviço, o seu único recurso é descontinuar a utilização da plataforma e solicitar a eliminação da sua conta conforme as nossas políticas de retenção de dados."
+      },
+      "changes": {
+        "title": "5. Modificação dos Serviços e Termos",
+        "content": "O Bafatorio reserva-se o direito de modificar, melhorar ou descontinuar qualquer aspeto da plataforma, funcionalidades ou serviços a qualquer momento. Reservamo-nos também o direito de atualizar estes Termos de Utilização conforme necessário. As modificações entrarão em vigor imediatamente após a publicação. Para alterações significativas, faremos esforços razoáveis para o notificar por e-mail. A sua utilização continuada da plataforma após a publicação de alterações constitui aceitação dos termos modificados. Se não concordar com as alterações, deverá descontinuar a utilização."
+      },
+      "contact": {
+        "title": "6. Dúvidas e Suporte",
+        "content": "Se tiver dúvidas, preocupações ou necessitar de esclarecimentos sobre estes Termos de Utilização, políticas de privacidade ou o funcionamento da plataforma, contacte-nos através da nossa página de suporte ou envie um e-mail para a nossa equipa de apoio. Estamos disponíveis para ajudar e garantir a melhor experiência possível ao utilizar o Bafatorio para gerir os seus eventos."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Política de Privacidade",
+    "lastUpdated": "Última atualização:",
+    "sections": {
+      "introduction": {
+        "title": "1. Introdução e Compromisso com a Privacidade",
+        "content": "No Bafatorio, tratamos a privacidade dos seus dados com a máxima importância. Esta Política de Privacidade descreve como recolhemos, processamos, protegemos e utilizamos as suas informações pessoais quando utiliza a nossa plataforma de gestão de eventos. Cobrimos todo o ciclo de vida dos dados, desde a recolha inicial até à eliminação, em conformidade com as leis de proteção de dados aplicáveis, incluindo o RGPD. Recomendamos que leia esta política com atenção para compreender plenamente como protegemos os seus dados."
+      },
+      "dataCollection": {
+        "title": "2. Informações que Recolhemos",
+        "content": "Recolhemos diversos tipos de informações para fornecer e melhorar o Bafatorio. Isto inclui: (a) Informações que fornece diretamente: nome, e-mail, número de telefone, dados da organização, informações de pagamento e conteúdo que carrega (eventos, participantes, documentos); (b) Informações recolhidas automaticamente: dados de dispositivo, endereço IP, tipo de navegador, páginas visitadas, duração da sessão, cookies e tokens de autenticação; (c) Informações de terceiros: dados de integrações (Notion, Stripe) e metadados de documentos carregados; (d) Dados de participantes: informações que importa ou insere sobre participantes dos seus eventos, pelas quais é responsável por obter o consentimento adequado."
+      },
+      "dataUsage": {
+        "title": "3. Como Utilizamos os Seus Dados",
+        "content": "Utilizamos as suas informações para: (a) Fornecer o serviço: gerir a sua conta, processar eventos, armazenar documentos, facilitar comunicações com participantes; (b) Melhorar o serviço: análise de utilização, identificação de tendências, otimização de funcionalidades; (c) Comunicação: enviar confirmações de conta, atualizações de segurança, melhorias de serviço, informações promocionais (que pode recusar); (d) Segurança: detetar e prevenir fraude, abusos, e garantir a conformidade legal; (e) Apoio: responder às suas questões e prestar assistência técnica. Não partilhamos os seus dados pessoais com terceiros sem o seu consentimento, exceto quando legalmente obrigados ou com prestadores de serviços ao abrigo de acordos de confidencialidade rigorosos."
+      },
+      "dataProtection": {
+        "title": "4. Proteção e Segurança dos Dados",
+        "content": "Implementamos medidas técnicas, organizacionais e administrativas robustas para proteger os seus dados: (a) Encriptação: dados em trânsito (TLS/SSL) e em repouso (AES-256); (b) Controlo de acesso: autenticação de dois fatores, permissões granulares, auditoria de acessos; (c) Infraestrutura: servidores seguros em data centers certificados, cópias de segurança regulares, recuperação de desastres; (d) Conformidade: avaliações de segurança regulares, testes de intrusão, conformidade com normas de segurança. Embora implementemos medidas robustas, nenhum sistema é 100% seguro. Qualquer violação de dados será comunicada conforme exigido pela lei."
+      },
+      "userRights": {
+        "title": "5. Os Seus Direitos de Privacidade",
+        "content": "De acordo com leis como o RGPD, tem os seguintes direitos: (a) Direito de acesso: solicitar uma cópia dos seus dados pessoais; (b) Direito de retificação: corrigir dados imprecisos ou incompletos; (c) Direito ao apagamento: solicitar a remoção dos seus dados em determinadas circunstâncias; (d) Direito de limitação: restringir o tratamento dos seus dados; (e) Direito de portabilidade: receber os seus dados num formato legível; (f) Direito de oposição: opor-se ao tratamento para fins específicos; (g) Direito de não ser sujeito a decisões automatizadas. Para exercer estes direitos, contacte-nos através de privacy@bafatorio.com com uma descrição clara do seu pedido. Responderemos no prazo de 30 dias."
+      },
+      "retention": {
+        "title": "6. Período de Retenção de Dados",
+        "content": "Conservamos os seus dados pessoais apenas pelo tempo necessário para: (a) Fornecer o serviço e cumprir os seus objetivos; (b) Cumprir obrigações legais e fiscais (geralmente 7 anos); (c) Resolver litígios e questões de segurança. Após este período, os seus dados são eliminados ou anonimizados de forma segura. Se eliminar a sua conta, os seus dados pessoais são apagados no prazo de 30 dias, embora possamos conservar dados agregados e anonimizados para análise. As cópias de segurança podem ser conservadas por períodos adicionais conforme necessário para fins de recuperação."
+      },
+      "contact": {
+        "title": "7. Contacte-nos",
+        "content": "Se tiver dúvidas sobre esta Política de Privacidade, sobre as nossas práticas de privacidade, ou desejar exercer os seus direitos de privacidade, contacte-nos. Está disponível um Encarregado de Proteção de Dados (EPD) dedicado para questões de privacidade. Responderemos a todas as questões prontamente e com a máxima confidencialidade."
+      }
+    }
+  },
+  "cookies": {
+    "title": "Política de Cookies",
+    "lastUpdated": "Última atualização:",
+    "sections": {
+      "introduction": {
+        "title": "1. O que São Cookies e Por que os Utilizamos",
+        "content": "O Bafatorio utiliza apenas cookies estritamente necessários ao funcionamento da plataforma. Não utilizamos cookies de publicidade, marketing ou seguimento comportamental. Esta Política de Cookies explica o que são cookies, que cookies essenciais utilizamos, e como pode controlá-los através do seu navegador."
+      },
+      "whatAreCookies": {
+        "title": "2. O que São Cookies?",
+        "content": "Os cookies são pequenos ficheiros de texto (geralmente de alguns kilobytes) que são armazenados no seu dispositivo (computador, tablet ou telemóvel) quando acede a um sítio ou aplicação. Quando regressa ao sítio, o servidor lê o cookie para reconhecer o seu dispositivo e aceder a informações armazenadas. Existem dois tipos principais: (a) Cookies de sessão: criados quando acede ao sítio e apagados quando fecha o navegador, utilizados para manter o seu estado de início de sessão; (b) Cookies persistentes: permanecem no seu dispositivo após fechar o navegador, identificados por uma data de expiração."
+      },
+      "typesOfCookies": {
+        "title": "3. Tipos de Cookies que Utilizamos",
+        "content": "Utilizamos exclusivamente cookies essenciais, indispensáveis ao funcionamento da plataforma: (a) Cookies de autenticação e sessão: identificam o utilizador autenticado e mantêm a sessão segura ao longo da navegação; (b) Cookies de segurança: previnem ataques de falsificação de pedidos (CSRF) e detetam acessos não autorizados; (c) Cookies de processamento de pagamentos: definidos pelo nosso processador de pagamentos (Stripe) durante operações de subscrição ou pagamento, para prevenção de fraude e segurança das transações. Não utilizamos cookies de análise, publicidade, marketing ou perfil comportamental."
+      },
+      "howWeUseCookies": {
+        "title": "4. Como Utilizamos Especificamente os Cookies",
+        "content": "No contexto do Bafatorio, os cookies essenciais são utilizados para: (a) Manter a sua sessão iniciada com segurança e verificar a sua identidade; (b) Proteger contra acessos não autorizados e ataques contra a sua conta; (c) Garantir a segurança e a integridade das transações de pagamento; (d) Recordar preferências básicas de utilização (idioma, tema escuro/claro) durante a sessão. Estes cookies são fundamentais - sem eles, não é possível autenticar-se nem utilizar a plataforma."
+      },
+      "cookieManagement": {
+        "title": "5. Como Controlar os Cookies",
+        "content": "Tem controlo total sobre os cookies através do seu navegador. A maioria dos navegadores permite-lhe: (a) Ver os cookies armazenados; (b) Eliminar cookies existentes; (c) Bloquear cookies de sítios específicos ou todos os cookies. Pode gerir estas definições nas opções de privacidade/segurança do seu navegador (Chrome, Firefox, Safari, Edge). IMPORTANTE: como utilizamos apenas cookies essenciais, desativá-los impedirá o início de sessão, o uso de funcionalidades de segurança e o processamento de pagamentos - a plataforma deixará de funcionar."
+      },
+      "thirdPartyCookies": {
+        "title": "6. Cookies de Terceiros",
+        "content": "O único terceiro que pode definir cookies durante a utilização do Bafatorio é o nosso processador de pagamentos: (a) Stripe: define cookies durante o fluxo de pagamento e gestão de subscrições, exclusivamente para segurança das transações e prevenção de fraude. Estes cookies só são definidos quando interage com áreas de pagamento da plataforma. Para mais informações, consulte a Política de Privacidade da Stripe em stripe.com/privacy. Se ligar contas de terceiros (ex.: Notion), o seu navegador pode receber cookies definidos por esses serviços ao abrigo das próprias políticas dos mesmos."
+      },
+      "contact": {
+        "title": "7. Questões sobre Cookies",
+        "content": "Se tiver dúvidas sobre esta Política de Cookies ou sobre como gerir as suas preferências, contacte-nos. A sua privacidade é importante para nós."
+      }
+    }
+  },
+  "banner": {
+    "title": "Definições de Cookies e Privacidade",
+    "description": "Utilizamos cookies para melhorar a sua experiência, garantir a segurança e analisar a forma como utiliza a nossa plataforma. Consulte a nossa",
+    "policyLink": "Política de Cookies",
+    "accept": "Aceitar Cookies",
+    "reject": "Rejeitar"
+  },
+  "footer": {
+    "allRightsReserved": "Todos os direitos reservados."
+  }
+}

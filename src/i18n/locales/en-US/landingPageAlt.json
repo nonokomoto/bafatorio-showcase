@@ -1,0 +1,205 @@
+{
+  "brand": {
+    "tagline": "Event Management System"
+  },
+  "nav": {
+    "features": "Features",
+    "home": "Home",
+    "testimonials": "Events",
+    "pricing": "Pricing",
+    "login": "Login",
+    "signUp": "Sign Up",
+    "ariaLabel": "Main navigation",
+    "toggleMenu": "Open or close navigation menu",
+    "mobileMenuAriaLabel": "Mobile navigation menu"
+  },
+  "hero": {
+    "titleHighlight": "Your entire event, organized",
+    "titleSecondary": " in one place.",
+    "description": "Participants, documents, suppliers, attendance and reports. All connected, simple, and in your language.",
+    "ctaStart": "Get started",
+    "noCreditCard": "No credit card required",
+    "freeAccount": "Create your free account",
+    "paidEvents": "Start with 1 free event",
+    "imageAlt": "Bafatorio platform showing the management of an event",
+    "eventsCompleted": "Real events since 2024"
+  },
+  "features": {
+    "title": "Everything you need ",
+    "titleHighlight": "to manage better",
+    "description": "From the first invite to the final report: the areas you use every day, connected to each other.",
+    "badge": "Key features",
+    "menuTitle": "Explore the features",
+    "callToAction": "Click each feature to see the details",
+    "items": {
+      "eventManagement": {
+        "title": "Event management",
+        "description": "Create and track events with full control over dates, access and status.",
+        "bullets": [
+          "Flexible dates: single day, range or specific dates",
+          "Public or private events",
+          "Dashboard with the event's status and summary",
+          "PDF report"
+        ]
+      },
+      "participantManagement": {
+        "title": "Participant management",
+        "description": "Organize categories, dependents and confirmations in one place.",
+        "bullets": [
+          "Participant categories and dependents",
+          "Excel import with smart normalization",
+          "Attendance confirmations (RSVP)",
+          "Advanced search and filters"
+        ]
+      },
+      "suppliers": {
+        "title": "Suppliers",
+        "description": "Contacts, services and operational information in a single space.",
+        "bullets": [
+          "A profile for each supplier with contacts and services",
+          "Excel import",
+          "Linked to agenda entries",
+          "Shared with the event team"
+        ]
+      },
+      "documentation": {
+        "title": "Centralized documents",
+        "description": "Files linked to the right event and always easy to find.",
+        "bullets": [
+          "Folders organized per event",
+          "File preview",
+          "Notion page import",
+          "Role-based permission control"
+        ]
+      },
+      "agenda": {
+        "title": "Event agenda",
+        "description": "Plan tasks, deadlines and owners in a shared calendar.",
+        "bullets": [
+          "Month, week and day views",
+          "Entries before, during and after the event",
+          "Linked to suppliers",
+          "Role-based visibility"
+        ]
+      },
+      "team": {
+        "title": "Team & permissions",
+        "description": "Invite your team and control what each person sees and does.",
+        "bullets": [
+          "Co-manager, logistics and check-in roles",
+          "Email invitations",
+          "Permissions per event area",
+          "Encrypted data and GDPR compliance"
+        ]
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Events that already ",
+    "titleHighlight": "counted on us",
+    "subtitle": "Conferences, weddings and brand launches managed on Bafatorio.",
+    "items": [
+      {
+        "name": "Human Leaders",
+        "detail": "Technology partner · Cape Verde"
+      },
+      {
+        "name": "Powerlist 100",
+        "detail": "2 editions · 2024 and 2025"
+      },
+      {
+        "name": "Innovation Forum",
+        "detail": "Mafra · 2026"
+      },
+      {
+        "name": "Ntú Natural",
+        "detail": "Brand launch"
+      },
+      {
+        "name": "Weddings",
+        "detail": "2 events · Greater Lisbon"
+      },
+      {
+        "name": "Youth camp",
+        "detail": "Guarda · Portugal"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Yes, you read that right.",
+    "badge": "50% off · launch",
+    "perMonth": "/ month",
+    "perYear": "/ year",
+    "fromPrice": "from",
+    "perEvent": "per event",
+    "billing": {
+      "monthly": "Monthly",
+      "annual": "Annual"
+    },
+    "plans": {
+      "starter": {
+        "name": "1 free event",
+        "cta": "Start for free"
+      },
+      "pro": {
+        "name": "Pro",
+        "cta": "Create account"
+      },
+      "perEvent": {
+        "name": "Per event",
+        "cta": "Create account"
+      }
+    },
+    "universal": {
+      "lead": "All plans include:",
+      "agenda": "Agenda",
+      "confirmations": "Attendance confirmations",
+      "documents": "Documents",
+      "excel": "Excel import & export"
+    },
+    "rows": {
+      "events": "Events",
+      "participants": "Participants",
+      "suppliers": "Suppliers",
+      "report": "PDF report",
+      "integrations": "Integrations"
+    },
+    "values": {
+      "unlimited": "Unlimited",
+      "tierRange": "{{min}} to unlimited"
+    },
+    "footer": "Prices include VAT · Cancel anytime"
+  },
+  "callToAction": {
+    "title": "Ready to organize your next event?",
+    "description": "Create your free account and set up your first event in minutes.",
+    "button": "Get started",
+    "features": {
+      "security": {
+        "title": "Security & privacy",
+        "description": "Encrypted data, role-based access control and GDPR compliance."
+      },
+      "implementation": {
+        "title": "Start in minutes",
+        "description": "Set up your first event with no training or installation."
+      },
+      "support": {
+        "title": "In your language",
+        "description": "Platform and support in Portuguese, English and French."
+      }
+    }
+  },
+  "footer": {
+    "description": "A platform to organize, manage and track events: participants, suppliers, documents and agenda in one place.",
+    "allRightsReserved": "All rights reserved.",
+    "product": "Product",
+    "pricing": "Pricing",
+    "resources": "Resources",
+    "docs": "Documentation",
+    "blog": "Blog",
+    "legal": "Legal",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie Policy"
+  }
+}

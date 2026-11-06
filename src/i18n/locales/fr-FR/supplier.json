@@ -1,0 +1,631 @@
+{
+  "pages": {
+    "suppliers": {
+      "title": "Fournisseurs",
+      "description": "Gérez votre liste de fournisseurs."
+    }
+  },
+  "form": {
+    "titleEdit": "Modifier le Fournisseur",
+    "titleCreate": "Ajouter un Nouveau Fournisseur",
+    "errorSubmit": "Échec de l'enregistrement du fournisseur. Veuillez réessayer.",
+    "sections": {
+      "contact": "Informations de Contact",
+      "addressLegal": "Adresse et Informations Légales",
+      "budgetDetails": "Limites Budgétaires",
+      "other": "Autres Détails",
+      "notes": "Notes",
+      "financial": "Informations Financières"
+    },
+    "fields": {
+      "name": {
+        "label": "Nom du Fournisseur",
+        "placeholder": "Entrez le nom du fournisseur",
+        "required": "Le nom du fournisseur est requis",
+        "minLength": "Nom trop court"
+      },
+      "category": {
+        "label": "Catégorie",
+        "placeholder": "ex: Traiteur, AV, Lieu"
+      },
+      "country": {
+        "label": "Pays",
+        "placeholder": "Entrez le pays"
+      },
+      "contactName": {
+        "label": "Nom du Contact",
+        "placeholder": "Personne de contact principale"
+      },
+      "contactPhone": {
+        "label": "Téléphone du Contact",
+        "placeholder": "Entrez le numéro de téléphone"
+      },
+      "contactEmail": {
+        "label": "Email du Contact",
+        "placeholder": "Entrez l'adresse email"
+      },
+      "website": {
+        "label": "Site Web",
+        "placeholder": "https://..."
+      },
+      "address": {
+        "label": "Adresse",
+        "placeholder": "Rue, Ville, Code Postal..."
+      },
+      "vatNumber": {
+        "label": "Numéro de TVA",
+        "placeholder": "Numéro de TVA optionnel"
+      },
+      "estimateRange": {
+        "label": "Limite Budgétaire",
+        "placeholder": "ex: 500-1500"
+      },
+      "estimateMin": {
+        "label": "Budget Min.",
+        "placeholder": "ex: 500"
+      },
+      "estimateMax": {
+        "label": "Montant Max.",
+        "placeholder": "ex: 1500"
+      },
+      "estimateUnit": {
+        "label": "Unité",
+        "placeholder": "Sélectionnez l'Unité",
+        "options": {
+          "FIXED": "Fixe",
+          "PER_EVENT": "Par Événement",
+          "PER_HOUR": "Par Heure",
+          "PER_DAY": "Par Jour",
+          "PER_ITEM": "Par Article",
+          "PER_GUEST": "Par Invité"
+        }
+      },
+      "currency": {
+        "label": "Devise",
+        "placeholder": "ex: EUR, USD"
+      },
+      "tags": {
+        "label": "Tags",
+        "placeholder": "Séparés par virgule, ex: préféré, local"
+      },
+      "notes": {
+        "label": "Notes",
+        "placeholder": "Notes additionnelles sur ce fournisseur..."
+      },
+      "beneficiaryName": {
+        "label": "Nom du Bénéficiaire",
+        "placeholder": "Nom du titulaire du compte"
+      },
+      "iban": {
+        "label": "IBAN",
+        "placeholder": "Numéro de Compte Bancaire International"
+      },
+      "swiftBic": {
+        "label": "SWIFT/BIC",
+        "placeholder": "Code d'Identification Bancaire"
+      },
+      "bankName": {
+        "label": "Nom de la Banque",
+        "placeholder": "Nom de la banque"
+      },
+      "email": {
+        "pattern": "E-mail invalide"
+      }
+    },
+    "buttons": {
+      "cancel": "Annuler",
+      "updating": "Mise à jour...",
+      "creating": "Création...",
+      "update": "Mettre à Jour Fournisseur",
+      "create": "Créer Fournisseur"
+    },
+    "loading": "Chargement des données du fournisseur...",
+    "errorLoading": "Impossible de charger les données du fournisseur.",
+    "notFound": "Fournisseur introuvable."
+  },
+  "list": {
+    "title": "Fournisseurs",
+    "addSupplierButton": "Ajouter Fournisseur",
+    "headerTitle": "Liste des Fournisseurs",
+    "loading": "Chargement des fournisseurs...",
+    "errorLoading": "Erreur lors du chargement des fournisseurs.",
+    "errors": {
+      "loadFailed": "Échec du chargement des fournisseurs.",
+      "bulkDeleteFailed": "Impossible de supprimer {{count}} fournisseur(s).",
+      "linkedToEventsTitle": "Fournisseur associé à des événements",
+      "linkedToEvents_one": "Ce fournisseur est associé à {{count}} événement et ne peut pas être supprimé afin de préserver l'historique. Retirez l'association dans l'événement d'abord.",
+      "linkedToEvents_other": "Ce fournisseur est associé à {{count}} événements et ne peut pas être supprimé afin de préserver l'historique. Retirez les associations dans tous les événements d'abord.",
+      "linkedToEventsBulk_one": "{{count}} fournisseur ne peut pas être supprimé car il est associé à des événements. Retirez les associations dans les événements d'abord.",
+      "linkedToEventsBulk_other": "{{count}} fournisseurs ne peuvent pas être supprimés car ils sont associés à des événements. Retirez toutes les associations dans les événements d'abord.",
+      "deleteFailedTitle": "Échec de la suppression",
+      "deleteFailed": "Impossible de supprimer le fournisseur. Veuillez réessayer."
+    },
+    "empty": {
+      "title": "Aucun fournisseur trouvé",
+      "description": "Ajoutez votre premier fournisseur pour commencer.",
+      "noMatchTitle": "Aucun fournisseur ne correspond aux filtres",
+      "noMatchDescription": "Essayez d'ajuster la recherche ou les filtres.",
+      "imageAlt": "Aucun fournisseur"
+    },
+    "noSuppliersFound": "Aucun fournisseur trouvé.",
+    "addFirstSupplier": "Ajoutez Votre Premier Fournisseur",
+    "idPrefix": "ID :",
+    "moreTags": "+{{count}}",
+    "table": {
+      "summary": {
+        "filteredCount": "{{count}} fournisseur(s)",
+        "selectedCount": "{{count}} sélectionné(s)",
+        "showing": "affichage de {{shown}} sur {{total}}"
+      },
+      "selection": {
+        "selectAll": "Sélectionner tous les fournisseurs de cette page",
+        "selectSupplier": "Sélectionner le fournisseur {{name}}",
+        "clear": "Effacer la sélection"
+      },
+      "headers": {
+        "name": "Nom",
+        "category": "Catégorie",
+        "contact": "Contact",
+        "contactName": "Nom du Contact",
+        "phone": "Téléphone",
+        "email": "Email",
+        "location": "Lieu",
+        "tags": "Tags",
+        "budget": "Limite Budgétaire",
+        "updated_at": "Mis à jour le",
+        "actions": "Actions"
+      }
+    },
+    "actions": {
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "deleteSelected": "Supprimer {{count}} sélectionné(s)",
+      "bulkDeleteTitle": "Supprimer des fournisseurs",
+      "bulkDeleteMessage": "Voulez-vous vraiment supprimer {{count}} fournisseur(s) ? Cette action est irréversible.",
+      "bulkDeleteErrorTitle": "La suppression n’a pas pu être terminée",
+      "view": "Voir Détails",
+      "confirmDeleteTitle": "Confirmer la Suppression",
+      "confirmDeleteMessage": "Êtes-vous sûr de vouloir supprimer le fournisseur \"{{name}}\" ? Cette action est irréversible.",
+      "import": "Importer des Fournisseurs"
+    }
+  },
+  "filters": {
+    "search": {
+      "label": "Rechercher Fournisseurs",
+      "placeholder": "Rechercher par nom, email..."
+    },
+    "category": {
+      "label": "Catégorie",
+      "all": "Toutes Catégories"
+    },
+    "filterButton": "Filtrer",
+    "sortButton": "Trier",
+    "categories": {
+      "catering": "Traiteur",
+      "av": "Audiovisuel",
+      "venue": "Lieu",
+      "decor": "Décoration"
+    },
+    "sort": {
+      "nameAsc": "Nom (A-Z)",
+      "nameDesc": "Nom (Z-A)",
+      "dateDesc": "Mis à jour (Plus récent)",
+      "dateAsc": "Mis à jour (Plus ancien)"
+    },
+    "clear": {
+      "label": "Effacer",
+      "ariaLabel": "Effacer les filtres"
+    }
+  },
+  "details": {
+    "title": "Détails du Fournisseur",
+    "panelAriaLabel": "Panneau des détails du fournisseur",
+    "loading": "Chargement des détails du fournisseur...",
+    "error": "Erreur lors du chargement des détails.",
+    "notFound": "Fournisseur non trouvé.",
+    "selectPrompt": "Sélectionnez un fournisseur pour voir les détails."
+  },
+  "eventSupplierList": {
+    "title": "Fournisseurs Associés",
+    "addAssociation": "Ajouter Fournisseur",
+    "addMenu": {
+      "aria": "Plus d’options d’ajout",
+      "importFromFile": "Importer depuis un fichier",
+      "importHint": ".xlsx / .csv - crée des fournisseurs et des associations"
+    },
+    "addPanel": {
+      "title": "Ajouter un fournisseur",
+      "subtitle": "Choisissez dans votre liste ou créez un nouveau fournisseur pour cet événement.",
+      "tabsLabel": "Onglets d’ajout de fournisseur",
+      "tabs": {
+        "fromList": "Depuis la liste",
+        "manual": "Manuel"
+      },
+      "cta": {
+        "associate": "Associer le fournisseur",
+        "createAndAssociate": "Créer et associer",
+        "creating": "Création..."
+      },
+      "errors": {
+        "associate": "Échec de l’association du fournisseur. Réessayez.",
+        "createAndAssociate": "Échec de la création du fournisseur. Réessayez.",
+        "associateAfterCreate": "Le fournisseur a été créé dans le catalogue, mais la liaison à l’événement a échoué. Retrouvez-le dans l’onglet « Depuis la liste » et associez-le manuellement."
+      }
+    },
+    "noEventSelected": "Aucun événement sélectionné.",
+    "errorLoading": "Erreur lors du chargement des fournisseurs pour cet événement.",
+    "noSuppliers": "Aucun fournisseur associé à cet événement pour l'instant.",
+    "noSuppliersFound": "Aucun fournisseur ne correspond au filtre actuel.",
+    "unknownSupplier": "Fournisseur Inconnu",
+    "headers": {
+      "supplier": "Fournisseur",
+      "quote": "Montant Devis",
+      "status": "Statut",
+      "invoice": "Facture",
+      "actions": "Actions"
+    },
+    "status": {
+      "pending": "En attente",
+      "counting_on": "Retenu",
+      "approved": "Approuvé",
+      "paid": "Payé",
+      "rejected": "Rejeté",
+      "unknown": "Inconnu",
+      "selected": "Sélectionné"
+    },
+    "invoice": {
+      "view": "Voir/Remplacer",
+      "upload": "Télécharger"
+    },
+    "actions": {
+      "viewDetails": "Voir Détails",
+      "editSupplier": "Modifier Fournisseur",
+      "delete": "Supprimer Association",
+      "deleteSelected": "Supprimer {{count}} sélectionné(s)",
+      "bulkDeleteTitle": "Supprimer les associations",
+      "bulkDeleteMessage": "Voulez-vous vraiment retirer {{count}} fournisseur(s) de cet événement ? Cette action est irréversible.",
+      "bulkDeleteErrorTitle": "La suppression n'a pas pu être terminée",
+      "moreOptions": "Plus d'options",
+      "editAssociation": "Modifier Association",
+      "approve": "Approuver le Fournisseur",
+      "approving": "Approbation en cours...",
+      "markAsPaid": "Marquer comme Payé",
+      "markingAsPaid": "Marquage comme payé..."
+    },
+    "errors": {
+      "bulkDeleteFailed": "Impossible de supprimer {{count}} association(s)."
+    },
+    "deleteConfirm": {
+      "title": "Confirmer la Suppression",
+      "message": "Êtes-vous sûr de vouloir supprimer cette association de fournisseur ? Cette action est irréversible.",
+      "confirmButton": "Supprimer",
+      "cancelButton": "Annuler"
+    },
+    "selectModal": {
+      "title": "Sélectionner un Fournisseur",
+      "titleStep1": "Étape 1 : Sélectionner le Fournisseur",
+      "titleStep2Prefix": "Étape 2 : Définir le Devis pour",
+      "associateButton": "Associer Fournisseur",
+      "addButton": "Ajouter Fournisseur",
+      "quoteLabel": "Montant du Devis",
+      "quotePlaceholder": "Entrez le montant du devis (ex: 1250,50)",
+      "quoteErrorInvalid": "Veuillez entrer un nombre positif valide pour le devis."
+    },
+    "defineQuote": {
+      "title": "Définir le Montant et Approuver",
+      "description": "Entrez le montant final du devis pour {{supplierName}} avant d\\'approuver."
+    },
+    "editErrors": {
+      "invalidQuote": "Montant du devis invalide.",
+      "statusRequired": "Le statut est requis.",
+      "quoteCannotBeNullForApproved": "Le montant d'un fournisseur approuvé ne peut pas être supprimé. Indiquez un montant valide.",
+      "approvalPaymentWorkflow": "L'approbation et le paiement doivent passer par leurs actions dédiées."
+    },
+    "editModal": {
+      "title": "Modifier les Détails de l'Association",
+      "supplierLabel": "Fournisseur",
+      "quoteLabel": "Montant du Devis",
+      "statusLabel": "Statut",
+      "loading": "Chargement des détails de l'association...",
+      "error": "Erreur lors du chargement des détails de l'association",
+      "quoteDisabledMsg": "Le montant du devis ne peut pas être modifié après approbation/paiement.",
+      "quoteInfoPendingRejected": "(Ce montant est informatif et n'affecte le budget qu'après approbation)",
+      "statusPlaceholder": "Modifier le statut...",
+      "approvedStatusHint": "Ce fournisseur est approuvé. Sélectionnez un nouveau statut pour annuler, ou laissez vide pour conserver."
+    },
+    "summary": {
+      "ariaLabel": "Résumé de l'état des fournisseurs",
+      "totalCommitted": "Total engagé",
+      "filterByStatus": "Filtrer par ce statut",
+      "viewByCategory": "Voir par catégorie"
+    },
+    "committedByCategory": {
+      "title": "Budget par catégorie",
+      "subtitle": "Montant engagé (fournisseurs approuvés et payés) dans chaque catégorie.",
+      "category": "Catégorie",
+      "suppliers": "Fournisseurs",
+      "supplierCount": "{{count}} fournisseur(s)",
+      "committed": "Engagé",
+      "empty": "Aucun fournisseur à afficher."
+    },
+    "approvalBanner": {
+      "message": "{{count}} fournisseur(s) en attente d'approbation",
+      "action": "Voir en attente",
+      "showAll": "Afficher tous"
+    },
+    "filter": {
+      "active": "Affichage : {{status}}",
+      "clear": "Afficher tous",
+      "clearAriaLabel": "Effacer les filtres",
+      "total": "Total"
+    },
+    "table": {
+      "summary": {
+        "filteredCount": "{{count}} fournisseur(s)",
+        "selectedCount": "{{count}} sélectionné(s)"
+      },
+      "selection": {
+        "selectAll": "Sélectionner tous les fournisseurs de cette liste",
+        "selectSupplier": "Sélectionner l’association de {{name}}",
+        "clear": "Effacer la sélection"
+      }
+    },
+    "limitReached": "Limite de {{max}} fournisseurs du plan atteinte",
+    "categoryFilter": {
+      "none": "Sans catégorie"
+    },
+    "statusFilter": {
+      "all": "Tous les statuts"
+    },
+    "filtersAriaLabel": "Filtrer les fournisseurs"
+  },
+  "eventSupplierForm": {
+    "titleEdit": "Modifier l'Association Fournisseur",
+    "titleCreate": "Ajouter un Fournisseur à l'Événement",
+    "errors": {
+      "missingEventId": "ID d'événement manquant.",
+      "missingSupplier": "Veuillez sélectionner un fournisseur.",
+      "supplierRequired": "Le fournisseur est requis",
+      "statusRequired": "Le statut est requis",
+      "submitFailed": "Échec de l'enregistrement de l'association. Veuillez réessayer."
+    },
+    "fields": {
+      "supplier": {
+        "label": "Sélectionner Fournisseur",
+        "placeholder": "Rechercher ou sélectionner un fournisseur..."
+      },
+      "quote": {
+        "label": "Montant Devis",
+        "placeholder": "ex: 1250.50"
+      },
+      "status": {
+        "label": "Statut"
+      },
+      "notes": {
+        "label": "Notes",
+        "placeholder": "Notes optionnelles sur cette association..."
+      }
+    },
+    "buttons": {
+      "cancel": "Annuler",
+      "updating": "Mise à jour...",
+      "creating": "Ajout...",
+      "update": "Mettre à Jour Association",
+      "create": "Ajouter Association"
+    }
+  },
+  "invoiceUpload": {
+    "title": "Gérer la Facture",
+    "currentInvoice": "Facture Actuelle :",
+    "viewDownload": "Voir/Télécharger",
+    "remove": "Supprimer",
+    "noInvoice": "Aucune facture téléchargée pour l'instant.",
+    "replaceTitle": "Télécharger Nouvelle / Remplacer",
+    "uploadTitle": "Télécharger la Facture",
+    "dropzone": {
+      "active": "Déposez le fichier ici...",
+      "inactive": "Glissez-déposez le fichier ici, ou cliquez pour sélectionner"
+    },
+    "acceptedFormats": "Acceptés : PDF, JPG, PNG",
+    "selectedFile": "Sélectionné :",
+    "uploadButton": "Télécharger & Enregistrer",
+    "closeButton": "Fermer",
+    "errors": {
+      "urlError": "Impossible de charger le lien de la facture actuelle.",
+      "uploadFailed": "Échec du téléchargement. Veuillez réessayer.",
+      "removeFailed": "Échec de la suppression de la facture."
+    }
+  },
+  "units": {
+    "FIXED": "Fixe",
+    "PER_EVENT": "Par Événement",
+    "PER_HOUR": "Par Heure",
+    "PER_DAY": "Par Jour",
+    "PER_ITEM": "Par Article",
+    "PER_GUEST": "Par Invité"
+  },
+  "currencies": {
+    "EUR": "🇪🇺 EUR (Euro)",
+    "USD": "🇺🇸 USD (Dollar Américain)",
+    "GBP": "🇬🇧 GBP (Livre Sterling)",
+    "BRL": "🇧🇷 BRL (Réal Brésilien)",
+    "AOA": "🇦🇴 AOA (Kwanza Angolais)",
+    "CVE": "🇨🇻 CVE (Escudo Cap-Verdien)",
+    "MZN": "🇲🇿 MZN (Metical Mozambicain)",
+    "STN": "🇸🇹 STN (Dobra Santoméen)",
+    "XOF": "🇬🇼 XOF (Franc CFA - BCEAO)",
+    "XAF": "🇬🇶 XAF (Franc CFA - BEAC)",
+    "CAD": "🇨🇦 CAD (Dollar Canadien)",
+    "AUD": "🇦🇺 AUD (Dollar Australien)",
+    "JPY": "🇯🇵 JPY (Yen Japonais)",
+    "CHF": "🇨🇭 CHF (Franc Suisse)"
+  },
+  "categories": {
+    "CATERING": "Traiteur",
+    "AV": "Audiovisuel (AV)",
+    "VENUE": "Lieu",
+    "DECORATION": "Décoration",
+    "ENTERTAINMENT": "Divertissement",
+    "PHOTOGRAPHY": "Photographie",
+    "VIDEOGRAPHY": "Vidéographie",
+    "TRANSPORTATION": "Transport",
+    "FLOWERS": "Fleurs",
+    "CAKE": "Gâteau",
+    "WINE": "Vins",
+    "FOOD": "Nourriture",
+    "SERVICES": "Services"
+  },
+  "reactSelect": {
+    "createLabel": "Créer \"{{inputValue}}\"",
+    "loading": "Chargement...",
+    "noOptions": "Aucune option"
+  },
+  "states": {
+    "unavailable": "-"
+  },
+  "importModal": {
+    "title": "Importer des Fournisseurs",
+    "steps": {
+      "upload": "Upload",
+      "analyze": "Analyser",
+      "preview": "Aperçu",
+      "result": "Résultat"
+    },
+    "upload": {
+      "dropzone": "Glissez le fichier ou cliquez pour sélectionner",
+      "hint": "Le mappage des colonnes est fait automatiquement",
+      "globalScopeBanner": "Vous importez des fournisseurs dans le catalogue global. Pour importer directement dans un événement, rendez-vous sur la page de cet événement.",
+      "templateButton": "Télécharger le modèle",
+      "templateHint": "Vous ne savez pas comment le remplir ? Téléchargez un fichier d'exemple."
+    },
+    "template": {
+      "sheetName": "Fournisseurs"
+    },
+    "normalizing": {
+      "title": "Analyse du fichier...",
+      "description": "Détection des colonnes et mappage automatique des champs"
+    },
+    "preview": {
+      "suppliersToImport": "Fournisseurs à importer",
+      "invalidRows": "{{count}} ligne(s) avec des erreurs",
+      "currentSuppliers": "Fournisseurs actuels",
+      "totalAfterImport": "Total après importation"
+    },
+    "importing": {
+      "title": "Importation en cours...",
+      "description": "{{count}} fournisseurs"
+    },
+    "success": {
+      "title": "Importation terminée",
+      "subtitle": "{{count}} fournisseurs importés avec succès",
+      "subtitleWithSkipped": "{{count}} fournisseurs importés avec succès ({{skipped}} ignorés)",
+      "allDuplicates": "Tous les fournisseurs existent déjà dans le catalogue",
+      "duplicatesSkipped": "Ignorés comme doublons",
+      "suppliers": "Importés"
+    },
+    "error": {
+      "title": "Erreur d'importation",
+      "description": "Impossible d'importer les fournisseurs. Vérifiez le fichier et réessayez.",
+      "defaultMessage": "Une erreur s'est produite lors de l'importation.",
+      "emptySupplierData": "Aucun fournisseur valide n'a été trouvé dans le fichier.",
+      "allInvalidRows": "Aucun fournisseur n'a été importé. {{count}} ligne(s) comportent des erreurs de validation.",
+      "allSkipped": "Aucun fournisseur n'a été importé. {{count}} ligne(s) ont été ignorées.",
+      "allSkippedMixed": "Aucun fournisseur n'a été importé. {{duplicates}} ligne(s) étaient déjà présentes et {{invalid}} comportent des erreurs de validation.",
+      "invalidFileType": "Type de fichier invalide. Seuls les fichiers .xlsx, .xls et .csv sont acceptés.",
+      "fileTooLarge": "Fichier trop volumineux. Taille maximale : 5 Mo.",
+      "fileReadError": "Erreur de lecture du fichier.",
+      "fileRequired": "Veuillez sélectionner un fichier à importer.",
+      "templateDownloadFailed": "Impossible de générer le modèle. Veuillez réessayer.",
+      "rowErrorsTitle": "Détail des erreurs :",
+      "rowLabel": "Ligne {{row}} :",
+      "rowErrorsMore": "+{{count}} de plus",
+      "rowErrorsApproximateNote": "Numéros de ligne approximatifs — le normalisateur IA peut fusionner ou supprimer des lignes."
+    },
+    "buttons": {
+      "cancel": "Annuler",
+      "import": "Importer {{count}} fournisseurs",
+      "importing": "Importation...",
+      "done": "Terminer",
+      "tryAgain": "Réessayer",
+      "close": "Fermer"
+    }
+  },
+  "importEventSuppliersModal": {
+    "title": "Importer des fournisseurs vers cet événement",
+    "subtitle": "Téléversez un fichier .xlsx, .xls ou .csv. Chaque ligne crée un fournisseur et l’associe à l’événement.",
+    "uploadHint": ".xlsx · .xls · .csv · max 5 Mo",
+    "normalizing": {
+      "title": "Analyse du fichier...",
+      "description": "Détection des colonnes et préparation de l’aperçu.",
+      "takingLongerHint": "Analyse toujours en cours - les fichiers volumineux ou avec des en-têtes ambigus peuvent prendre plus de temps.",
+      "longRunningHint": "L’analyse est toujours en cours. Elle peut prendre plus de temps pour les fichiers avec beaucoup de lignes, colonnes ou feuilles.",
+      "durationHint": "L’analyse dure généralement 10-30s, selon le fichier.",
+      "progressAriaLabel": "Analyse du fichier en cours"
+    },
+    "preview": {
+      "valid": "Lignes valides",
+      "invalid": "Ignorées"
+    },
+    "logisticsNote": {
+      "generic": "En tant que Logistique, les fournisseurs seront créés en \"En attente\" et devront être approuvés par le responsable.",
+      "withDowngrade": "En tant que Logistique, {{count}} ligne(s) avec un statut autre que \"En attente\" seront créées en \"En attente\" et devront être approuvées par le responsable."
+    },
+    "currencyMismatch": {
+      "note": "{{count}} ligne(s) utilisent une devise différente de celle de l'événement ({{currency}}). Le budget de l'événement est en devise unique - ces montants ne seront pas convertis et peuvent fausser les totaux.",
+      "rowTitle": "Différent de la devise de l'événement ({{currency}})"
+    },
+    "columns": {
+      "name": "Fournisseur",
+      "category": "Catégorie",
+      "quote": "Devis",
+      "status": "Statut",
+      "description": "Description",
+      "ref": "Réf."
+    },
+    "template": {
+      "sheetName": "Fournisseurs de l'événement"
+    },
+    "importing": {
+      "title": "Importation vers l’événement..."
+    },
+    "success": {
+      "subtitle": "{{count}} fournisseur(s) associé(s) à l’événement avec succès",
+      "subtitleWithSkipped": "{{count}} fournisseur(s) associé(s) à l’événement avec succès ({{skipped}} ignoré(s))"
+    },
+    "stats": {
+      "suppliersCreated": "Nouveaux fournisseurs",
+      "suppliersReused": "Réutilisés depuis le catalogue",
+      "linked": "Associés à l’événement",
+      "alreadyLinked": "Déjà associés à l’événement",
+      "duplicateNames": "Noms dupliqués dans le fichier",
+      "invalidRows": "Lignes invalides"
+    },
+    "error": {
+      "description": "Impossible d’importer les fournisseurs dans l’événement. Vérifiez le fichier et réessayez.",
+      "defaultMessage": "Une erreur s’est produite lors de l’importation des fournisseurs dans l’événement.",
+      "normalize": "Impossible d’analyser le fichier.",
+      "importFailed": "Échec de l’importation des fournisseurs dans l’événement.",
+      "emptySupplierData": "Aucun fournisseur valide n’a été trouvé pour cet événement.",
+      "allInvalidRows": "Aucun fournisseur n’a été importé. {{count}} ligne(s) comportent des erreurs de validation.",
+      "allDuplicateRows": "Aucun fournisseur n’a été importé. {{count}} ligne(s) sont en double dans le fichier.",
+      "allAlreadyLinked": "Toutes les lignes étaient déjà associées à cet événement. Rien n’a été importé.",
+      "allSkippedMixed": "Aucun fournisseur n’a été importé. {{count}} ligne(s) ont été ignorées ({{reasons}}).",
+      "invalidInput": "Les données envoyées pour l’importation sont invalides.",
+      "batchLimitExceeded": "Le fichier dépasse la limite maximale de 500 lignes par importation.",
+      "unauthenticated": "Votre session a expiré. Reconnectez-vous pour importer des fournisseurs.",
+      "unauthorized": "Vous n’avez pas l’autorisation d’importer des fournisseurs dans cet événement.",
+      "eventNotFound": "Impossible de trouver l’événement pour cette importation.",
+      "skippedReasons": {
+        "alreadyLinked": "{{count}} déjà associée(s) à l’événement",
+        "duplicateRows": "{{count}} ligne(s) en double dans le fichier",
+        "invalidRows": "{{count}} invalide(s)"
+      }
+    }
+  },
+  "errors": {
+    "generic": "Une erreur est survenue. Veuillez réessayer."
+  },
+  "actions": {
+    "moreOptions": "Plus d'options"
+  }
+}

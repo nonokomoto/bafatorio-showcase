@@ -1,0 +1,108 @@
+{
+  "spinner": {
+    "loading": {
+      "default": "Chargement...",
+      "participants": "Chargement des participants",
+      "processing": "Traitement de {{current}} sur {{total}} enregistrements...",
+      "application": "Chargement de l'application...",
+      "userInfo": "Chargement des informations utilisateur..."
+    },
+    "success": {
+      "title": "Terminé",
+      "default": "Opération terminée avec succès."
+    },
+    "error": {
+      "title": "Oups!",
+      "default": "Un problème est survenu. Veuillez réessayer."
+    },
+    "partialFailure": {
+      "title": "Problème Critique",
+      "default": "Suppression des données terminée, mais la suppression du compte a échoué.",
+      "contactSupport": "Vos données personnelles ont été supprimées pour la conformité de confidentialité, mais votre compte de connexion existe toujours. Veuillez contacter le support pour terminer la suppression du compte.",
+      "understood": "J'ai Compris"
+    }
+  },
+  "alert": {
+    "confirmation": "Confirmation",
+    "alert": "Alerte",
+    "confirm": "Confirmer",
+    "cancel": "Annuler",
+    "ok": "OK",
+    "generating": "Traitement en cours..."
+  },
+  "actions": {
+    "delete": "Supprimer",
+    "cancel": "Annuler",
+    "edit": "Modifier",
+    "viewDetails": "Voir Détails",
+    "associating": "Association...",
+    "close": "Fermer",
+    "next": "Suivant",
+    "back": "Retour",
+    "save": "Enregistrer",
+    "dropdownLabel": "Actions"
+  },
+  "pagination": {
+    "ariaLabel": "Pagination",
+    "buttons": {
+      "previous": "Précédent",
+      "next": "Suivant"
+    }
+  },
+  "statusUpdateHandler": {
+    "errors": {
+      "invalidParams": "Paramètres invalides dans l'URL.",
+      "updateFailed": "Échec de la mise à jour du statut. Veuillez réessayer.",
+      "contactOrganizer": "Si le problème persiste, veuillez contacter l'organisateur de l'événement."
+    },
+    "success": {
+      "confirmation": "Votre présence a été confirmée avec succès !",
+      "thankYou": "Merci d'avoir confirmé votre présence. Vous pouvez fermer cette fenêtre."
+    },
+    "status": {
+      "loading": {
+        "title": "Confirmation de présence",
+        "message": "Confirmation de votre inscription..."
+      },
+      "success": "Confirmation terminée",
+      "error": "Erreur de mise à jour"
+    }
+  },
+  "paymentConfirmation": {
+    "confirmation": {
+      "loading": "Traitement du paiement...",
+      "status": "Confirmation du paiement"
+    },
+    "status": {
+      "success": "Paiement confirmé avec succès !",
+      "error": "Une erreur s'est produite lors du traitement du paiement. Veuillez réessayer."
+    }
+  },
+  "devOverlay": {
+    "badge": "En Développement",
+    "description": "Cette fonctionnalité sera bientôt disponible."
+  },
+  "sessionTimeout": {
+    "title": "Session sur le point d'expirer",
+    "message": "Votre session sera fermée pour inactivité dans {{seconds}} secondes.",
+    "continue": "Continuer la session",
+    "logout": "Se déconnecter"
+  },
+  "errorBoundary": {
+    "title": "Une erreur s'est produite lors du chargement de cette page",
+    "description": "Essayez de recharger. Si le problème persiste, déconnectez-vous puis reconnectez-vous.",
+    "retry": "Recharger"
+  },
+  "billingGate": {
+    "WINDOW_EXPIRED": "La fenêtre d'édition de cet événement est fermée. L'événement est en lecture seule.",
+    "PRO_LAPSED": "L'abonnement Pro est terminé - réactivez-le pour éditer à nouveau.",
+    "PRO_PAUSED": "L'abonnement Pro est en pause - reprenez-le pour continuer.",
+    "LIMIT_SUPPLIERS": "Vous avez atteint la limite de prestataires de votre plan pour cet événement.",
+    "LIMIT_PARTICIPANTS": "Vous avez atteint la limite de participants de votre plan pour cet événement.",
+    "STARTER_LIMIT_REACHED": "Vous avez utilisé votre événement gratuit - choisissez un plan pour créer d'autres événements.",
+    "generic": "Votre plan ne permet pas cette action.",
+    "upgradeCta": "Voir les plans"
+  },
+  "search": "Rechercher...",
+  "noResults": "Aucun résultat trouvé"
+}

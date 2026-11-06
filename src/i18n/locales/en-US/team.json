@@ -1,0 +1,126 @@
+{
+  "title": "Team",
+  "description": "Manage collaborators and event permissions",
+  "noPermission": "You don't have permission to manage this event's team",
+  "owner": {
+    "title": "Organizer",
+    "badge": "Organizer",
+    "description": "You are the organizer of this event with full control"
+  },
+  "empty": {
+    "title": "Your team starts here",
+    "description": "Invite collaborators to help manage the event. Set specific permissions for each member.",
+    "cta": "Invite first collaborator"
+  },
+  "roles": {
+    "owner": {
+      "name": "Organizer",
+      "description": "Full control of the event",
+      "short": "Full control"
+    },
+    "coManager": {
+      "name": "Co-Organizer",
+      "description": "Broad permissions, can invite Staff",
+      "short": "Full management"
+    },
+    "staffCheckin": {
+      "name": "Staff Check-in",
+      "description": "Participant check-in only",
+      "short": "Participant check-in"
+    },
+    "staffLogistics": {
+      "name": "Staff Logistics",
+      "description": "Participant management and supplier selection",
+      "short": "Participant management"
+    }
+  },
+  "collaborators": {
+    "title": "Collaborators"
+  },
+  "list": {
+    "empty": "No collaborators added",
+    "activeMembers": "Active Members",
+    "pendingInvites": "Pending Invitations"
+  },
+  "card": {
+    "invitedAt": "Invited on",
+    "acceptedAt": "Accepted on",
+    "sharedFolders": "{{count}} shared folder(s)",
+    "sharedSuppliers": "{{count}} shared supplier(s)"
+  },
+  "status": {
+    "pending": "Pending",
+    "accepted": "Accepted",
+    "declined": "Declined"
+  },
+  "actions": {
+    "invite": "Invite",
+    "inviteMember": "Invite Member",
+    "remove": "Remove",
+    "edit": "Edit"
+  },
+  "invite": {
+    "title": "Invite Collaborator",
+    "emailLabel": "Collaborator email",
+    "roleLabel": "Select Role",
+    "submit": "Send Invitation",
+    "info": "The collaborator will receive an email with the invitation. After accepting, they will have access to the event with the selected role permissions.",
+    "shareFolders": "Share Folders",
+    "shareFoldersDescription": "Select folders that the collaborator can access",
+    "shareSuppliers": "Share Suppliers",
+    "shareSuppliersDescription": "Suppliers from your list that the collaborator can add to this event. Those already in the event are accessible automatically.",
+    "selectAll": "Select all",
+    "deselectAll": "Deselect all",
+    "noFoldersAvailable": "No folders available",
+    "noSuppliersAvailable": "No suppliers available",
+    "foldersSelected": "{{count}} folder(s) selected",
+    "suppliersSelected": "{{count}} supplier(s) selected",
+    "errors": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email",
+      "roleRequired": "Select a role",
+      "alreadyInvited": "This email has already been invited",
+      "generic": "Error sending invitation"
+    }
+  },
+  "invitation": {
+    "title": "Invitations",
+    "newInvite": "New invitation",
+    "viewInvitations": "View invitations",
+    "noInvitations": "No pending invitations",
+    "accept": "Accept",
+    "decline": "Decline",
+    "welcomeMessage": "Welcome to the team!",
+    "roleAssigned": "You have been added as {{role}} to this event.",
+    "teamMember": "You are now part of this event's team."
+  },
+  "edit": {
+    "title": "Edit Collaborator",
+    "roleLabel": "Role",
+    "submit": "Save Changes",
+    "successTitle": "Changes Saved!",
+    "successMessage": "{{name}} is now {{role}}.",
+    "successMessageFolders": "Shared folders for {{name}} have been updated.",
+    "successMessageSuppliers": "Shared suppliers for {{name}} have been updated.",
+    "checkinWarning": "Staff Check-in can only check-in participants. Shared folders and suppliers will be removed.",
+    "errors": {
+      "generic": "Error updating collaborator"
+    },
+    "scheduleAccess": {
+      "label": "View the team schedule",
+      "onDescription": "Sees every entry in this event’s schedule.",
+      "offDescription": "Sees only the entries they created."
+    },
+    "successMessageScheduleAccess": "{{name}}'s schedule access was updated."
+  },
+  "confirm": {
+    "removeMessage": "Are you sure you want to remove this collaborator?"
+  },
+  "error": {
+    "loadFailed": "Error loading team",
+    "removeFailed": "Error removing collaborator"
+  },
+  "legend": {
+    "title": "Available roles"
+  }
+}

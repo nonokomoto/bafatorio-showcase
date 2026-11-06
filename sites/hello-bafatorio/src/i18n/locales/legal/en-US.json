@@ -1,0 +1,111 @@
+{
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated:",
+    "sections": {
+      "introduction": {
+        "title": "1. Introduction and Acceptance of Terms",
+        "content": "Welcome to Bafatorio, a comprehensive event management platform that enables you to organize, manage, and coordinate participants, documentation, suppliers, and communications in a centralized and efficient manner. These Terms of Service establish the conditions and responsibilities for using all services offered by the Bafatorio platform. By creating an account, accessing, or using any platform functionality, including participant import, event management, document storage, participant communication, and integration with external tools, you fully agree to these terms. If you do not agree with any provision, we request that you do not use the service."
+      },
+      "userResponsibilities": {
+        "title": "2. User Responsibilities and Obligations",
+        "content": "You are responsible for maintaining the confidentiality of your access credentials and the security of your account. All activities conducted through your account are your responsibility, including event creation, participant data import, document uploads, and communications sent. You agree to notify us immediately of any unauthorized access or misuse of your account. You agree not to use the platform for: (a) illegal or fraudulent activities; (b) storing or sharing information that violates third-party rights; (c) sending spam or unsolicited communications; (d) circumventing platform security measures; (e) using participant data in violation of applicable data protection and privacy laws."
+      },
+      "intellectualProperty": {
+        "title": "3. Intellectual Property Protection and Ownership",
+        "content": "All content on the Bafatorio platform, including interface, design, features, source code, text, graphics, logos, icons, images, and data compilation, is protected by copyright and intellectual property laws. You receive a limited, non-exclusive license to use the platform solely for personal or organizational event management purposes. It is expressly prohibited to: reproduce, modify, distribute, sell, or attempt to access the source code; create derivative versions of the platform; or use any platform content without prior written authorization. Data and information you enter into the platform (events, participants, documents) remain your property, but you grant us rights to process, store, and manage this data as necessary to provide the service."
+      },
+      "limitations": {
+        "title": "4. Limitations of Liability",
+        "content": "The Bafatorio platform is provided as-is. To the maximum extent permitted by law, Bafatorio, its owners, directors, employees, and agents shall not be liable for: direct, indirect, incidental, special, or consequential damages; data or information loss; loss of revenue or profits; or any other damages arising from platform use. You use the platform at your own risk. Bafatorio does not guarantee that the service will be uninterrupted, error-free, or that all issues will be resolved. In case of dissatisfaction with the service, your sole remedy is to discontinue using the platform and request account deletion according to our data retention policies."
+      },
+      "changes": {
+        "title": "5. Service Modifications and Terms Updates",
+        "content": "Bafatorio reserves the right to modify, improve, or discontinue any aspect of the platform, features, or services at any time. We also reserve the right to update these Terms of Service as needed. Modifications will be effective immediately upon posting. For significant changes, we will make reasonable efforts to notify you by email. Your continued use of the platform after posting modifications constitutes acceptance of the modified terms. If you do not agree with the changes, you must discontinue use."
+      },
+      "contact": {
+        "title": "6. Questions and Support",
+        "content": "If you have questions, concerns, or need clarification about these Terms of Service, our privacy policies, or how the platform works, please contact us through our support page or email our support team. We are available to assist and ensure you have the best possible experience managing your events with Bafatorio."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated:",
+    "sections": {
+      "introduction": {
+        "title": "1. Introduction and Privacy Commitment",
+        "content": "At Bafatorio, we treat the privacy of your data with utmost importance. This Privacy Policy describes how we collect, process, protect, and use your personal information when you use our event management platform. We cover the complete data lifecycle, from initial collection to deletion, in compliance with applicable data protection laws, including GDPR. We recommend that you read this policy carefully to fully understand how we protect your data."
+      },
+      "dataCollection": {
+        "title": "2. Information We Collect",
+        "content": "We collect various types of information to provide and improve Bafatorio. This includes: (a) Information you provide directly: name, email, phone number, organization information, payment information, and content you upload (events, participants, documents); (b) Information collected automatically: device data, IP address, browser type, pages visited, session duration, cookies, and authentication tokens; (c) Information from third parties: data from integrations (Notion, Stripe) and metadata from uploaded documents; (d) Participant data: information you import or enter about your event participants, for which you are responsible for obtaining appropriate consent."
+      },
+      "dataUsage": {
+        "title": "3. How We Use Your Data",
+        "content": "We use your information to: (a) Provide the service: manage your account, process events, store documents, facilitate communication with participants; (b) Improve the service: usage analysis, identify trends, optimize functionality; (c) Communication: send account confirmations, security updates, service improvements, promotional information (which you may decline); (d) Security: detect and prevent fraud, abuse, and ensure legal compliance; (e) Support: respond to your inquiries and provide technical assistance. We do not share your personal data with third parties without your consent, except when legally required or with service providers under strict confidentiality agreements."
+      },
+      "dataProtection": {
+        "title": "4. Data Protection and Security",
+        "content": "We implement robust technical, organizational, and administrative measures to protect your data: (a) Encryption: data in transit (TLS/SSL) and at rest (AES-256); (b) Access control: two-factor authentication, granular permissions, access auditing; (c) Infrastructure: secure servers in certified data centers, regular backups, disaster recovery; (d) Compliance: regular security assessments, penetration testing, security standard compliance. While we implement robust measures, no system is 100% secure. Any data breach will be communicated as required by law."
+      },
+      "userRights": {
+        "title": "5. Your Privacy Rights",
+        "content": "According to laws such as GDPR, you have the following rights: (a) Right of access: request a copy of your personal data; (b) Right of rectification: correct inaccurate or incomplete data; (c) Right of erasure: request removal of your data under certain circumstances; (d) Right of restriction: limit the processing of your data; (e) Right of data portability: receive your data in readable format; (f) Right of objection: object to processing for specific purposes; (g) Right not to be subject to automated decisions. To exercise these rights, contact us at privacy@bafatorio.com with a clear description of your request. We will respond within 30 days."
+      },
+      "retention": {
+        "title": "6. Data Retention Period",
+        "content": "We retain your personal data only as long as necessary to: (a) Provide the service and fulfill its objectives; (b) Comply with legal and tax obligations (typically 7 years); (c) Resolve disputes and security issues. After this period, your data is securely deleted or anonymized. If you delete your account, your personal data is deleted within 30 days, although we may retain aggregated and anonymized data for analysis. Backup data may be retained for additional periods as needed for security recovery."
+      },
+      "contact": {
+        "title": "7. Contact Us",
+        "content": "If you have questions about this Privacy Policy, our privacy practices, or wish to exercise your privacy rights, please contact us. A dedicated Data Protection Officer (DPO) is available for privacy questions. We will respond to all inquiries promptly and with utmost confidentiality."
+      }
+    }
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last updated:",
+    "sections": {
+      "introduction": {
+        "title": "1. What Are Cookies and Why We Use Them",
+        "content": "Bafatorio uses only strictly necessary cookies required for the platform to function. We do not use advertising, marketing, or behavioral tracking cookies. This Cookie Policy explains what cookies are, which essential cookies we use, and how you can control them through your browser."
+      },
+      "whatAreCookies": {
+        "title": "2. What Are Cookies?",
+        "content": "Cookies are small text files (typically a few kilobytes) stored on your device (computer, tablet, or phone) when you access a website or application. When you return to the site, the server reads the cookie to recognize your device and access stored information. There are two main types: (a) Session cookies: created when you access the site and deleted when you close your browser, used to maintain your login state; (b) Persistent cookies: remain on your device after you close your browser, identified by an expiration date."
+      },
+      "typesOfCookies": {
+        "title": "3. Types of Cookies We Use",
+        "content": "We use only essential cookies necessary for the platform to function: (a) Authentication and session cookies: identify the authenticated user and maintain a secure session across navigation; (b) Security cookies: prevent cross-site request forgery (CSRF) attacks and detect unauthorized access; (c) Payment processing cookies: set by our payment processor (Stripe) during subscription or payment operations, for fraud prevention and transaction security. We do not use analytics, advertising, marketing, or behavioral profiling cookies."
+      },
+      "howWeUseCookies": {
+        "title": "4. How We Specifically Use Cookies",
+        "content": "Within Bafatorio, essential cookies are used to: (a) Keep your session signed in securely and verify your identity; (b) Protect against unauthorized access and attacks against your account; (c) Ensure the security and integrity of payment transactions; (d) Remember basic usage preferences (language, dark/light theme) during the session. These cookies are fundamental - without them, you cannot authenticate or use the platform."
+      },
+      "cookieManagement": {
+        "title": "5. How To Control Cookies",
+        "content": "You have full control over cookies through your browser. Most browsers allow you to: (a) View stored cookies; (b) Delete existing cookies; (c) Block cookies from specific sites or all cookies. You can manage these settings in the privacy/security options of your browser (Chrome, Firefox, Safari, Edge). IMPORTANT: since we use only essential cookies, disabling them will prevent sign-in, security features, and payment processing - the platform will no longer work."
+      },
+      "thirdPartyCookies": {
+        "title": "6. Third-Party Cookies",
+        "content": "The only third party that may set cookies while using Bafatorio is our payment processor: (a) Stripe: sets cookies during payment and subscription flows, exclusively for transaction security and fraud prevention. These cookies are only set when you interact with payment areas of the platform. For more information, see Stripe's Privacy Policy at stripe.com/privacy. If you connect third-party accounts (e.g., Notion), your browser may receive cookies set by those services under their own policies."
+      },
+      "contact": {
+        "title": "7. Questions About Cookies",
+        "content": "If you have questions about this Cookie Policy or about managing your preferences, please contact us. Your privacy is important to us."
+      }
+    }
+  },
+  "banner": {
+    "title": "Cookies & Privacy Settings",
+    "description": "We use cookies to enhance your experience, ensure security, and analyse how you interact with our platform. Please read our",
+    "policyLink": "Cookie Policy",
+    "accept": "Accept Cookies",
+    "reject": "Reject"
+  },
+  "footer": {
+    "allRightsReserved": "All rights reserved."
+  }
+}
+

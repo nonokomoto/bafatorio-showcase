@@ -1,0 +1,54 @@
+{
+  "alertPopup": {
+    "deleting": "Suppression en cours...",
+    "generating": "Génération en cours..."
+  },
+  "footer": {
+    "copyright": " 2024 | Tous droits réservés",
+    "appName": "Système de Gestion d'Événements"
+  },
+  "header": {
+    "configuration": "Paramètres",
+    "logout": "Déconnexion",
+    "expandSidebar": "Développer la barre latérale",
+    "collapseSidebar": "Réduire la barre latérale",
+    "user": "Utilisateur",
+    "planFree": "Gratuit",
+    "currentPlan": "Plan actuel"
+  },
+  "sidebar": {
+    "title": "Bafatorio",
+    "events": "Événements",
+    "participants": "Participants",
+    "confirmPresence": "Confirmer présence",
+    "dashboard": "Tableau de bord",
+    "settings": "Paramètres",
+    "planSelection": "Choisir un plan",
+    "suppliers": "Fournisseurs",
+    "akiliAssistant": "Bafatorio AI",
+    "group": {
+      "eventManagement": "Gestion d'Événements",
+      "ai": "Assistant IA",
+      "account": "Compte"
+    }
+  },
+  "statusUpdateHandler": {
+    "errors": {
+      "invalidParams": "Paramètres invalides dans l'URL.",
+      "updateFailed": "Échec de la mise à jour du statut. Veuillez réessayer.",
+      "contactOrganizer": "Si le problème persiste, contactez l'organisateur de l'événement."
+    },
+    "success": {
+      "confirmation": "Votre présence a été confirmée avec succès !",
+      "thankYou": "Merci de confirmer votre présence. Vous pouvez fermer cette fenêtre."
+    },
+    "status": {
+      "loading": {
+        "title": "Confirmation de présence",
+        "message": "Confirmation de l'inscription..."
+      },
+      "success": "Confirmation Terminée",
+      "error": "Erreur de Mise à Jour"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "authorFilter": {
+    "label": "Showing",
+    "hideAuthor": "Hide {{name}}'s entries",
+    "showAuthor": "Show {{name}}'s entries",
+    "unknownAuthor": "Unknown author",
+    "allHidden": "All entries are hidden by the people filter - click an avatar to show them."
+  },
+  "emptyState": {
+    "noEntries": {
+      "title": "Empty schedule",
+      "description": "No entries have been added to this event's schedule yet."
+    }
+  },
+  "entryDetail": {
+    "allDay": "All day",
+    "location": "Location",
+    "supplier": "Supplier",
+    "edit": "Edit",
+    "delete": "Delete",
+    "close": "Close",
+    "deleteConfirm": "Are you sure you want to delete this entry?",
+    "deleteCancel": "Cancel",
+    "deleteConfirmButton": "Delete",
+    "participants": "Participants",
+    "createdBy": "Created by {{name}}"
+  },
+  "form": {
+    "title": "New entry",
+    "titleEdit": "Edit entry",
+    "cancel": "Cancel",
+    "submit": "Create",
+    "submitEdit": "Save",
+    "genericError": "Something went wrong. Please try again.",
+    "fields": {
+      "title": "Title",
+      "date": "Date",
+      "allDay": "All day",
+      "startTime": "Start time",
+      "endTime": "End time",
+      "description": "Description",
+      "location": "Location",
+      "supplier": "Supplier",
+      "color": "Colour",
+      "participants": "Participants"
+    },
+    "placeholders": {
+      "title": "Entry name",
+      "description": "Optional description",
+      "location": "Optional location",
+      "supplier": "No supplier",
+      "participants": "No participants"
+    },
+    "validation": {
+      "titleRequired": "Title is required",
+      "dateRequired": "Date is required"
+    },
+    "supplierNew": "new",
+    "colors": {
+      "tomato": "Tomato",
+      "flamingo": "Flamingo",
+      "tangerine": "Tangerine",
+      "banana": "Banana",
+      "basil": "Basil",
+      "peacock": "Peacock",
+      "blueberry": "Blueberry",
+      "grape": "Grape"
+    }
+  },
+  "loading": "Loading schedule...",
+  "daySheet": {
+    "empty": "No entries for this day"
+  },
+  "calendar": {
+    "today": "Today",
+    "previous": "Previous",
+    "next": "Next",
+    "month": "Month",
+    "week": "Week",
+    "day": "Day",
+    "date": "Date",
+    "time": "Time",
+    "event": "Entry",
+    "noEventsInRange": "No entries in this range.",
+    "showMore": "+ {{count}} more",
+    "openPicker": "Open date picker"
+  },
+  "restrictedStaffNotice": "You only see entries you created. Ask the organizer to share the team schedule."
+}

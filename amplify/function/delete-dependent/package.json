@@ -1,0 +1,14 @@
+{
+  "name": "delete-dependent",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.696.0",
+    "@aws-sdk/util-dynamodb": "^3.696.0",
+    "@aws-lambda-powertools/logger": "^2.10.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "@types/node": "^22.5.3"
+  }
+}

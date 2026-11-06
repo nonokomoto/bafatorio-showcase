@@ -1,0 +1,243 @@
+{
+  "page": {
+    "title": "Paramètres du Compte",
+    "settings": "Paramètres",
+    "profile": "Profil",
+    "plans": "Abonnements",
+    "notifications": "Notifications",
+    "security": "Sécurité",
+    "integrations": "Intégrations",
+    "underDevelopment": "Cette page est en cours de développement."
+  },
+  "profile": {
+    "title": "Profil Utilisateur",
+    "subtitle": "Gérez vos informations personnelles",
+    "personalInfo": {
+      "title": "Informations Personnelles"
+    },
+    "googleProfile": {
+      "description": "Votre compte est lié à Google. Pour modifier vos données, veuillez accéder à votre profil Google.",
+      "buttonText": "Aller au Profil Google"
+    },
+    "profilePicture": {
+      "title": "Photo de Profil",
+      "uploadError": "Veuillez d'abord sélectionner un fichier.",
+      "uploadSuccess": "Photo de profil mise à jour avec succès!",
+      "uploadFailed": "Erreur lors de la mise à jour de la photo de profil: ",
+      "uploadButton": "Télécharger",
+      "uploading": "Téléchargement en cours...",
+      "upload": "Télécharger Photo",
+      "missingUserName": "Le nom d'utilisateur est requis pour le téléchargement",
+      "invalidFileType": "Veuillez sélectionner un fichier image valide (JPG, PNG, WebP)",
+      "fileTooLarge": "La taille du fichier doit être inférieure à 5MB",
+      "networkError": "Erreur réseau lors du téléchargement. Veuillez réessayer.",
+      "authError": "Échec de l'authentification. Veuillez vous connecter à nouveau.",
+      "storageError": "Erreur du service de stockage. Veuillez réessayer plus tard."
+    },
+    "form": {
+      "name": {
+        "label": "Nom",
+        "required": "Le nom est obligatoire"
+      },
+      "email": {
+        "label": "Email",
+        "readOnlyHint": "L'email ne peut pas être modifié"
+      },
+      "submit": {
+        "saving": "Enregistrement...",
+        "saveButton": "Enregistrer les Modifications"
+      }
+    },
+    "feedback": {
+      "noChanges": "Aucun changement détecté.",
+      "nameUpdated": "Nom mis à jour avec succès!",
+      "updateError": "Erreur lors de la mise à jour du profil: ",
+      "unknownError": "Erreur inconnue",
+      "invalidData": "Données de formulaire invalides fournies",
+      "networkError": "Échec de la connexion réseau. Veuillez réessayer.",
+      "authError": "Échec de l'authentification. Veuillez vous connecter à nouveau.",
+      "nameUpdateError": "Échec de la mise à jour du nom"
+    },
+    "deleteAccount": {
+      "title": "Supprimer le Compte",
+      "description": "La suppression de votre compte est permanente. Toutes vos données et informations seront définitivement supprimées.",
+      "warning": "Attention: La suppression de votre compte est irréversible et supprimera toutes vos données. Cette action ne peut pas être annulée.",
+      "deleteButton": "Supprimer le Compte",
+      "confirmation": {
+        "title": "Confirmer la Suppression du Compte",
+        "description": "Êtes-vous sûr de vouloir supprimer définitivement votre compte? Cette action est irréversible et toutes vos données seront perdues.",
+        "message": "Êtes-vous sûr de vouloir supprimer définitivement votre compte? Cette action est irréversible et toutes vos données seront perdues.",
+        "cancelButton": "Annuler",
+        "confirmButton": "Supprimer Définitivement",
+        "warning": "Cette action ne peut pas être annulée. Toutes vos données seront définitivement supprimées."
+      },
+      "status": {
+        "deletingData": "Suppression des données utilisateur...",
+        "deletingAccount": "Suppression du compte utilisateur...",
+        "success": "Compte supprimé avec succès!",
+        "error": "Erreur lors de la suppression du compte: ",
+        "validating": "Validation des données utilisateur...",
+        "clearingLocalData": "Effacement des données locales...",
+        "networkError": "Échec de la connexion réseau. Veuillez vérifier votre internet.",
+        "authError": "Échec de l'authentification. Veuillez vous connecter à nouveau.",
+        "apiError": "Erreur serveur survenue. Veuillez réessayer plus tard.",
+        "userDeleteError": "Échec de la suppression du compte utilisateur.",
+        "missingUserData": "Informations utilisateur requises manquantes.",
+        "dataError": "Erreur lors de la suppression des données utilisateur",
+        "partialFailure": "Erreur Critique: Vos données ont été supprimées mais la suppression du compte a échoué. Contactez le support immédiatement.",
+        "partialFailureDetails": "Vos données personnelles ont été supprimées avec succès de nos systèmes pour la conformité de confidentialité. Cependant, votre compte de connexion n'a pas pu être supprimé. Veuillez contacter notre équipe de support pour terminer le processus de suppression de compte."
+      },
+      "progress": {
+        "deletingData": "Suppression des données utilisateur",
+        "deletingAccount": "Suppression du compte utilisateur",
+        "clearingData": "Effacement des données locales",
+        "redirecting": "Redirection vers la page de connexion...",
+        "errorDetails": "Détails de l'erreur"
+      }
+    }
+  },
+  "subscription": {
+    "title": "Gestion du plan",
+    "loading": {
+      "subscription": "Chargement des données d'abonnement...",
+      "billingPortal": "Préparation du portail de facturation...",
+      "redirecting": "Redirection vers le portail de facturation..."
+    },
+    "error": {
+      "description": "Impossible de charger les données de votre abonnement. Veuillez réessayer plus tard.",
+      "billingPortal": "Une erreur s'est produite lors de la création de la session de facturation. Veuillez réessayer plus tard."
+    },
+    "planNames": {
+      "PRO": "Pro"
+    },
+    "status": {
+      "active": "Actif",
+      "paused": "En pause",
+      "canceled": "Annulé",
+      "cancelScheduled": "Annulation programmée",
+      "paymentIssue": "Paiement échoué"
+    },
+    "plan": {
+      "title": "Plan Actuel",
+      "renewsOn": "Renouvellement le {{date}}",
+      "pausedDescription": "Votre abonnement est en pause. Vous pouvez le reprendre à tout moment dans le portail de facturation.",
+      "canceledTitle": "Abonnement annulé",
+      "canceledDescription": "Votre abonnement a été annulé. Vous pouvez vous réabonner quand vous le souhaitez.",
+      "manageButton": "Gérer l'abonnement",
+      "subscribe": "Souscrire à un plan",
+      "paymentIssueDescription": "Le dernier paiement a échoué. Mettez à jour votre moyen de paiement dans le portail de facturation pour conserver votre accès."
+    },
+    "noPlan": {
+      "title": "Aucun plan actif",
+      "starterUsed": "Votre événement gratuit a été utilisé. Consultez les plans disponibles pour continuer à créer des événements.",
+      "description": "Vous êtes sur le plan gratuit. Consultez les plans disponibles pour débloquer toutes les fonctionnalités."
+    },
+    "purchases": {
+      "title": "Achats par événement",
+      "available_one": "Vous avez {{count}} événement à utiliser",
+      "available_other": "Vous avez {{count}} événements à utiliser",
+      "createEvent": "Créer un événement",
+      "table": {
+        "date": "Date",
+        "amount": "Montant",
+        "status": "Statut"
+      },
+      "status": {
+        "available": "À utiliser",
+        "consumed": "Utilisé",
+        "refunded": "Remboursé"
+      },
+      "error": "Impossible de charger vos achats. Actualisez la page ou réessayez plus tard."
+    },
+    "portalHint": "Factures, moyen de paiement et annulation gérés dans le portail de facturation.",
+    "payment": {
+      "title": "Moyen de Paiement",
+      "expiry": "Valable jusqu'à",
+      "updateButton": "Mettre à jour le paiement",
+      "noPaymentMethod": "Aucun moyen de paiement",
+      "noMethods": "Vous n'avez pas encore de carte enregistrée.",
+      "addMethod": "Ajouter un moyen de paiement"
+    }
+  },
+  "notion": {
+    "loading": "Vérification de l'état de l'intégration...",
+    "subtitle": "Connectez des services externes pour améliorer votre flux de travail.",
+    "description": "Importez des documents de stratégie directement depuis votre espace Notion.",
+    "connectedDescription": "Connecté à {{workspace}}. Vous pouvez maintenant importer des pages de cet espace.",
+    "connect": "Connecter Notion",
+    "disconnect": "Déconnecter",
+    "refresh": "Actualiser",
+    "openNotion": "Ouvrir Notion",
+    "status": {
+      "connected": "Connecté"
+    },
+    "callback": {
+      "connecting": "Connexion à Notion",
+      "pleaseWait": "Échange du code d'autorisation...",
+      "connected": "Connecté !",
+      "failed": "Échec de la connexion",
+      "success": "Notion connecté avec succès !",
+      "successWorkspace": "Connecté à {{workspace}} !",
+      "denied": "La connexion a été annulée ou refusée.",
+      "noCode": "Aucun code d'autorisation reçu.",
+      "exchangeFailed": "Échec de la connexion à Notion. Veuillez réessayer.",
+      "invalidState": "Jeton de sécurité invalide. Veuillez réessayer la connexion.",
+      "backToSettings": "Retour aux paramètres"
+    }
+  },
+  "fidelize": {
+    "title": "Fidelize",
+    "loading": "Vérification de l'état de l'intégration...",
+    "description": "Synchronisez les cartes numériques Fidelize comme participants de l'événement.",
+    "connectedDescription": "Connecté. Dernière synchronisation : {{lastSync}}.",
+    "neverSynced": "Connecté. Aucune synchronisation effectuée.",
+    "connect": "Connecter",
+    "disconnect": "Déconnecter",
+    "apiKeyPlaceholder": "Collez votre clé API Fidelize",
+    "connecting": "Validation...",
+    "status": {
+      "connected": "Connecté"
+    }
+  },
+  "security": {
+    "title": "Sécurité",
+    "subtitle": "Gérez votre mot de passe et vos identifiants d'accès",
+    "password": {
+      "title": "Changer le Mot de Passe",
+      "current": {
+        "label": "Mot de Passe Actuel",
+        "required": "Le mot de passe actuel est requis pour changer de mot de passe"
+      },
+      "new": {
+        "label": "Nouveau Mot de Passe",
+        "required": "Un nouveau mot de passe est requis si le mot de passe actuel est fourni",
+        "minLength": "Le mot de passe doit comporter au moins 8 caractères"
+      },
+      "confirm": {
+        "label": "Confirmer le Nouveau Mot de Passe",
+        "mismatch": "Les mots de passe ne correspondent pas"
+      },
+      "mismatch": "Les mots de passe ne correspondent pas",
+      "tooShort": "Le mot de passe doit comporter au moins 8 caractères",
+      "tooWeak": "Le mot de passe doit contenir des majuscules, minuscules, chiffres et caractères spéciaux"
+    },
+    "form": {
+      "submit": {
+        "saving": "Enregistrement...",
+        "saveButton": "Enregistrer les Modifications"
+      }
+    },
+    "feedback": {
+      "updated": "Mot de passe mis à jour avec succès!",
+      "incorrectPassword": "Le mot de passe actuel est incorrect",
+      "updateError": "Échec de la mise à jour du mot de passe",
+      "networkError": "Échec de la connexion réseau. Veuillez réessayer.",
+      "unknownError": "Erreur inconnue"
+    },
+    "googleAccount": {
+      "title": "Compte Google",
+      "description": "Votre compte utilise l'authentification Google. Votre mot de passe est géré dans votre compte Google.",
+      "buttonText": "Gérer dans le compte Google"
+    }
+  }
+}

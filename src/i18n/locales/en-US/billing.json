@@ -1,0 +1,116 @@
+{
+  "plans": {
+    "billing": {
+      "cycles": {
+        "monthly": "Monthly",
+        "annual": "Annual"
+      }
+    },
+    "welcome": {
+      "greeting": "Hi, {{name}}!",
+      "greetingFallback": "Hi! Welcome to Bafatório",
+      "intro": "Your account has been created successfully.",
+      "next": "You can now start organizing your events simply and efficiently."
+    },
+    "policy": {
+      "refund": {
+        "title": "Refunds",
+        "starter": "The Starter plan is free and requires no card - try the platform without any charge.",
+        "payPerEvent": "The Pay-per-event purchase is non-refundable. The purchase does not expire until it is used.",
+        "pro": "The Pro plan does not include refunds, in whole or in part. If you cancel, you keep access until the end of the period you've already paid for.",
+        "downgrade": "Changes from Annual to Monthly take effect at the end of the current period, with no refund."
+      },
+      "cancel": {
+        "title": "Cancel subscription",
+        "description": "You can cancel at any time. You keep access until the end of the period you've already paid for.",
+        "accessUntil": "You keep access until {{date}}",
+        "confirm": "Cancel subscription",
+        "keepPlan": "Keep my plan"
+      }
+    },
+    "grid": {
+      "title": "Pick the plan that fits you best",
+      "badge": "50% off · launch",
+      "names": {
+        "starter": "1 free event",
+        "pro": "Pro",
+        "payPerEvent": "Per event"
+      },
+      "rows": {
+        "events": "Events",
+        "participants": "Participants",
+        "suppliers": "Suppliers",
+        "report": "PDF report",
+        "integrations": "Integrations"
+      },
+      "values": {
+        "unlimited": "Unlimited"
+      },
+      "perMonth": "/ month",
+      "perYear": "/ year",
+      "perEvent": "per event",
+      "tiers": {
+        "label": "Event size",
+        "capped": "up to {{max}} guests",
+        "uncapped": "no limit"
+      },
+      "upgrade": {
+        "cta": "Increase limit",
+        "title": "Increase the guest limit",
+        "current": "This event allows up to {{max}} guests.",
+        "currentUncapped": "This event already has no guest limit.",
+        "alreadyMax": "There is no tier above this one.",
+        "diff": "+ {{price}}",
+        "confirm": "Continue",
+        "cancel": "Cancel",
+        "note": "You only pay the difference. The limit goes up as soon as the payment is confirmed.",
+        "error": "We couldn't start the payment. Please try again."
+      },
+      "cta": {
+        "starter": "Start for free",
+        "pro": "Subscribe to Pro",
+        "payPerEvent": "Buy one event"
+      },
+      "universal": {
+        "lead": "All plans include:",
+        "agenda": "Agenda",
+        "confirmations": "Attendance confirmations",
+        "documents": "Documents",
+        "excel": "Excel import & export"
+      },
+      "footer": "Prices include VAT · Cancel anytime"
+    }
+  },
+  "loading": {
+    "processing": "Processing your request..."
+  },
+  "error": {
+    "title": "Error",
+    "payment": "An error occurred while processing your order. Please try again.",
+    "profileMessage": "Access your profile if you want to make changes to your plan."
+  },
+  "fields": {
+    "billingCycle": {
+      "label": "Billing Cycle"
+    }
+  },
+  "checkoutSuccess": {
+    "title": "Payment confirmed",
+    "subtitle": {
+      "payPerEvent": "Your event is paid for. The next step is creating it: it takes less than a minute.",
+      "pro": "Your Pro subscription is active. Create your first event and start inviting.",
+      "generic": "Your payment was received. You can now create your event."
+    },
+    "paid": "Paid",
+    "tier": {
+      "capped": "Up to {{count}} participants",
+      "uncapped": "Unlimited participants"
+    },
+    "cta": {
+      "payPerEvent": "Create my event",
+      "pro": "Create an event",
+      "generic": "Create an event"
+    },
+    "secondary": "View my events"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entry": [
+    "src/main.jsx",
+    "amplify/backend.ts",
+    "amplify/data/resource.ts",
+    "amplify/function/**/handler.ts",
+    "amplify/function/**/resource.ts",
+    "amplify/auth/**/handler.ts",
+    "amplify/auth/**/resource.ts"
+  ],
+  "ignorePatterns": [
+    "Graphql/**"
+  ],
+  "ignoreDependencies": [
+    "aws-lambda",
+    "@aws-amplify/backend",
+    "@jest/globals",
+    "aws-cdk-lib",
+    "stripe"
+  ]
+}

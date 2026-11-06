@@ -1,0 +1,721 @@
+{
+  "eventDatePicker": {
+    "modal": {
+      "title": "Select event date"
+    },
+    "instructions": {
+      "range": "Choose the month and year, then select the first and last day.",
+      "specific": "Choose the month and year and select every date you need."
+    },
+    "trigger": {
+      "placeholder": "Select event date"
+    },
+    "modeSwitcher": {
+      "label": "Selection mode"
+    },
+    "modes": {
+      "range": "Date range",
+      "specific": "Specific dates",
+      "specificComingSoon": "Coming soon"
+    },
+    "summary": {
+      "empty": "No date selected",
+      "dayCount_one": "{{count}} day",
+      "dayCount_other": "{{count}} days",
+      "dateCount_one": "{{count}} date selected",
+      "dateCount_other": "{{count}} dates selected"
+    },
+    "actions": {
+      "clear": "Clear",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "close": "Close date selection"
+    }
+  },
+  "eventCard": {
+    "status": {
+      "scheduled": "Scheduled",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "ongoing": "In progress",
+      "unknown": "Unknown"
+    },
+    "date": {
+      "label": "Date:",
+      "missing": "Date not available"
+    },
+    "participant": {
+      "label": "Participant:"
+    },
+    "totalRegistrations": {
+      "label": "Total Registrations:"
+    },
+    "buttons": {
+      "details": "View details",
+      "viewDetails": "View Details"
+    }
+  },
+  "eventDelete": {
+    "button": "Delete",
+    "title": "Delete Event",
+    "confirmTarget": "You are about to delete the event:",
+    "confirmMessage": "This action cannot be undone. All data for this event will be permanently deleted: participants and dependents, suppliers, team, documents, schedule and roles.\n\nAre you sure you want to continue?",
+    "cancel": "Back",
+    "success": "The event has been successfully deleted",
+    "error": {
+      "title": "Error",
+      "message": "An error occurred while deleting the event."
+    },
+    "loading": {
+      "deletingEvent": "Deleting event..."
+    }
+  },
+  "eventControls": {
+    "title": "Event Management",
+    "buttons": {
+      "search": "Search for event...",
+      "filter": "Filter by",
+      "sort": "Sort by"
+    },
+    "sort": {
+      "dateAsc": "Date - Oldest first",
+      "dateDesc": "Date - Newest first",
+      "titleAsc": "Title - A to Z",
+      "titleDesc": "Title - Z to A"
+    },
+    "totalEvents": "Total events"
+  },
+  "noEvents": {
+    "title": "No events found",
+    "messageCreate": "Start by registering your first event. It's quick and simple!",
+    "messageFiltered": "Your search returned no results",
+    "messageSearch": "We suggest trying other search criteria or adjusting the applied filters.",
+    "altText": "No Events"
+  },
+  "pagination": {
+    "ariaLabel": "Pagination",
+    "buttons": {
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "eventDetails": {
+    "title": "Event Details",
+    "missingField": "Field not filled",
+    "header": {
+      "title": "Event Information",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "location": "Location",
+      "type": "Event Type",
+      "status": "Status",
+      "coordinator": "Coordinator",
+      "description": "Description"
+    },
+    "sections": {
+      "dateLocation": "Date and Location",
+      "contact": "Contact",
+      "participants": "Participation",
+      "configuration": "Configuration",
+      "description": "Description"
+    },
+    "groups": {
+      "whenWhere": "When & Where",
+      "organizer": "Organizer",
+      "eventProfile": "Event Profile"
+    },
+    "completeEventBanner": {
+      "title": "Event Completed",
+      "generateReport": "Generate Report",
+      "reportDescription": "This event has been successfully completed. You can generate a report for analysis.",
+      "generating": "Generating report...",
+      "loading": "Loading data...",
+      "alertPopUp": {
+        "title": "Plan Required",
+        "message": "You need to upgrade your plan to use this feature.",
+        "confirmText": "View Plans",
+        "cancelText": "Cancel"
+      },
+      "upgradeForReport": "Upgrade to generate the report",
+      "endedTitle": "The event has ended",
+      "endedDescription": "The event date has passed. You can generate the report for analysis.",
+      "markCompletedDescription": "The event date has passed, but it is not marked as Completed yet. Mark it to wrap it up and generate the report.",
+      "markCompletedCta": "Mark as Completed",
+      "markCompletedSaving": "Updating…",
+      "markCompletedError": "Could not update the event status.",
+      "loadDataError": "Could not load the report data.",
+      "modeModal": {
+        "title": "Choose Report Type",
+        "description": "Choose the type of report you want to generate.",
+        "summary": {
+          "label": "Summary Report",
+          "description": "Aggregate statistics only, no personal participant data. Safe to share with external entities."
+        },
+        "detailed": {
+          "label": "Detailed Report",
+          "description": "Includes the full participant list, with status, contact and accompanying guests."
+        },
+        "cancel": "Cancel"
+      }
+    },
+    "documents": {
+      "title": "Event Documents",
+      "noDocuments": {
+        "title": "No Documents",
+        "message": "There are no documents associated with this event yet.",
+        "altText": "No documents illustration"
+      },
+      "search": {
+        "placeholder": "Search documents..."
+      },
+      "table": {
+        "name": "Name",
+        "size": "Size",
+        "date": "Date",
+        "modified": "Modified",
+        "type": "Type",
+        "creator": "Creator",
+        "access": "Access",
+        "actions": "Actions"
+      },
+      "add": {
+        "title": "Add Documents",
+        "error": "Error adding documents",
+        "partialError": "Could not upload: {{files}}",
+        "maxMessage": "You can add up to {{max}} documents at once",
+        "success": "{{count}} document added successfully",
+        "success_plural": "{{count}} documents added successfully",
+        "fileTooLarge": "The file \"{{name}}\" exceeds the {{maxFileSize}} limit per file.",
+        "invalidType": "The file \"{{name}}\" has an unsupported format. Allowed formats: PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, TXT, CSV, MD, JPG, JPEG, PNG, GIF, PAGES, NUMBERS, KEY.",
+        "planLimitMessage": "Your plan allows {{max}} documents in this event. Upgrade to add more."
+      },
+      "edit": {
+        "title": "Edit Document",
+        "success": "Document updated successfully",
+        "noChange": "No changes detected",
+        "error": "Error updating document",
+        "name": "Document name",
+        "namePlaceholder": "Enter new document name",
+        "currentName": "Current name",
+        "buttonEdit": "Edit Spreadsheet",
+        "buttonCancel": "Cancel Editing",
+        "buttonSave": "Save Changes",
+        "buttonSaving": "Saving...",
+        "unsavedWarning": "You have unsaved changes. Are you sure you want to discard them?",
+        "saveSuccess": "Spreadsheet saved successfully",
+        "saveError": "Failed to save spreadsheet",
+        "noPermission": "You do not have permission to edit this document"
+      },
+      "delete": {
+        "success": "Document deleted successfully",
+        "error": "Error deleting document"
+      },
+      "preview": {
+        "loading": "Loading document...",
+        "fetchError": "Error loading document",
+        "close": "Close",
+        "download": "Download",
+        "saveAsPdf": "Save as PDF",
+        "unsupported": "Preview not available",
+        "unsupportedMessage": "This file type ({{ext}}) does not support preview. Download to view its contents.",
+        "page": "Page {{current}} of {{total}}",
+        "pageCount": "{{count}} pages",
+        "zoom": "Zoom",
+        "zoomIn": "Zoom in",
+        "zoomOut": "Zoom out",
+        "previousPage": "Previous page",
+        "nextPage": "Next page",
+        "sheet": "Sheet",
+        "moreRows": "and {{count}} more rows",
+        "moreSheets": "and {{count}} more sheets",
+        "parseError": "Error processing file",
+        "resizeHandle": "Resize panel",
+        "truncated": {
+          "title": "File too large",
+          "message": "The preview shows only the first {{limit}} to keep the browser responsive. Download the file to see the full content."
+        }
+      },
+      "buttons": {
+        "add": "Add Document",
+        "add2": "Add",
+        "save": "Save",
+        "cancel": "Cancel",
+        "uploading": "Uploading...",
+        "selectedOne": "document selected",
+        "selectedMultiple": "documents selected",
+        "browse": "Choose files",
+        "clear": "Clear",
+        "editAria": "Edit document",
+        "deleteAria": "Delete document",
+        "closeAria": "Close modal"
+      },
+      "upload": {
+        "select": "Documents to upload",
+        "placeholder": "Document name",
+        "progress": "{{value}}% completed",
+        "dragDropOr": "Drag and drop files here",
+        "limits": "Up to {{maxDocuments}} files, {{maxFileSize}} max per file",
+        "selected": "{{count}} file selected",
+        "selected_plural": "{{count}} files selected",
+        "dropHere": "Drop files to add them to the event",
+        "dropOrClick": "Drop files or click to upload"
+      },
+      "viewMode": {
+        "label": "View mode",
+        "list": "List view",
+        "grid": "Grid view"
+      },
+      "fetchError": "Error loading documents",
+      "uploadError": "Error uploading document",
+      "deleteError": "Error deleting document",
+      "spreadsheet": {
+        "addRow": "Insert Row",
+        "addColumn": "Insert Column",
+        "columnNamePlaceholder": "Column name",
+        "confirm": "OK",
+        "defaultColumnName": "Column {{number}}"
+      },
+      "folders": {
+        "title": "Folders",
+        "addFolder": "New Folder",
+        "createTitle": "Create Folder",
+        "editTitle": "Edit Folder",
+        "openFolder": "Open folder {{name}}",
+        "editFolder": "Edit folder",
+        "deleteFolder": "Delete folder",
+        "document": "document",
+        "documents": "documents",
+        "root": "Root",
+        "goToRoot": "Go to root",
+        "breadcrumbLabel": "Folder navigation",
+        "filesTitle": "Files",
+        "person": "person",
+        "people": "people",
+        "sharedWith": "Shared with",
+        "emptyFolder": "Empty Folder",
+        "emptyFolderMessage": "This folder doesn't contain any documents yet.",
+        "uploadingTo": "Uploading to",
+        "createSuccess": "Folder created successfully",
+        "createError": "Error creating folder",
+        "updateSuccess": "Folder updated successfully",
+        "updateError": "Error updating folder",
+        "deleteSuccess": "Folder deleted successfully",
+        "deleteError": "Error deleting folder",
+        "deleteConfirmTitle": "Delete Folder",
+        "deleteConfirmMessage": "Are you sure you want to delete the folder \"{{name}}\"? Documents inside the folder will also be deleted.",
+        "deleteConfirmButton": "Delete",
+        "defaultFolderName": "General",
+        "cannotDeleteDefault": "The General folder cannot be deleted",
+        "form": {
+          "name": "Folder name",
+          "namePlaceholder": "E.g.: Contracts, Invoices, Reports...",
+          "description": "Description (optional)",
+          "descriptionPlaceholder": "Brief description of the folder contents",
+          "color": "Folder color",
+          "createButton": "Create Folder"
+        },
+        "validation": {
+          "nameRequired": "Folder name is required",
+          "nameMinLength": "Name must be at least 2 characters"
+        },
+        "selectFolder": "Select folder",
+        "createdBy": "Created by {{name}}",
+        "noFoldersTitle": "No folders created",
+        "noFoldersMessage": "Create a folder before adding documents. Folders help organize and control access to files.",
+        "newFolder": "New folder",
+        "deletePartial": "Folder deleted, but some files could not be removed. Please try again later."
+      },
+      "retry": "Try again"
+    },
+    "notion": {
+      "importFromNotion": "Import from Notion",
+      "importTitle": "Import from Notion",
+      "searchPlaceholder": "Search pages...",
+      "search": "Search",
+      "selected": "{{count}}/{{max}} selected",
+      "clearSelection": "Clear selection",
+      "loadingPages": "Loading pages...",
+      "noPages": "No pages found",
+      "loadMore": "Load more",
+      "importing": "Importing {{count}} pages...",
+      "importButton": "Import ({{count}})",
+      "cancel": "Cancel",
+      "close": "Close",
+      "notConnected": "Notion Not Connected",
+      "connectFirst": "Connect your Notion workspace in Settings > Integrations.",
+      "importFailed": "Import failed. Please try again.",
+      "partialFailure": "{{imported}} pages imported, {{failed}} failed.",
+      "databases": "Databases",
+      "pages": "Pages",
+      "entries": "{{count}} entries",
+      "properties": "{{count}} properties",
+      "importDatabase": "Import",
+      "sync": {
+        "title": "Sync Notion",
+        "check": "Sync",
+        "checking": "Checking for changes...",
+        "available": "{{count}} updates available",
+        "update": "Update",
+        "updateAll": "Update all ({{count}})",
+        "syncing": "Updating documents...",
+        "upToDate": "All up to date",
+        "allCurrent_one": "{{count}} document is up to date",
+        "allCurrent_other": "{{count}} documents are up to date",
+        "totalDocs_one": "{{count}} document total",
+        "totalDocs_other": "{{count}} documents total",
+        "editedInNotion": "Edited in Notion",
+        "minutesAgo": "{{count}} min ago",
+        "hoursAgo": "{{count}}h ago",
+        "daysAgo": "{{count}} days ago",
+        "success": "{{count}} documents updated",
+        "partialFailure": "{{failed}} failed",
+        "error": "Sync failed"
+      }
+    },
+    "fields": {
+      "dateTime": {
+        "missing": "Not defined"
+      },
+      "location": {
+        "missing": "Not defined"
+      },
+      "manager": {
+        "missing": "Not defined"
+      },
+      "email": {
+        "missing": "Not defined"
+      },
+      "phone": {
+        "missing": "Not defined"
+      },
+      "participants": {
+        "title": "Number of Participants",
+        "missing": "Not defined"
+      },
+      "dependents": {
+        "title": "Accompanying Guests",
+        "missing": "Not defined"
+      },
+      "budget": {
+        "missing": "Not set"
+      }
+    }
+  },
+  "eventForm": {
+    "fields": {
+      "eventTitle": {
+        "title": "Event Name",
+        "placeholder": "Enter the official name of the event",
+        "required": "You need to provide the name of the event to proceed",
+        "minLength": "The event name must be at least 3 characters"
+      },
+      "dateTime": {
+        "title": "Event date",
+        "placeholder": "Select when the event will take place",
+        "required": "You need to define when the event will take place"
+      },
+      "eventTime": {
+        "title": "Time (optional)",
+        "hint": "Applies to the first day of the event only"
+      },
+      "eventDate": {
+        "title": "Date and Time",
+        "placeholder": "Select when the event will take place",
+        "required": "You need to define when the event will take place"
+      },
+      "location": {
+        "title": "Location",
+        "placeholder": "Indicate where the event will take place (complete address)",
+        "required": "You need to indicate where the event will take place"
+      },
+      "eventLocation": {
+        "title": "Location",
+        "placeholder": "Indicate where the event will take place (complete address)",
+        "required": "You need to indicate where the event will take place"
+      },
+      "manager": {
+        "title": "Event Manager",
+        "placeholder": "Name of the person responsible",
+        "required": "You need to indicate who will be responsible for the event"
+      },
+      "eventManager": {
+        "title": "Event Manager",
+        "placeholder": "Name of the person responsible",
+        "required": "You need to indicate who will be responsible for the event"
+      },
+      "email": {
+        "title": "Manager Email",
+        "placeholder": "Email for official event communications",
+        "required": "You need to provide an email for important communications",
+        "pattern": "The email provided is not valid"
+      },
+      "eventManagerEmail": {
+        "title": "Manager Email",
+        "placeholder": "Email for official event communications",
+        "required": "You need to provide an email for important communications",
+        "pattern": "The email provided is not valid"
+      },
+      "phone": {
+        "title": "Phone Contact",
+        "placeholder": "Mobile or WhatsApp for direct contact",
+        "required": "You need to provide a phone contact"
+      },
+      "eventManagerPhone": {
+        "title": "Phone Contact",
+        "placeholder": "Mobile or WhatsApp for direct contact",
+        "required": "You need to provide a phone contact"
+      },
+      "access": {
+        "title": "Access Type",
+        "placeholder": "Select the access conditions for the event",
+        "required": "You need to define the access conditions for the event"
+      },
+      "eventType": {
+        "title": "Event Nature",
+        "placeholder": "Select the type of event you want to hold",
+        "required": "You need to indicate the nature of the event"
+      },
+      "eventStatus": {
+        "title": "Event Status",
+        "placeholder": "Select the current status of the event",
+        "required": "You need to define the current status of the event"
+      },
+      "budget": {
+        "title": "Budget",
+        "placeholder": "Estimated value for the event (in euros)",
+        "required": "You need to indicate an estimated budget for the event",
+        "min": "The estimated budget cannot be negative",
+        "validate": "Please enter a valid number",
+        "total": "Total Budget",
+        "spent": "Amount Spent",
+        "committed": "Amount Committed",
+        "available": "Available Amount"
+      },
+      "currency": {
+        "title": "Currency",
+        "placeholder": "Select currency"
+      },
+      "description": {
+        "title": "Other Information",
+        "placeholder": "Share relevant information about the event (program, special requirements, important notes)",
+        "required": "You need to provide some details about the event"
+      },
+      "categories": {
+        "title": "Event Nature",
+        "placeholder": "Select the type of event you want to hold",
+        "required": "You need to indicate the nature of the event"
+      }
+    },
+    "buttons": {
+      "create": "Register New Event",
+      "update": "Save Changes",
+      "cancel": "Back",
+      "delete": "Delete"
+    },
+    "loading": {
+      "create": "Registering the event. Please wait...",
+      "update": "Saving changes. Please wait...",
+      "delete": "Deleting the event. Please wait..."
+    },
+    "select": {
+      "placeholder": "Select {{field}}..."
+    },
+    "validation": {
+      "required": "Required field",
+      "email": "The email provided is not valid",
+      "minLength": "This field must have at least {{min}} characters"
+    },
+    "errors": {
+      "submitFailed": "Failed to create/update event:",
+      "invalidTitle": "The event title cannot be empty.",
+      "forbidden": "You don't have permission to edit this event.",
+      "sessionExpired": "Your session has expired. Please sign in again."
+    },
+    "defaults": {
+      "noDescription": "No description provided"
+    },
+    "accessTypes": {
+      "public": "Public event",
+      "private": "Private event"
+    },
+    "categories": {
+      "personal": "Personal",
+      "corporate": "Corporate"
+    },
+    "gate": {
+      "starterLimitReached": "The Free plan includes 1 event. Upgrade to create more events.",
+      "proPaused": "The Pro subscription is paused - resume it to continue.",
+      "proLapsed": "The Pro subscription has ended - reactivate it to edit again.",
+      "windowExpired": "This event's editing window has closed. The event is read-only.",
+      "generic": "Could not save the event.",
+      "upgradeCta": "See plans"
+    }
+  },
+  "pages": {
+    "events": {
+      "welcome": "Hello, {{name}}!",
+      "description": "Easily organize and manage all your events from here."
+    },
+    "eventDetails": {
+      "description": "View and manage the details of this event."
+    }
+  },
+  "buttons": {
+    "edit": "Edit Event Details",
+    "create": "Create New Event"
+  },
+  "fields": {
+    "eventStatus": {
+      "title": "Event Status",
+      "missing": "Not defined"
+    },
+    "access": {
+      "title": "Access Type",
+      "missing": "Not defined"
+    },
+    "dateTime": {
+      "title": "Date and Time",
+      "missing": "Not defined"
+    },
+    "budget": {
+      "title": "Budget",
+      "missing": "Not defined"
+    }
+  },
+  "error": {
+    "title": "Error",
+    "message": "An error occurred while loading the event.",
+    "missing": {
+      "title": "Not Found",
+      "message": "The event was not found."
+    }
+  },
+  "loading": {
+    "loadingDetails": "Loading event details...",
+    "events": "Loading events..."
+  },
+  "status": {
+    "label": {
+      "SCHEDULED": "Scheduled",
+      "COMPLETED": "Completed",
+      "CANCELLED": "Cancelled",
+      "ONGOING": "In progress",
+      "UNKNOWN": "Unknown"
+    }
+  },
+  "accessTypes": {
+    "label": {
+      "public": "Public Event",
+      "private": "Private Event"
+    }
+  },
+  "participants": {
+    "title": "Participants",
+    "summary": "{{total}} participants · {{deps}} dependents",
+    "readonlyTag": "Read-only",
+    "manage": "Manage participants",
+    "search": "Search by name, email or organization…",
+    "empty": "No participants in this event yet.",
+    "noResults": "No participant matches your search.",
+    "error": "Couldn't load participants.",
+    "retry": "Try again",
+    "readonlyNote": "Read-only view. To add or edit, use Manage participants.",
+    "columns": {
+      "name": "Name",
+      "role": "Role",
+      "status": "Status",
+      "organization": "Organization",
+      "deps": "Deps"
+    }
+  },
+  "financial": {
+    "info": {
+      "trigger": "How are these values calculated?",
+      "title": "Where these values come from",
+      "subtitle": "The budget is fed by suppliers",
+      "intro": "Expenses come only from suppliers. Selecting a supplier commits its cost; paying it makes the cost effective.",
+      "budget": "Budget",
+      "budgetDesc": "Value set when creating or editing the event. It's the reference ceiling.",
+      "committedDesc": "Cost of selected or approved suppliers that haven't been paid yet.",
+      "effectiveDesc": "Suppliers already paid. On payment, the value moves from committed to effective.",
+      "availableDesc": "What's left of the budget after subtracting committed and effective.",
+      "formula": "Available = Budget − Committed − Effective",
+      "percentFormula": "% used = (Committed + Effective) ÷ Budget",
+      "thresholds": {
+        "healthy": "Healthy (up to 60%)",
+        "caution": "Caution (60-85%)",
+        "critical": "Critical (above 85%)"
+      }
+    },
+    "title": "Financial Summary",
+    "description": "Overview of the event budget",
+    "budgetTotal": "Total budget",
+    "effective": "Effective expenses",
+    "committed": "Committed",
+    "available": "Available",
+    "noBudget": "No budget defined",
+    "metricsGroup": "Financial metrics",
+    "health": {
+      "healthy": "Healthy",
+      "caution": "Caution",
+      "critical": "Critical"
+    },
+    "legend": {
+      "healthy": "Within budget",
+      "caution": "Near limit",
+      "critical": "Over budget"
+    }
+  },
+  "fab": {
+    "uploadDocument": "Upload document",
+    "addSupplier": "Add supplier",
+    "inviteMember": "Invite member",
+    "addScheduleEntry": "Add entry"
+  },
+  "tabs": {
+    "documents": "Documents",
+    "participants": "Participants",
+    "suppliers": "Suppliers",
+    "team": "Team",
+    "ariaLabel": "Event sections",
+    "pendingApproval": "pending approval",
+    "pendingInvites": "pending invitations",
+    "schedule": "Schedule"
+  },
+  "header": {
+    "countdown": {
+      "daysRemaining": "{{count}} days left",
+      "today": "Today!",
+      "tomorrow": "Tomorrow",
+      "daysAgo": "{{count}} days ago"
+    },
+    "progress": {
+      "label": "Event progress"
+    },
+    "quickSummary": "Quick summary",
+    "actions": {
+      "copyLink": "Copy link",
+      "shareEvent": "Share",
+      "linkCopied": "Copied!"
+    }
+  },
+  "access": {
+    "denied": {
+      "title": "Access Denied",
+      "message": "You don't have permission to access this event. Contact the organizer to request access."
+    }
+  },
+  "readOnlyBanner": {
+    "title": "Event is read-only",
+    "WINDOW_EXPIRED": "The editing window has closed (30 days after the event ends, max. 14 months). You can still view everything and generate the report.",
+    "WINDOW_EXPIRED_NO_REPORT": "The editing window has closed (30 days after the event ends, max. 14 months). You can still view everything.",
+    "PRO_LAPSED": "The Pro subscription has ended. The event is read-only - reactivate Pro to edit again.",
+    "PRO_PAUSED": "The Pro subscription is paused. Resume it to edit again.",
+    "reactivateCta": "Reactivate Pro"
+  },
+  "feedback": {
+    "error": {
+      "message": "Error loading events"
+    }
+  }
+}

@@ -1,0 +1,1032 @@
+{
+  "searchParticipants": {
+    "title": "Participant Search",
+    "description": "Search and confirm participant attendance quickly and efficiently.",
+    "search": {
+      "notFound": {
+        "message": "No participants found",
+        "addButton": "Add Participant",
+        "addingButton": "Adding..."
+      },
+      "input": {
+        "placeholder": "Search participant or dependent..."
+      },
+      "dependentLabel": "Dependent",
+      "dependentOf": "Dependent of {{name}}"
+    },
+    "newParticipant": {
+      "defaultStatus": "confirmed",
+      "defaultRole": "attendee",
+      "defaultNote": "Registered during the event",
+      "addError": "Error adding participant"
+    },
+    "loading": {
+      "participants": "Loading participants...",
+      "dependents": "Loading dependents...",
+      "error": "An error occurred while loading participants",
+      "dependentsError": "An error occurred while loading dependents",
+      "eventDetails": "Loading event details...",
+      "tryAgain": "Please try again."
+    },
+    "alerts": {
+      "error": {
+        "addParticipant": "An error occurred while adding the participant. Please try again.",
+        "title": "Error",
+        "confirmText": "OK"
+      }
+    },
+    "buttons": {
+      "addParticipant": "Add Participant",
+      "details": "View details",
+      "close": "Close",
+      "confirm": "Confirm"
+    },
+    "confirmPresence": {
+      "title": "Attendance Confirmation",
+      "confirmed": "Participant confirmed successfully!",
+      "error": "An error occurred while confirming attendance. Please try again."
+    },
+    "lastUpdate": "Last update"
+  },
+  "confirmedParticipantsList": {
+    "title": "Present at Event",
+    "search": {
+      "placeholder": "Search participant..."
+    },
+    "role": {
+      "labels": {
+        "all": "All",
+        "noRole": "No role",
+        "dependent": "Dependent"
+      }
+    },
+    "button": {
+      "showAll": "Show all",
+      "hideAll": "Show less"
+    },
+    "lastUpdate": "Last update",
+    "dependentOf": "Of: {{name}}"
+  },
+  "confirmPageDetails": {
+    "title": "Event Summary",
+    "cards": {
+      "totalPeople": {
+        "title": "Total Registered",
+        "breakdown": "{{participants}} participants + {{dependents}} guests"
+      },
+      "topRoles": {
+        "title": "Present by role",
+        "noRole": "No role",
+        "empty": "No check-ins yet"
+      },
+      "present": {
+        "title": "Present",
+        "breakdown": "{{participants}} part. + {{dependents}} guests"
+      },
+      "presenceRate": {
+        "title": "Presence Rate"
+      },
+      "participants": {
+        "title": "Participants",
+        "withDependents": "{{count}} guests"
+      },
+      "confirmed": {
+        "title": "Confirmed",
+        "breakdown": "{{participants}} part. + {{dependents}} guests"
+      },
+      "confirmationRate": {
+        "title": "Confirmation Rate"
+      },
+      "totalParticipants": {
+        "title": "Total Participants"
+      },
+      "pending": {
+        "title": "Pending"
+      },
+      "eventDate": {
+        "title": "Event Date",
+        "unavailable": "Not available"
+      }
+    }
+  },
+  "states": {
+    "unavailable": "Not available"
+  },
+  "participantDetails": {
+    "status": {
+      "ATTENDED": { "label": "Present" },
+      "PENDING": { "label": "Pending" },
+      "CANCELLED": { "label": "Cancelled" },
+      "REGISTERED": { "label": "Registered" },
+      "CONFIRMED": { "label": "Confirmed" }
+    },
+    "fields": {
+      "email": "Email",
+      "phone": "Phone",
+      "job": "Occupation",
+      "dependents": "Dependents",
+      "note": "Notes"
+    },
+    "buttons": {
+      "confirm": {
+        "default": "Confirm Attendance",
+        "processing": "Confirming...",
+        "confirmed": "Attendance Confirmed",
+        "withDependents": "Confirm {{count}} attendances",
+        "dependentsOnly": "Confirm {{count}} dependent(s)"
+      }
+    },
+    "feedback": {
+      "error": "Error confirming attendance"
+    },
+    "includeParticipant": "Include participant",
+    "dependents": {
+      "title": "Dependents",
+      "selectAll": "Select all",
+      "deselectAll": "Deselect all",
+      "attended": "Present",
+      "alreadyAttended": "{{count}} already confirmed",
+      "toConfirm": "{{count}} selected to confirm",
+      "noName": "No name",
+      "ageLabels": {
+        "baby": "Baby",
+        "child": "Child",
+        "adult": "Adult"
+      },
+      "types": {
+        "child": "Child",
+        "baby": "Baby",
+        "adult": "Adult"
+      }
+    }
+  },
+  "common": {
+    "confirmPresence": "Confirm Attendance"
+  },
+  "pages": {
+    "confirmPresence": {
+      "header": {
+        "title": "Presence Confirmation",
+        "description": "Confirm and track your guests' presence in a simple and organized way.",
+        "features": [
+          {
+            "title": "Simplified Management",
+            "description": "Confirm attendances quickly, keeping everything organized in one place."
+          },
+          {
+            "title": "Smart Search",
+            "description": "Easily find any participant by name."
+          },
+          {
+            "title": "Instant Confirmation",
+            "description": "Register attendances in real-time, keeping the list always up-to-date."
+          },
+          {
+            "title": "Efficient Management",
+            "description": "Add new participants directly during confirmation."
+          }
+        ]
+      },
+      "button": {
+        "show": "Show details",
+        "hide": "Hide details"
+      }
+    },
+    "participants": {
+      "title": "Participant Management",
+      "description": "Efficiently manage your event participants with intuitive registration and organization tools.",
+      "closeForm": "Close form",
+      "features": [
+        {
+          "title": "Complete Management",
+          "description": "Easily add, edit, and remove participants through an intuitive interface."
+        },
+        {
+          "title": "Bulk Import",
+          "description": "Import large participant lists from Excel files to streamline the registration process."
+        },
+        {
+          "title": "Integrated Communications",
+          "description": "Send emails to participants directly from the platform to keep everyone informed."
+        },
+        {
+          "title": "Flexible Categorization",
+          "description": "Organize participants by role, status, and other categories to facilitate event management."
+        }
+      ]
+    },
+    "eventSelection": {
+      "titles": {
+        "regular": "Select an Event",
+        "private": "Select a Private Event"
+      },
+      "descriptions": {
+        "regular": "To view and manage participants, select one of your registered events.",
+        "private": "To confirm attendance, select one of your private events."
+      },
+      "noEvents": {
+        "title": {
+          "regular": "Your list is empty",
+          "private": "No private events available"
+        },
+        "message": {
+          "regular": "Currently, you don't have any events registered on the platform.",
+          "private": "Currently, you don't have any private events registered on the platform."
+        },
+        "altImage": "No events available"
+      },
+      "buttons": {
+        "create": {
+          "regular": "Register New Event",
+          "private": "Register Private Event"
+        }
+      },
+      "select": {
+        "placeholder": "Select an event from the list",
+        "dateUnavailable": "Date unavailable"
+      },
+      "eventStatus": {
+        "active": "Ongoing",
+        "private": "Private"
+      }
+    },
+    "importModal": {
+      "title": "Import Participants",
+      "steps": {
+        "upload": "Upload",
+        "analyze": "Analyze",
+        "preview": "Preview",
+        "result": "Result"
+      },
+      "upload": {
+        "dropzone": "Drag file or click to select",
+        "hint": "Use the template to make sure every field is imported correctly",
+        "templateHint": "Need a template? Download one",
+        "templateButton": "Template"
+      },
+      "template": {
+        "downloadButton": "Download Excel Template",
+        "sheetName": "Participants"
+      },
+      "normalizing": {
+        "title": "Analyzing file...",
+        "description": "Matching columns against the official template"
+      },
+      "preview": {
+        "participantsToImport": "Participants to import",
+        "companions": "Companions",
+        "currentParticipants": "Current participants in event",
+        "totalAfterImport": "Total after import"
+      },
+      "duplicates": {
+        "previewTitle": "{{count}} possible duplicate(s) detected",
+        "previewDescription": "Will be automatically skipped during import",
+        "row": "Row",
+        "andMore": "... and {{count}} more duplicate(s)"
+      },
+      "importing": {
+        "title": "Importing participants...",
+        "description": "{{participants}} participants + {{companions}} companions"
+      },
+      "success": {
+        "title": "Import complete",
+        "subtitle": "{{count}} records processed successfully",
+        "participants": "Participants",
+        "companions": "Companions",
+        "skipped": "Skipped",
+        "allDuplicates": "All participants already exist in the event"
+      },
+      "error": {
+        "title": "Import error",
+        "description": "Could not import participants. Check the file and try again.",
+        "defaultMessage": "An error occurred while importing participants.",
+        "invalidFileType": "Invalid file type. Only .xlsx, .xls and .csv files are accepted.",
+        "fileTooLarge": "The file is too large. Maximum size: 5MB.",
+        "emptyParticipantData": "No valid participants found in the file.",
+        "fileReadError": "Error reading file.",
+        "fileRequired": "Please select a file to import.",
+        "exceedsLimit": "The number of participants exceeds your plan limit."
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "import": "Import {{count}} participants",
+        "importing": "Importing...",
+        "done": "Done",
+        "tryAgain": "Try again",
+        "close": "Close"
+      }
+    },
+    "participantForm": {
+      "titles": {
+        "edit": "Edit Participant",
+        "create": "Register Participant"
+      },
+      "fields": {
+        "participantName": {
+          "title": "Participant Name",
+          "required": "This field is required",
+          "validation": {
+            "minLength": {
+              "message": "Name must be at least 3 characters"
+            }
+          }
+        },
+        "participantEmail": {
+          "title": "Email"
+        },
+        "participantPhone": {
+          "title": "Phone"
+        },
+        "participantStatus": {
+          "title": "Status",
+          "required": "This field is required"
+        },
+        "participantJob": {
+          "title": "Occupation"
+        },
+        "participantNote": {
+          "title": "Notes"
+        },
+        "role": {
+          "title": "Role",
+          "placeholder": "Select or create role...",
+          "createLabel": "Create \"{{value}}\"",
+          "required": "This field is required"
+        },
+        "documentationType": { "title": "Documentation" },
+        "documentLast4": { "title": "Passport (Last 4)" },
+        "nationality": { "title": "Nationality" },
+        "residenceCountry": { "title": "Country of Residence" },
+        "organization": { "title": "Organization" },
+        "emergencyContact": { "title": "Emergency Contact" },
+        "internalId": { "title": "Internal ID" },
+        "visaRequired": { "title": "Visa Required" },
+        "visaSupport": { "title": "Visa Support" },
+        "arrivalDate": { "title": "Arrival Date" },
+        "arrivalTime": { "title": "Arrival Time" },
+        "arrivalFlight": { "title": "Arrival Flight" },
+        "arrivalLayovers": { "title": "Layovers" },
+        "arrivalAirport": { "title": "Arrival Airport" },
+        "transferRequired": { "title": "Transfer Required" },
+        "transferDetails": { "title": "Transfer Details" },
+        "transferCost": { "title": "Transfer Cost" },
+        "transferCurrency": { "title": "Transfer Currency" },
+        "hotel": { "title": "Hotel" },
+        "roomType": { "title": "Room Type" },
+        "checkInDate": { "title": "Check-in" },
+        "checkOutDate": { "title": "Check-out" },
+        "nights": { "title": "Nights" },
+        "ratePerNight": { "title": "Rate per Night" },
+        "rateCurrency": { "title": "Rate Currency" },
+        "accommodationCost": { "title": "Accommodation Cost" },
+        "departureDate": { "title": "Departure Date" },
+        "departureTime": { "title": "Departure Time" },
+        "departureFlight": { "title": "Departure Flight" },
+        "departureAirport": { "title": "Departure Airport" },
+        "ticketFare": { "title": "Ticket Fare" },
+        "ticketCurrency": { "title": "Ticket Currency" },
+        "taxesExtras": { "title": "Taxes/Extras" },
+        "taxesCurrency": { "title": "Taxes Currency" },
+        "totalTravelCost": { "title": "Total Travel Cost" },
+        "totalTravelCurrency": { "title": "Total Currency" },
+        "paymentStatus": { "title": "Payment Status" },
+        "bookingReference": { "title": "Booking Reference (PNR)" },
+        "bookingAgency": { "title": "Booking Agency" },
+        "dietaryRestriction": { "title": "Dietary Restriction" },
+        "protocol": { "title": "Protocol" }
+      },
+      "roles": {
+        "labels": {
+          "attendee": "Attendee",
+          "media": "Media",
+          "team": "Team",
+          "vip": "VIP"
+        },
+        "values": {
+          "attendee": "attendee",
+          "media": "media",
+          "team": "team",
+          "vip": "vip"
+        }
+      },
+      "statuses": {
+        "labels": {
+          "REGISTERED": "Registered",
+          "CONFIRMED": "Confirmed",
+          "CANCELLED": "Cancelled",
+          "ATTENDED": "Attended"
+        },
+        "values": {
+          "REGISTERED": "REGISTERED",
+          "CONFIRMED": "CONFIRMED",
+          "CANCELLED": "CANCELLED",
+          "ATTENDED": "ATTENDED"
+        }
+      },
+      "dependents": {
+        "question": "Does the participant have dependents?",
+        "options": {
+          "yes": "Yes",
+          "no": "No"
+        },
+        "fields": {
+          "name": {
+            "title": "Dependent Name"
+          },
+          "age": {
+            "title": "Category",
+            "labels": {
+              "baby": "Baby",
+              "child": "Child",
+              "adult": "Adult"
+            },
+            "values": {
+              "baby": "baby",
+              "child": "child",
+              "adult": "adult"
+            }
+          }
+        },
+        "actions": {
+          "add": "Add Dependent"
+        }
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "create": {
+          "label": "Create Participant",
+          "loading": "Creating..."
+        },
+        "update": {
+          "label": "Update Participant",
+          "loading": "Updating..."
+        }
+      },
+      "feedback": {
+        "error": {
+          "create": "Error creating participant",
+          "update": "Error updating participant"
+        }
+      },
+      "sections": {
+        "basicInfo": "Basic Information",
+        "identification": "Identification",
+        "visa": "Visa",
+        "arrival": "Arrival",
+        "transfer": "Transfer",
+        "accommodation": "Accommodation",
+        "departure": "Departure",
+        "financial": "Financial",
+        "other": "Other"
+      },
+      "tabs": {
+        "identification": "Identification",
+        "travel": "Travel",
+        "accommodation": "Accommodation",
+        "financial": "Financial",
+        "other": "Other"
+      },
+      "paymentStatuses": {
+        "labels": {
+          "PENDING": "Pending",
+          "PAID": "Paid",
+          "PARTIAL": "Partial"
+        }
+      }
+    },
+    "participantList": {
+      "quickView": "Quick View",
+      "noData": {
+        "message": "No participants found"
+      },
+      "totalCountDescription": "participants registered"
+    },
+    "participantTable": {
+      "list": "Participants List",
+      "showingResults": "Showing {{showing}} of {{total}} results",
+      "confirm": {
+        "delete": {
+          "title": "Confirm Deletion",
+          "message": "Are you sure you want to delete {{count}} participant(s)?",
+          "confirmText": "Yes, delete",
+          "cancelText": "Cancel"
+        }
+      },
+      "noParticipants": {
+        "title": "No Participants",
+        "message": "No participants were found for this event.",
+        "imageAlt": "No data"
+      },
+      "search": {
+        "placeholder": "Search participant..."
+      },
+      "filters": {
+        "label": "Filters",
+        "title": "Filter Participants",
+        "clearAll": "Clear all",
+        "status": "Status",
+        "category": "Category",
+        "dependentCategory": "Dependent Category",
+        "allStatuses": "All statuses",
+        "allCategories": "All categories",
+        "allDependentCategories": "All categories"
+      },
+      "actionButtons": {
+        "add": "Add Participant",
+        "import": "Import Participants",
+        "edit": "Edit Participant",
+        "delete": "Delete Participant",
+        "deleteMultiple": "Delete Multiple",
+        "deleteSelected": "Delete Selected",
+        "sendEmail": "Send Email",
+        "sendEmails": "Send Emails"
+      },
+      "pagination": {
+        "showing": "Showing",
+        "of": "of",
+        "results": "results",
+        "page": "Page"
+      },
+      "table": {
+        "columns": {
+          "select": "Select",
+          "name": "Name",
+          "email": "Email",
+          "phone": "Phone",
+          "category": "Category",
+          "registrationDate": "Registration Date",
+          "job": "Occupation",
+          "status": "Status",
+          "note": "Note",
+          "organization": "Organization",
+          "dependents": "Dependents"
+        }
+      },
+      "selectedCount": "{{count}} participant(s) selected",
+      "columnVisibility": {
+        "columns": "Columns"
+      }
+    }
+  },
+  "statuses": {
+    "registered": "Registered",
+    "confirmed": "Confirmed",
+    "cancelled": "Cancelled",
+    "attended": "Attended",
+    "unknown": "Unknown"
+  },
+  "email": {
+    "selection": {
+      "title": "Send Emails",
+      "description": "Choose the most suitable type of communication for your participants",
+      "templates": {
+        "participantInvitation": {
+          "title": "Invitation",
+          "description": "Send personalized invitations with all event information"
+        },
+        "participantConfirmation": {
+          "title": "Confirmation", 
+          "description": "Confirm attendance and provide additional details"
+        },
+        "saveTheDate": {
+          "title": "Save the Date",
+          "description": "Announce your event date elegantly"
+        }
+      },
+      "templateNotAvailable": "Template Not Available"
+    },
+    "preview": {
+      "title": "Email Preview",
+      "templateNotFound": "Template not found",
+      "defaultManager": "Event Administrator",
+      "defaultContact": "Contact not available",
+      "recipientCount": "{{count}} recipient(s) selected"
+    },
+    "attachment": {
+      "title": "Attachment",
+      "restrictions": {
+        "formats": "Allowed formats: PDF, JPEG, PNG",
+        "size": "max. 10MB",
+        "full": "Allowed formats: PDF, JPEG, PNG (max. 10MB)"
+      },
+      "validation": {
+        "size": "The file is too large. Maximum allowed size is 10MB",
+        "type": "Only PDF, JPEG and PNG files are allowed"
+      },
+      "fileSize": "KB"
+    },
+    "status": {
+      "sending": "Sending email(s) to {{count}} participant(s)...",
+      "success": {
+        "title": "Emails Sent Successfully!",
+        "message": "{{sent}}/{{total}} email(s) have been sent successfully."
+      }
+    },
+    "validation": {
+      "errors": {
+        "noParticipants": "Select at least one participant",
+        "noTemplate": "Select an email type",
+        "invalidEmail": "The email address is not valid",
+        "missingData": "Incomplete participant or event data",
+        "requiredField": "Required field missing: {{field}}",
+        "fileTooLarge": "The file is too large. Maximum allowed size is 200KB"
+      }
+    },
+    "errors": {
+      "title": "Error Sending Emails",
+      "sending": "Could not send the emails",
+      "network": "Check your internet connection and try again",
+      "support": "If the problem persists, contact technical support",
+      "preparation": "Could not prepare the email. Please check the data and try again."
+    },
+    "buttons": {
+      "close": "Close",
+      "cancel": "Cancel",
+      "back": "Back",
+      "preview": "Preview",
+      "send": "Confirm and Send",
+      "upgrade": "Upgrade",
+      "understood": "Understood",
+      "attachment": {
+        "add": "Add file",
+        "remove": "Remove attachment"
+      }
+    },
+    "templateAccess": "The selected template is not available in your plan"
+  },
+  "participantsV2": {
+    "pageTitle": "Participants",
+    "pageSubtitle": "Manage event participants",
+    "eventSelector": {
+      "label": "Event",
+      "placeholder": "Select event...",
+      "dateUnavailable": "Date unavailable",
+      "statusScheduled": "Scheduled",
+      "statusOngoing": "Ongoing",
+      "statusCompleted": "Completed",
+      "statusCancelled": "Cancelled"
+    },
+    "table": {
+      "limitReached": "Plan limit of {{max}} participants reached",
+      "limitApproaching": "You've used {{current}} of the {{max}} guests for this event.",
+      "title": "Participant List",
+      "count": "{{count}} participants",
+      "dependentsCount": "{{count}} dependents",
+      "showing": "Showing {{shown}} of {{total}} participants",
+      "columns": {
+        "participant": "Participant",
+        "email": "Email",
+        "role": "Role",
+        "status": "Status",
+        "organization": "Organization",
+        "registration": "Registration",
+        "dependents": "Dep."
+      },
+      "search": {
+        "placeholder": "Search participants..."
+      },
+      "actions": {
+        "filter": "Filters",
+        "import": "Import",
+        "export": "Export",
+        "add": "Add"
+      }
+    },
+    "export": {
+      "groups": {
+        "other": "Other"
+      },
+      "fields": {
+        "dietaryRestriction": "Dietary Restriction",
+        "protocol": "Protocol",
+        "arrivalAirport": "Arrival Airport",
+        "departureAirport": "Departure Airport",
+        "transferCost": "Transfer Cost",
+        "transferCurrency": "Transfer Currency",
+        "ticketCurrency": "Ticket Currency",
+        "taxesCurrency": "Taxes Currency",
+        "totalCurrency": "Total Currency",
+        "accommodationCurrency": "Accommodation Currency",
+        "hasDependent": "Dependent",
+        "dependentCount": "Dependent Count"
+      },
+      "yes": "Yes",
+      "no": "No"
+    },
+    "roleFilter": {
+      "all": "All ({{count}})",
+      "noRole": "No role",
+      "scrollLeft": "Show previous roles",
+      "scrollRight": "Show more roles"
+    },
+    "bulkActions": {
+      "selected": "{{count}} selected",
+      "email": "Email",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "emptyState": {
+      "title": "No participants found",
+      "withFilters": "Try adjusting your filters or search term."
+    },
+    "status": {
+      "confirmed": "Confirmed",
+      "registered": "Registered",
+      "cancelled": "Cancelled",
+      "attended": "Attended"
+    },
+    "detailPanel": {
+      "sections": {
+        "contact": "Contact",
+        "personalInfo": "Personal Information",
+        "logistics": "Logistics"
+      },
+      "fields": {
+        "email": "Email",
+        "phone": "Phone",
+        "organization": "Organization",
+        "job": "Job Title",
+        "nationality": "Nationality",
+        "dependents": "Dependents",
+        "arrival": "Arrival",
+        "hotel": "Hotel"
+      },
+      "actions": {
+        "edit": "Edit Participant"
+      },
+      "noValue": "\u2014",
+      "title": "Participant details"
+    },
+    "formModal": {
+      "titles": {
+        "create": "Add Participant",
+        "edit": "Edit Participant"
+      },
+      "tabs": {
+        "basic": "Basic Info",
+        "identification": "Identification",
+        "travel": "Travel",
+        "accommodation": "Accommodation",
+        "dependents": "Dependents"
+      },
+      "photoUpload": {
+        "label": "Profile Photo",
+        "hint": "JPG, PNG or GIF. Maximum 2MB.",
+        "button": "Upload Photo"
+      },
+      "fields": {
+        "name": "Name",
+        "namePlaceholder": "Full name",
+        "email": "Email",
+        "emailPlaceholder": "email@example.com",
+        "phone": "Phone",
+        "phonePlaceholder": "+1 555 000 0000",
+        "job": "Job Title",
+        "jobPlaceholder": "e.g. Marketing Director",
+        "organization": "Organization",
+        "organizationPlaceholder": "Company name",
+        "status": "Status",
+        "notes": "Notes",
+        "notesPlaceholder": "Additional notes about the participant...",
+        "documentType": "Document Type",
+        "documentationType": "Document Type",
+        "documentTypePlaceholder": "e.g. Passport, ID Card",
+        "documentLast4": "Last 4 digits",
+        "documentLast4Placeholder": "****",
+        "nationality": "Nationality",
+        "nationalityPlaceholder": "e.g. American",
+        "residenceCountry": "Country of Residence",
+        "residenceCountryPlaceholder": "e.g. United States",
+        "emergencyContact": "Emergency Contact",
+        "emergencyContactPlaceholder": "+1 555 000 0000",
+        "internalId": "Internal ID",
+        "internalIdHint": "Auto-generated. You can change it.",
+        "internalIdPlaceholder": "Internal reference",
+        "arrivalDate": "Arrival Date",
+        "arrivalTime": "Arrival Time",
+        "arrivalFlight": "Arrival Flight",
+        "arrivalFlightPlaceholder": "e.g. AA1234",
+        "arrivalAirport": "Airport",
+        "arrivalAirportPlaceholder": "e.g. JFK",
+        "arrivalLayovers": "Layovers",
+        "arrivalLayoversPlaceholder": "Layover details",
+        "transferDetails": "Details",
+        "transferDetailsPlaceholder": "Transfer details",
+        "transferCost": "Cost",
+        "currency": "Currency",
+        "currencyPlaceholder": "USD",
+        "departureDate": "Departure Date",
+        "departureTime": "Departure Time",
+        "departureFlight": "Departure Flight",
+        "departureFlightPlaceholder": "e.g. AA5678",
+        "departureAirport": "Airport",
+        "departureAirportPlaceholder": "e.g. JFK",
+        "participantName": "Name",
+        "participantNameRequired": "Name is required",
+        "participantEmail": "Email",
+        "participantEmailRequired": "Email is required",
+        "participantPhone": "Phone",
+        "participantJob": "Job / Role",
+        "participantStatus": "Status",
+        "participantStatusRequired": "Status is required",
+        "participantNote": "Notes",
+        "roleId": "Role",
+        "statusRegistered": "Registered",
+        "statusConfirmed": "Confirmed",
+        "statusCancelled": "Cancelled",
+        "statusAttended": "Attended",
+        "hotelName": "Hotel",
+        "hotelPlaceholder": "Hotel name",
+        "roomType": "Room Type",
+        "roomTypePlaceholder": "e.g. Single, Double",
+        "checkInDate": "Check-in",
+        "checkOutDate": "Check-out",
+        "nights": "Nights",
+        "ratePerNight": "Rate/Night",
+        "accommodationCost": "Total Cost",
+        "totalLabel": "total",
+        "ticketFare": "Ticket Price",
+        "taxesExtras": "Taxes / Extras",
+        "totalTravelCost": "Total Cost",
+        "paymentStatus": "Payment Status",
+        "paymentStatusOptions": {
+          "placeholder": "Select...",
+          "pending": "Pending",
+          "paid": "Paid",
+          "partial": "Partial"
+        },
+        "bookingReference": "Booking Reference",
+        "bookingReferencePlaceholder": "e.g. ABC123",
+        "bookingAgency": "Booking Agency",
+        "bookingAgencyPlaceholder": "Agency name"
+      },
+      "sections": {
+        "basicInfo": "Basic Information",
+        "identification": "Identification & Documentation",
+        "visa": "Visa",
+        "visaRequired": "Visa Required",
+        "visaSupport": "Visa Support",
+        "travel": "Travel Information",
+        "arrival": "Arrival",
+        "transfer": "Transfer",
+        "transferRequired": "Transfer required",
+        "departure": "Departure",
+        "accommodation": "Accommodation",
+        "financial": "Financial Information",
+        "travelCosts": "Travel Costs",
+        "personalInfo": "Personal Information",
+        "professional": "Professional",
+        "notes": "Notes",
+        "documents": "Documentation",
+        "emergency": "Emergency",
+        "stayDetails": "Stay Details",
+        "stayDates": "Dates",
+        "stayCosts": "Costs",
+        "dependents": "Dependents"
+      },
+      "dependents": {
+        "title": "Dependents",
+        "info": "Add this participant's dependents. Each dependent can be classified by age group.",
+        "namePlaceholder": "Dependent name",
+        "ageGroup": "Age group",
+        "ageGroups": {
+          "placeholder": "Age group",
+          "baby": "Baby",
+          "child": "Child",
+          "adult": "Adult"
+        },
+        "add": "Add Dependent"
+      },
+      "roleSelect": {
+        "label": "Role",
+        "placeholder": "Select role...",
+        "searchPlaceholder": "Search or create role...",
+        "existingRoles": "Existing roles",
+        "create": "Create",
+        "noResults": "No roles found"
+      },
+      "validation": {
+        "invalidEmail": "Invalid email format",
+        "nameRequired": "Name is required"
+      },
+      "footer": {
+        "required": "* Required fields",
+        "cancel": "Cancel",
+        "previous": "Previous",
+        "next": "Next",
+        "step": "Step",
+        "of": "of",
+        "save": "Save Changes",
+        "create": "Add Participant",
+        "creating": "Adding...",
+        "saving": "Saving..."
+      },
+      "unsavedChanges": {
+        "title": "Unsaved changes",
+        "message": "You have unsaved changes. Do you want to discard them?",
+        "continue": "Continue editing",
+        "discard": "Discard"
+      },
+      "roleManager": {
+        "colorLabel": "Highlight color",
+        "colorAuto": "Automatic",
+        "colors": {
+          "blue": "Blue",
+          "violet": "Violet",
+          "amber": "Amber",
+          "green": "Green",
+          "pink": "Pink",
+          "red": "Red",
+          "indigo": "Indigo",
+          "orange": "Orange",
+          "teal": "Teal",
+          "slate": "Slate"
+        },
+        "title": "Manage Roles",
+        "manageButton": "Manage",
+        "hidePanel": "Close",
+        "close": "Close panel",
+        "noRoles": "No roles created",
+        "edit": "Edit role {{name}}",
+        "editNameLabel": "New name",
+        "save": "Save",
+        "cancelEdit": "Cancel",
+        "delete": "Delete {{name}}",
+        "deleteBlocked": "Cannot delete: {{count}} participant(s)",
+        "confirmDelete": "Confirm deletion",
+        "confirmDeleteMessage": "Are you sure you want to delete the role {{name}}? This action cannot be undone.",
+        "confirmDeleteButton": "Delete",
+        "confirmCancelButton": "Cancel",
+        "errorEmptyName": "Name cannot be empty",
+        "errorSave": "Error saving",
+        "errorDelete": "Error deleting",
+        "errorHasParticipants": "Cannot delete: {{count}} participant(s)",
+        "selectAll": "Select all",
+        "selectRole": "Select role {{name}}",
+        "selectedCount": "{{count}} selected",
+        "deleteSelected": "Delete selected ({{count}})",
+        "confirmBulkDelete": "Confirm bulk deletion",
+        "confirmBulkDeleteMessage": "Are you sure you want to delete {{count}} role(s)? This action cannot be undone.",
+        "bulkDeleteSuccess": "{{count}} role(s) deleted",
+        "bulkDeleteBlocked": "{{name}}: cannot delete, {{count}} participant(s)",
+        "bulkDeleteError": "{{name}}: {{message}}"
+      }
+    }
+  },
+  "toast": {
+    "createSuccess": "Participant added successfully",
+    "createError": "Error adding participant",
+    "updateSuccess": "Participant updated successfully",
+    "updateError": "Error updating participant",
+    "deleteSuccess": "Participant(s) deleted successfully",
+    "deleteError": "Error deleting participant(s)",
+    "roleCreateError": "Error creating role",
+    "photoUploadError": "Error uploading participant photo",
+    "dependentOpsError": "Error processing dependents"
+  },
+  "fidelizeSync": {
+    "title": "Sync from Fidelize",
+    "subtitle": "{{eventName}}",
+    "description": "Import digital wallet card holders as event participants. Existing participants are matched by email or phone and updated without overwriting.",
+    "selectTemplates": "Select card types to import:",
+    "allTemplates": "All card types",
+    "selectedCount": "{{count}} of {{total}} card types selected",
+    "steps": {
+      "select": "Select",
+      "sync": "Sync",
+      "results": "Results"
+    },
+    "syncButton": "Start Sync",
+    "syncing": "Syncing...",
+    "syncingTitle": "Syncing Participants",
+    "syncingMessage": "Importing card holders from Fidelize...",
+    "continueSync": "Continue Sync",
+    "successTitle": "Sync Complete",
+    "errorTitle": "Sync Failed",
+    "tryAgain": "Try Again",
+    "cancel": "Cancel",
+    "done": "Done",
+    "close": "Close",
+    "results": {
+      "title": "Sync Results",
+      "created": "Created",
+      "updated": "Updated",
+      "skipped": "Skipped",
+      "errors": "Errors",
+      "totalCards": "{{count}} cards processed"
+    },
+    "errors": {
+      "notConnected": "Please configure your Fidelize API key in Settings first.",
+      "syncFailed": "Sync failed: {{error}}",
+      "noCards": "No cards found matching your filters."
+    },
+    "button": "Sync Fidelize",
+    "selected": "selected",
+    "notSelected": "not selected"
+  },
+  "participantTable": {
+    "actionButtons": {
+      "sendEmail": "Send email"
+    }
+  }
+}

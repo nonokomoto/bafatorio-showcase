@@ -1,0 +1,205 @@
+{
+  "brand": {
+    "tagline": "Event Management System"
+  },
+  "nav": {
+    "features": "Funcionalidades",
+    "home": "Início",
+    "testimonials": "Eventos",
+    "pricing": "Preços",
+    "login": "Iniciar Sessão",
+    "signUp": "Registar",
+    "ariaLabel": "Navegação principal",
+    "toggleMenu": "Abrir ou fechar menu de navegação",
+    "mobileMenuAriaLabel": "Menu de navegação móvel"
+  },
+  "hero": {
+    "titleHighlight": "Toda a organização do teu evento",
+    "titleSecondary": " num só lugar.",
+    "description": "Participantes, documentos, fornecedores, presenças e relatórios. Tudo ligado, simples e na tua língua.",
+    "ctaStart": "Começar agora",
+    "noCreditCard": "Sem necessidade de cartão de crédito",
+    "freeAccount": "Cria a tua conta gratuita",
+    "paidEvents": "Começas com 1 evento grátis",
+    "imageAlt": "Plataforma Bafatorio a mostrar a gestão de um evento",
+    "eventsCompleted": "Eventos reais desde 2024"
+  },
+  "features": {
+    "title": "Tudo o que precisas ",
+    "titleHighlight": "para gerir melhor",
+    "description": "Do convite ao relatório final: as áreas que usas todos os dias, ligadas entre si.",
+    "badge": "Principais funcionalidades",
+    "menuTitle": "Explora as funcionalidades",
+    "callToAction": "Clica em cada funcionalidade para veres os detalhes",
+    "items": {
+      "eventManagement": {
+        "title": "Gestão de eventos",
+        "description": "Cria e acompanha eventos com controlo total sobre datas, acesso e estado.",
+        "bullets": [
+          "Datas flexíveis: dia único, intervalo ou datas específicas",
+          "Eventos públicos ou privados",
+          "Dashboard com o estado e o resumo do evento",
+          "Relatório PDF"
+        ]
+      },
+      "participantManagement": {
+        "title": "Gestão de participantes",
+        "description": "Organiza categorias, dependentes e confirmações num só sítio.",
+        "bullets": [
+          "Categorias de participantes e dependentes",
+          "Importação Excel com normalização inteligente",
+          "Confirmações de presença (RSVP)",
+          "Pesquisa e filtros avançados"
+        ]
+      },
+      "suppliers": {
+        "title": "Fornecedores",
+        "description": "Contactos, serviços e informação operacional num único espaço.",
+        "bullets": [
+          "Ficha de cada fornecedor com contactos e serviços",
+          "Importação via Excel",
+          "Ligação às entradas da agenda",
+          "Partilha com a equipa do evento"
+        ]
+      },
+      "documentation": {
+        "title": "Documentos centralizados",
+        "description": "Ficheiros ligados ao evento certo e sempre fáceis de encontrar.",
+        "bullets": [
+          "Pastas organizadas por evento",
+          "Pré-visualização de ficheiros",
+          "Importação de páginas do Notion",
+          "Controlo de permissões por papel"
+        ]
+      },
+      "agenda": {
+        "title": "Agenda do evento",
+        "description": "Planeia tarefas, prazos e responsáveis num calendário partilhado.",
+        "bullets": [
+          "Vistas de mês, semana e dia",
+          "Entradas antes, durante e depois do evento",
+          "Ligação a fornecedores",
+          "Visibilidade controlada por papel"
+        ]
+      },
+      "team": {
+        "title": "Equipa e permissões",
+        "description": "Convida a equipa e controla o que cada pessoa vê e faz.",
+        "bullets": [
+          "Papéis de co-gestor, logística e check-in",
+          "Convites por email",
+          "Permissões por área do evento",
+          "Dados encriptados e conformidade com RGPD"
+        ]
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Eventos que já ",
+    "titleHighlight": "contaram connosco",
+    "subtitle": "Conferências, casamentos e lançamentos de marca geridos no Bafatorio.",
+    "items": [
+      {
+        "name": "Human Leaders",
+        "detail": "Parceiro tecnológico · Cabo Verde"
+      },
+      {
+        "name": "Powerlist 100",
+        "detail": "2 edições · 2024 e 2025"
+      },
+      {
+        "name": "Fórum de Inovação",
+        "detail": "Mafra · 2026"
+      },
+      {
+        "name": "Ntú Natural",
+        "detail": "Lançamento de marca"
+      },
+      {
+        "name": "Casamentos",
+        "detail": "2 eventos · Grande Lisboa"
+      },
+      {
+        "name": "Acampamento de jovens",
+        "detail": "Guarda · Portugal"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Sim, leste bem.",
+    "badge": "50% desconto · lançamento",
+    "perMonth": "/ mês",
+    "perYear": "/ ano",
+    "fromPrice": "a partir de",
+    "perEvent": "por evento",
+    "billing": {
+      "monthly": "Mensal",
+      "annual": "Anual"
+    },
+    "plans": {
+      "starter": {
+        "name": "1 evento grátis",
+        "cta": "Começar grátis"
+      },
+      "pro": {
+        "name": "Pro",
+        "cta": "Criar conta"
+      },
+      "perEvent": {
+        "name": "Por evento",
+        "cta": "Criar conta"
+      }
+    },
+    "universal": {
+      "lead": "Todos os planos incluem:",
+      "agenda": "Agenda",
+      "confirmations": "Confirmações de presença",
+      "documents": "Documentos",
+      "excel": "Importação e exportação Excel"
+    },
+    "rows": {
+      "events": "Eventos",
+      "participants": "Participantes",
+      "suppliers": "Fornecedores",
+      "report": "Relatório PDF",
+      "integrations": "Integrações"
+    },
+    "values": {
+      "unlimited": "Ilimitados",
+      "tierRange": "{{min}} a ilimitado"
+    },
+    "footer": "Preços com IVA incluído · Cancela quando quiseres"
+  },
+  "callToAction": {
+    "title": "Pronto para organizar o teu próximo evento?",
+    "description": "Cria a conta gratuita e monta o teu primeiro evento em minutos.",
+    "button": "Começar agora",
+    "features": {
+      "security": {
+        "title": "Segurança e privacidade",
+        "description": "Dados encriptados, controlo de acesso por papéis e conformidade com RGPD."
+      },
+      "implementation": {
+        "title": "Começa em minutos",
+        "description": "Configura o teu primeiro evento sem formação nem instalação."
+      },
+      "support": {
+        "title": "Na tua língua",
+        "description": "Plataforma e apoio em português, inglês e francês."
+      }
+    }
+  },
+  "footer": {
+    "description": "Plataforma para organizar, gerir e acompanhar eventos: participantes, fornecedores, documentos e agenda num só lugar.",
+    "allRightsReserved": "Todos os direitos reservados.",
+    "product": "Produto",
+    "pricing": "Preços",
+    "resources": "Recursos",
+    "docs": "Documentação",
+    "blog": "Blog",
+    "legal": "Legal",
+    "terms": "Termos de Utilização",
+    "privacy": "Política de Privacidade",
+    "cookies": "Política de Cookies"
+  }
+}

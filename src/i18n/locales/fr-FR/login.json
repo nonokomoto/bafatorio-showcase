@@ -1,0 +1,146 @@
+{
+  "common": {
+    "email": {
+      "placeholder": "E-mail",
+      "required": "L'e-mail est requis",
+      "invalid": "E-mail invalide"
+    },
+    "password": {
+      "placeholder": "Mot de passe",
+      "required": "Le mot de passe est requis",
+      "minLength": "Le mot de passe doit contenir au moins 8 caractères"
+    },
+    "loading": "Connexion en cours..."
+  },
+  "signIn": {
+    "title": "Bafatorio",
+    "subtitle": "Votre partenaire de gestion d'événements",
+    "buttons": {
+      "submit": "Se connecter",
+      "forgotPassword": "Mot de passe oublié ?"
+    },
+    "register": {
+      "message": "Vous n'avez pas encore de compte ?",
+      "action": "S'inscrire"
+    },
+    "processingInvitation": "Traitement de l'invitation...",
+    "invitationAccepted": "Invitation acceptée avec succès !",
+    "redirectingToEvent": "Redirection vers l'événement...",
+    "invitationError": "Erreur lors de l'acceptation de l'invitation"
+  },
+  "signUp": {
+    "title": {
+      "register": "Inscription",
+      "confirmation": "Confirmation d'Inscription"
+    },
+    "subtitle": {
+      "register": "Inscrivez-vous maintenant !",
+      "confirmation": "Nous avons envoyé un code de confirmation à votre e-mail"
+    },
+    "form": {
+      "name": {
+        "placeholder": "Nom",
+        "required": "Le nom est requis"
+      },
+      "password": {
+        "requirements": {
+          "uppercase": "Contient au moins une lettre majuscule",
+          "number": "Contient au moins un chiffre",
+          "special": "Contient au moins un caractère spécial",
+          "length": "Au moins 8 caractères"
+        },
+        "pattern": "Le mot de passe doit contenir au moins une lettre majuscule, un chiffre et un caractère spécial"
+      },
+      "confirmPassword": {
+        "placeholder": "Confirmer le mot de passe",
+        "required": "Veuillez confirmer votre mot de passe",
+        "match": "Les mots de passe ne correspondent pas"
+      },
+      "confirmationCode": {
+        "placeholder": "Code de confirmation",
+        "required": "Le code de confirmation est requis",
+        "onlyNumbers": "Le code doit contenir uniquement des chiffres",
+        "length": "Le code doit comporter 6 chiffres"
+      }
+    },
+    "buttons": {
+      "submit": {
+        "register": "S'inscrire",
+        "confirm": "Confirmer l'Inscription"
+      },
+      "resend": {
+        "text": "Renvoyer le code",
+        "loading": "Renvoi en cours...",
+        "success": "Code renvoyé avec succès"
+      },
+      "wrongEmail": {
+        "message": "Mauvais email ?",
+        "action": "Revenir et corriger"
+      }
+    },
+    "login": {
+      "message": "Vous avez déjà un compte ?",
+      "action": "Se connecter"
+    },
+    "confirmEmail": {
+      "message": "Compte déjà créé mais il te manque de confirmer l'e-mail ?",
+      "action": "Confirmer l'e-mail"
+    },
+    "resumedAccount": {
+      "note": "Tu avais déjà un compte par confirmer avec cet e-mail — utilise le mot de passe que tu as défini la première fois."
+    },
+    "success": {
+      "accountCreated": "Compte créé avec succès !",
+      "confirmationSent": "Code de confirmation envoyé à",
+      "confirmed": "Compte confirmé avec succès ! Redirection en cours...",
+      "confirmedManualSignIn": "Compte confirmé avec succès ! Connectez-vous pour continuer."
+    },
+    "errors": {
+      "resendCode": "Échec du renvoi du code. Veuillez réessayer.",
+      "generic": "Une erreur s'est produite. Veuillez réessayer.",
+      "emailExists": "Un compte existe déjà avec cet email.",
+      "invalidPassword": "Le mot de passe ne respecte pas les exigences de sécurité.",
+      "invalidCode": "Code incorrect. Vérifie le code et réessaie.",
+      "codeExpired": "Le code a expiré. Utilise \"Renvoyer le code\" pour en demander un nouveau.",
+      "attemptsExceeded": "Trop de tentatives. Attends un instant avant de réessayer."
+    }
+  },
+  "forgotPassword": {
+    "title": {
+      "initial": "Récupérer le Compte",
+      "reset": "Réinitialiser le Mot de Passe"
+    },
+    "subtitle": {
+      "initial": "Nous allons vous aider à récupérer votre compte",
+      "reset": "Entrez le code envoyé à votre e-mail"
+    },
+    "form": {
+      "code": {
+        "placeholder": "Code de confirmation",
+        "required": "Le code de confirmation est requis",
+        "onlyNumbers": "Le code doit contenir uniquement des chiffres",
+        "length": "Le code doit comporter 6 chiffres"
+      },
+      "newPassword": {
+        "placeholder": "Nouveau mot de passe",
+        "required": "Le nouveau mot de passe est requis"
+      }
+    },
+    "buttons": {
+      "sendCode": "Envoyer le code",
+      "resetPassword": "Réinitialiser le mot de passe",
+      "backToLogin": "Retour à la connexion"
+    },
+    "success": {
+      "title": "Mot de passe réinitialisé avec succès !",
+      "redirecting": "Redirection vers la page de connexion..."
+    },
+    "errors": {
+      "invalidCode": "Code de confirmation invalide.",
+      "passwordTooShort": "Le mot de passe doit contenir au moins 8 caractères.",
+      "emailNotFound": "Il n'existe aucun compte avec l'e-mail fourni.",
+      "attemptsExceeded": "Limite de tentatives dépassée. Veuillez réessayer plus tard.",
+      "generic": "Une erreur s'est produite lors de la réinitialisation du mot de passe."
+    }
+  }
+}

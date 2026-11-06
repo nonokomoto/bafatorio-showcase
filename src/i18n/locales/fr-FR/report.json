@@ -1,0 +1,167 @@
+{
+  "eventReport": {
+    "title": "Rapport d'Analyse et de Performance",
+    "executiveSummary": {
+      "title": "Résumé Exécutif",
+      "content": "Ce rapport fournit une analyse détaillée de l'événement {{eventName}}, qui s'est tenu le {{eventDate}}. L'événement a accueilli {{totalParticipants}} participants invités et {{confirmedCount}} présences confirmées.",
+      "eventInfo": {
+        "prefix": "L'",
+        "location": "s'est déroulé à",
+        "date": "le"
+      },
+      "attendance": {
+        "prefix": "Sur un total de",
+        "registered": "inscrits",
+        "confirmed": "ont confirmé leur présence",
+        "rate": "taux de participation"
+      },
+      "dependents": {
+        "prefix": "On a enregistré",
+        "suffix": "accompagnateurs"
+      },
+      "totalPresent": {
+        "prefix": "Participation totale:",
+        "people": "personnes"
+      },
+      "cancellations": {
+        "prefix": "Il y a eu",
+        "suffix": "annulations"
+      },
+      "costs": {
+        "prefix": "L'investissement engagé auprès des fournisseurs était de",
+        "paidPrefix": "dont",
+        "paidSuffix": "a déjà été payé"
+      },
+      "conclusion": "Ce rapport présente une analyse détaillée des métriques et des indicateurs de performance de l'événement.",
+      "topCategory": {
+        "prefix": "La catégorie la plus représentée est",
+        "withCount": ", avec",
+        "participants": "participants",
+        "ofTotal": "du total"
+      }
+    },
+    "eventOverview": {
+      "title": "Aperçu de l'Événement",
+      "text": {
+        "accessPrefix": "Cet événement est classé comme",
+        "organizerPrefix": "L'organisateur est",
+        "contactMiddle": "joignable par e-mail à",
+        "contactAnd": "et par téléphone au",
+        "categoriesPrefix": "Les catégories associées à cet événement incluent"
+      }
+    },
+    "distribution": {
+      "title": "Distribution des Participants",
+      "table": {
+        "headers": {
+          "category": "Catégorie",
+          "quantity": "Quantité",
+          "percentage": "Pourcentage"
+        },
+        "total": "Total"
+      },
+      "status": {
+        "uncategorized": "Sans catégorie"
+      },
+      "dependents": {
+        "title": "Accompagnateurs",
+        "total": "Total des accompagnateurs",
+        "average": "Moyenne par participant"
+      }
+    },
+    "metrics": {
+      "title": "Métriques de Participation",
+      "text": {
+        "prefix": "Cet événement a accueilli",
+        "invited": "participants invités",
+        "confirmedPrefix": "dont",
+        "confirmed": "ont confirmé leur présence et",
+        "canceled": "ont annulé leur participation.",
+        "dependentsPrefix": "On a également enregistré",
+        "dependentsSuffix": "accompagnateurs."
+      }
+    },
+    "performance": {
+      "title": "Indicateurs de Performance",
+      "text": {
+        "attendancePrefix": "Le taux de participation était de",
+        "cancellationPrefix": "avec un taux d'annulation de",
+        "dependentsMiddle": "des participants ont amené des accompagnateurs, avec une moyenne de",
+        "dependentsSuffix": "accompagnateurs par participant."
+      }
+    },
+    "costs": {
+      "title": "Coûts des Fournisseurs",
+      "text": {
+        "committedPrefix": "L'investissement total engagé auprès des fournisseurs était de",
+        "paidPrefix": "Sur ce montant,",
+        "paidSuffix": "a déjà été payé.",
+        "approvedSuffix": "est approuvé et reste à payer.",
+        "pendingPrefix": "Il reste",
+        "pendingSuffix": "en attente d'approbation.",
+        "countingOnSuffix": "concerne des fournisseurs retenus sans devis formellement approuvé.",
+        "rejectedSuffix": "de devis fournisseurs ont été rejetés."
+      },
+      "ranking": {
+        "title": "Fournisseurs par Montant",
+        "table": {
+          "headers": {
+            "supplier": "Fournisseur",
+            "category": "Catégorie",
+            "status": "Statut",
+            "amount": "Montant"
+          }
+        }
+      },
+      "status": {
+        "pending": "En attente",
+        "counting_on": "Retenu",
+        "approved": "Approuvé",
+        "paid": "Payé",
+        "rejected": "Rejeté"
+      },
+      "noSuppliers": "Aucun fournisseur associé à cet événement."
+    },
+    "participantList": {
+      "title": "Liste des Participants",
+      "empty": "Aucun participant enregistré pour cet événement.",
+      "table": {
+        "headers": {
+          "name": "Nom",
+          "status": "Statut",
+          "role": "Catégorie",
+          "contact": "Contact",
+          "dependents": "Accompagnateurs"
+        }
+      },
+      "status": {
+        "ATTENDED": "Présent",
+        "CONFIRMED": "Confirmé",
+        "REGISTERED": "Enregistré",
+        "PENDING": "En attente",
+        "CANCELLED": "Annulé"
+      }
+    },
+    "formatters": {
+      "notAvailable": "Non disponible",
+      "dateFormat": "fr-FR",
+      "currencyFormat": "fr-FR"
+    },
+    "pdfTemplate": {
+      "header": {
+        "title": "Bafatório",
+        "subtitle": "Système de Gestion d'Événements",
+        "dateLabel": "Date du Rapport"
+      },
+      "footer": {
+        "copyright": "© Bafatório {{year}}. Tous droits réservés.",
+        "pageInfo": "Page {{pageNumber}} sur {{totalPages}}"
+      }
+    },
+    "errors": {
+      "insufficientData": "Données insuffisantes pour générer le rapport",
+      "generationFailed": "Impossible de générer le rapport. Veuillez réessayer."
+    },
+    "filename": "rapport-evenement"
+  }
+}

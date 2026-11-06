@@ -1,0 +1,243 @@
+{
+  "page": {
+    "title": "Configurações de Conta",
+    "settings": "Configurações",
+    "profile": "Perfil",
+    "plans": "Planos",
+    "notifications": "Notificações",
+    "security": "Segurança",
+    "integrations": "Integrações",
+    "underDevelopment": "Esta página está em desenvolvimento."
+  },
+  "profile": {
+    "title": "Perfil do Utilizador",
+    "subtitle": "Gira as suas informações pessoais",
+    "personalInfo": {
+      "title": "Informações Pessoais"
+    },
+    "googleProfile": {
+      "description": "A sua conta está associada ao Google. Para alterar os seus dados, por favor aceda ao seu perfil Google.",
+      "buttonText": "Ir para o Perfil Google"
+    },
+    "profilePicture": {
+      "title": "Fotografia de Perfil",
+      "uploadError": "Por favor, selecione um ficheiro primeiro.",
+      "uploadSuccess": "Fotografia de perfil atualizada com sucesso!",
+      "uploadFailed": "Erro ao atualizar a fotografia de perfil: ",
+      "uploadButton": "Carregar",
+      "uploading": "A carregar...",
+      "upload": "Carregar Foto",
+      "missingUserName": "Nome de utilizador é necessário para o carregamento",
+      "invalidFileType": "Por favor, selecione um ficheiro de imagem válido (JPG, PNG, WebP)",
+      "fileTooLarge": "O ficheiro deve ter menos de 5MB",
+      "networkError": "Erro de rede durante o carregamento. Tente novamente.",
+      "authError": "Falha na autenticação. Por favor, inicie sessão novamente.",
+      "storageError": "Erro no serviço de armazenamento. Tente novamente mais tarde."
+    },
+    "form": {
+      "name": {
+        "label": "Nome",
+        "required": "Nome é obrigatório"
+      },
+      "email": {
+        "label": "Email",
+        "readOnlyHint": "O email não pode ser alterado"
+      },
+      "submit": {
+        "saving": "A guardar...",
+        "saveButton": "Guardar Alterações"
+      }
+    },
+    "feedback": {
+      "noChanges": "Nenhuma alteração detetada.",
+      "nameUpdated": "Nome atualizado com sucesso!",
+      "updateError": "Erro ao atualizar o perfil: ",
+      "unknownError": "Erro desconhecido",
+      "invalidData": "Dados do formulário inválidos",
+      "networkError": "Falha na ligação de rede. Tente novamente.",
+      "authError": "Falha na autenticação. Por favor, inicie sessão novamente.",
+      "nameUpdateError": "Falha ao atualizar o nome"
+    },
+    "deleteAccount": {
+      "title": "Eliminar Conta",
+      "description": "A eliminação da sua conta é permanente. Todos os seus dados e informações serão removidos definitivamente.",
+      "warning": "Atenção: A eliminação da sua conta é irreversível e apagará todos os seus dados. Esta ação não pode ser desfeita.",
+      "deleteButton": "Eliminar Conta",
+      "confirmation": {
+        "title": "Confirmar Eliminação da Conta",
+        "description": "Tem a certeza de que deseja eliminar permanentemente a sua conta? Esta ação é irreversível e todos os seus dados serão perdidos.",
+        "message": "Tem a certeza de que deseja eliminar permanentemente a sua conta? Esta ação é irreversível e todos os seus dados serão perdidos.",
+        "cancelButton": "Cancelar",
+        "confirmButton": "Eliminar Permanentemente",
+        "warning": "Esta ação não pode ser desfeita. Todos os seus dados serão permanentemente eliminados."
+      },
+      "status": {
+        "deletingData": "Eliminando dados do utilizador...",
+        "deletingAccount": "Eliminando conta do utilizador...",
+        "success": "Conta eliminada com sucesso!",
+        "error": "Erro ao eliminar conta: ",
+        "validating": "Validando dados do utilizador...",
+        "clearingLocalData": "Limpando dados locais...",
+        "networkError": "Falha na ligação de rede. Verifique a sua internet.",
+        "authError": "Falha na autenticação. Por favor inicie sessão novamente.",
+        "apiError": "Erro do servidor ocorreu. Tente novamente mais tarde.",
+        "userDeleteError": "Falha ao eliminar conta do utilizador.",
+        "missingUserData": "Informações de utilizador necessárias estão em falta.",
+        "dataError": "Erro ao eliminar dados do utilizador",
+        "partialFailure": "Erro Crítico: Os seus dados foram eliminados mas a remoção da conta falhou. Contacte o suporte imediatamente.",
+        "partialFailureDetails": "Os seus dados pessoais foram removidos com sucesso dos nossos sistemas para conformidade de privacidade. No entanto, a sua conta de login não pôde ser eliminada. Por favor contacte a nossa equipa de suporte para completar o processo de remoção da conta."
+      },
+      "progress": {
+        "deletingData": "A eliminar dados do utilizador",
+        "deletingAccount": "A eliminar conta de utilizador",
+        "clearingData": "A limpar dados locais",
+        "redirecting": "A redirecionar para a página de início de sessão...",
+        "errorDetails": "Detalhes do erro"
+      }
+    }
+  },
+  "subscription": {
+    "title": "Gestão de plano",
+    "loading": {
+      "subscription": "A carregar dados da subscrição...",
+      "billingPortal": "A preparar portal de faturação...",
+      "redirecting": "A redirecionar para o portal de faturação..."
+    },
+    "error": {
+      "description": "Não foi possível carregar os dados da sua subscrição. Por favor, tente novamente mais tarde.",
+      "billingPortal": "Ocorreu um erro ao criar a sessão de faturação. Por favor, tente novamente mais tarde."
+    },
+    "planNames": {
+      "PRO": "Pro"
+    },
+    "status": {
+      "active": "Ativo",
+      "paused": "Pausada",
+      "canceled": "Cancelada",
+      "cancelScheduled": "Cancelamento agendado",
+      "paymentIssue": "Pagamento falhou"
+    },
+    "plan": {
+      "title": "Plano Atual",
+      "renewsOn": "Renova a {{date}}",
+      "pausedDescription": "A sua subscrição está pausada. Pode retomá-la a qualquer momento no portal de faturação.",
+      "canceledTitle": "Subscrição cancelada",
+      "canceledDescription": "A sua subscrição foi cancelada. Pode subscrever novamente quando quiser.",
+      "manageButton": "Gerir subscrição",
+      "subscribe": "Subscrever plano",
+      "paymentIssueDescription": "O último pagamento falhou. Atualize o método de pagamento no portal de faturação para manter o acesso."
+    },
+    "noPlan": {
+      "title": "Nenhum plano ativo",
+      "starterUsed": "O seu evento grátis já foi utilizado. Veja os planos disponíveis para continuar a criar eventos.",
+      "description": "Está no plano gratuito. Veja os planos disponíveis para desbloquear todas as funcionalidades."
+    },
+    "purchases": {
+      "title": "Compras por evento",
+      "available_one": "Tem {{count}} evento por utilizar",
+      "available_other": "Tem {{count}} eventos por utilizar",
+      "createEvent": "Criar evento",
+      "table": {
+        "date": "Data",
+        "amount": "Valor",
+        "status": "Estado"
+      },
+      "status": {
+        "available": "Por utilizar",
+        "consumed": "Utilizada",
+        "refunded": "Reembolsada"
+      },
+      "error": "Não foi possível carregar as suas compras. Atualize a página ou tente novamente mais tarde."
+    },
+    "portalHint": "Faturas, método de pagamento e cancelamento geridos no portal de faturação.",
+    "payment": {
+      "title": "Método de Pagamento",
+      "expiry": "Válido até",
+      "updateButton": "Atualizar pagamento",
+      "noPaymentMethod": "Nenhum método de pagamento",
+      "noMethods": "Ainda não tem nenhum cartão registado.",
+      "addMethod": "Adicionar método de pagamento"
+    }
+  },
+  "notion": {
+    "loading": "A verificar estado da integração...",
+    "subtitle": "Ligue serviços externos para melhorar o seu fluxo de trabalho.",
+    "description": "Importe documentos de estratégia diretamente do seu espaço Notion.",
+    "connectedDescription": "Ligado a {{workspace}}. Pode agora importar páginas deste espaço.",
+    "connect": "Ligar Notion",
+    "disconnect": "Desligar",
+    "refresh": "Atualizar",
+    "openNotion": "Abrir Notion",
+    "status": {
+      "connected": "Ligado"
+    },
+    "callback": {
+      "connecting": "A ligar ao Notion",
+      "pleaseWait": "A trocar código de autorização...",
+      "connected": "Ligado!",
+      "failed": "Falha na Ligação",
+      "success": "Notion ligado com sucesso!",
+      "successWorkspace": "Ligado a {{workspace}}!",
+      "denied": "A ligação foi cancelada ou recusada.",
+      "noCode": "Nenhum código de autorização recebido.",
+      "exchangeFailed": "Falha ao ligar ao Notion. Tente novamente.",
+      "invalidState": "Token de segurança inválido. Tente ligar novamente.",
+      "backToSettings": "Voltar às Configurações"
+    }
+  },
+  "fidelize": {
+    "title": "Fidelize",
+    "loading": "A verificar estado da integração...",
+    "description": "Sincronize cartões digitais da Fidelize como participantes do evento.",
+    "connectedDescription": "Ligado. Última sincronização: {{lastSync}}.",
+    "neverSynced": "Ligado. Ainda sem sincronizações.",
+    "connect": "Ligar",
+    "disconnect": "Desligar",
+    "apiKeyPlaceholder": "Cole a sua chave API da Fidelize",
+    "connecting": "A validar...",
+    "status": {
+      "connected": "Ligado"
+    }
+  },
+  "security": {
+    "title": "Segurança",
+    "subtitle": "Gira a palavra-passe e as credenciais de acesso",
+    "password": {
+      "title": "Alterar Palavra-passe",
+      "current": {
+        "label": "Palavra-passe Atual",
+        "required": "Palavra-passe atual é obrigatória para alterar a palavra-passe"
+      },
+      "new": {
+        "label": "Nova Palavra-passe",
+        "required": "Nova palavra-passe é obrigatória se a palavra-passe atual for fornecida",
+        "minLength": "A palavra-passe deve ter pelo menos 8 caracteres"
+      },
+      "confirm": {
+        "label": "Confirmar Nova Palavra-passe",
+        "mismatch": "As palavras-passe não coincidem"
+      },
+      "mismatch": "As palavras-passe não coincidem",
+      "tooShort": "A palavra-passe deve ter pelo menos 8 caracteres",
+      "tooWeak": "A palavra-passe deve conter maiúsculas, minúsculas, números e caracteres especiais"
+    },
+    "form": {
+      "submit": {
+        "saving": "A guardar...",
+        "saveButton": "Guardar Alterações"
+      }
+    },
+    "feedback": {
+      "updated": "Palavra-passe atualizada com sucesso!",
+      "incorrectPassword": "A palavra-passe atual está incorreta",
+      "updateError": "Falha ao atualizar a palavra-passe",
+      "networkError": "Falha na ligação de rede. Tente novamente.",
+      "unknownError": "Erro desconhecido"
+    },
+    "googleAccount": {
+      "title": "Conta Google",
+      "description": "A sua conta usa autenticação Google. A palavra-passe é gerida na sua Conta Google.",
+      "buttonText": "Gerir na Conta Google"
+    }
+  }
+}

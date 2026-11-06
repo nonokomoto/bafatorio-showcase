@@ -1,0 +1,126 @@
+{
+  "title": "Equipa",
+  "description": "Gerir colaboradores e permissões do evento",
+  "noPermission": "Não tem permissão para gerir a equipa deste evento",
+  "owner": {
+    "title": "Organizador",
+    "badge": "Organizador",
+    "description": "Você é o organizador deste evento com controlo total"
+  },
+  "empty": {
+    "title": "A sua equipa começa aqui",
+    "description": "Convide colaboradores para ajudar na gestão do evento. Defina permissões específicas para cada membro.",
+    "cta": "Convidar primeiro colaborador"
+  },
+  "roles": {
+    "owner": {
+      "name": "Organizador",
+      "description": "Controlo total do evento",
+      "short": "Controlo total"
+    },
+    "coManager": {
+      "name": "Co-Organizador",
+      "description": "Permissões amplas, pode convidar Staff",
+      "short": "Gestão completa"
+    },
+    "staffCheckin": {
+      "name": "Staff Check-in",
+      "description": "Apenas check-in de participantes",
+      "short": "Check-in de participantes"
+    },
+    "staffLogistics": {
+      "name": "Staff Logística",
+      "description": "Gestão de participantes e seleção de fornecedores",
+      "short": "Gestão de participantes"
+    }
+  },
+  "collaborators": {
+    "title": "Colaboradores"
+  },
+  "list": {
+    "empty": "Nenhum colaborador adicionado",
+    "activeMembers": "Membros Ativos",
+    "pendingInvites": "Convites Pendentes"
+  },
+  "card": {
+    "invitedAt": "Convidado em",
+    "acceptedAt": "Aceite em",
+    "sharedFolders": "{{count}} pasta(s) partilhada(s)",
+    "sharedSuppliers": "{{count}} fornecedor(es) partilhado(s)"
+  },
+  "status": {
+    "pending": "Pendente",
+    "accepted": "Aceite",
+    "declined": "Recusado"
+  },
+  "actions": {
+    "invite": "Convidar",
+    "inviteMember": "Convidar Membro",
+    "remove": "Remover",
+    "edit": "Editar"
+  },
+  "invite": {
+    "title": "Convidar Colaborador",
+    "emailLabel": "Email do colaborador",
+    "roleLabel": "Selecionar função",
+    "submit": "Enviar Convite",
+    "info": "O colaborador receberá um email com o convite. Após aceitar, terá acesso ao evento com as permissões da função selecionada.",
+    "shareFolders": "Partilhar Pastas",
+    "shareFoldersDescription": "Selecione as pastas que o colaborador pode aceder",
+    "shareSuppliers": "Partilhar Fornecedores",
+    "shareSuppliersDescription": "Fornecedores da tua lista que o colaborador pode adicionar a este evento. Os que já estão no evento são acessíveis automaticamente.",
+    "selectAll": "Marcar todas",
+    "deselectAll": "Desmarcar todas",
+    "noFoldersAvailable": "Nenhuma pasta disponível",
+    "noSuppliersAvailable": "Nenhum fornecedor disponível",
+    "foldersSelected": "{{count}} pasta(s) selecionada(s)",
+    "suppliersSelected": "{{count}} fornecedor(es) selecionado(s)",
+    "errors": {
+      "emailRequired": "Email é obrigatório",
+      "emailInvalid": "Email inválido",
+      "roleRequired": "Selecione uma função",
+      "alreadyInvited": "Este email já foi convidado",
+      "generic": "Erro ao enviar convite"
+    }
+  },
+  "invitation": {
+    "title": "Convites",
+    "newInvite": "Novo convite",
+    "viewInvitations": "Ver convites",
+    "noInvitations": "Sem convites pendentes",
+    "accept": "Aceitar",
+    "decline": "Recusar",
+    "welcomeMessage": "Bem-vindo à equipa!",
+    "roleAssigned": "Foi adicionado como {{role}} neste evento.",
+    "teamMember": "Agora faz parte da equipa deste evento."
+  },
+  "edit": {
+    "title": "Editar Colaborador",
+    "roleLabel": "Função",
+    "submit": "Guardar Alterações",
+    "successTitle": "Alterações Guardadas!",
+    "successMessage": "{{name}} é agora {{role}}.",
+    "successMessageFolders": "As pastas partilhadas de {{name}} foram atualizadas.",
+    "successMessageSuppliers": "Os fornecedores partilhados de {{name}} foram atualizados.",
+    "checkinWarning": "Staff Check-in só pode fazer check-in de participantes. As pastas e fornecedores partilhados serão removidos.",
+    "errors": {
+      "generic": "Erro ao atualizar colaborador"
+    },
+    "scheduleAccess": {
+      "label": "Ver a agenda da equipa",
+      "onDescription": "Vê todas as entradas da agenda deste evento.",
+      "offDescription": "Vê apenas as entradas que criou."
+    },
+    "successMessageScheduleAccess": "O acesso à agenda de {{name}} foi atualizado."
+  },
+  "confirm": {
+    "removeMessage": "Tem a certeza que deseja remover este colaborador?"
+  },
+  "error": {
+    "loadFailed": "Erro ao carregar a equipa",
+    "removeFailed": "Erro ao remover colaborador"
+  },
+  "legend": {
+    "title": "Funções disponíveis"
+  }
+}

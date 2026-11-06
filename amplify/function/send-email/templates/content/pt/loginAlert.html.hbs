@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alerta de login para {{userName}}</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        .container { box-sizing: border-box; width: 100%; max-width: 600px; margin: 0 auto; padding: 20px; }
+        .header { background-color: #E53E3E; color: white; padding: 10px; text-align: center; }
+        .content { background-color: #f8f8f8; padding: 20px; }
+        .footer { text-align: center; margin-top: 20px; font-size: 0.8em; color: #666; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Alerta de Login</h1>
+        </div>
+        <div class="content">
+            <p>Olá {{userName}},</p>
+            <p>Detectámos um novo acesso à sua conta.</p>
+            <h2>Detalhes do acesso</h2>
+            <ul>
+                <li><strong>Data:</strong> {{loginDate}}</li>
+                <li><strong>Hora:</strong> {{loginTime}}</li>
+                <li><strong>Localização:</strong> {{loginLocation}}</li>
+                <li><strong>Dispositivo:</strong> {{deviceInfo}}</li>
+            </ul>
+            <p><strong>Motivo:</strong> {{alertReason}}</p>
+            <p>Se não reconhece este acesso, por favor altere a sua palavra-passe imediatamente e contacte o suporte.</p>
+        </div>
+        <div class="footer">
+            <p>Esta é uma mensagem automática. Por favor, não responda a este e-mail.</p>
+        </div>
+    </div>
+</body>
+</html>

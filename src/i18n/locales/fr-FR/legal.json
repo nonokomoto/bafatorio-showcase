@@ -1,0 +1,110 @@
+{
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "lastUpdated": "Dernière mise à jour:",
+    "sections": {
+      "introduction": {
+        "title": "1. Introduction et Acceptation des Conditions",
+        "content": "Bienvenue sur Bafatorio, une plateforme complète de gestion d'événements qui vous permet d'organiser, de gérer et de coordonner les participants, la documentation, les fournisseurs et les communications de manière centralisée et efficace. Ces Conditions d'utilisation établissent les conditions et responsabilités pour l'utilisation de tous les services offerts par la plateforme Bafatorio. En créant un compte, en accédant ou en utilisant n'importe quelle fonctionnalité de la plateforme, y compris l'importation de participants, la gestion d'événements, le stockage de documents, la communication avec les participants et l'intégration avec des outils externes, vous acceptez pleinement ces conditions. Si vous n'êtes pas d'accord avec une disposition quelconque, nous vous demandons de ne pas utiliser le service."
+      },
+      "userResponsibilities": {
+        "title": "2. Responsabilités et Obligations de l'Utilisateur",
+        "content": "Vous êtes responsable du maintien de la confidentialité de vos identifiants d'accès et de la sécurité de votre compte. Toutes les activités effectuées via votre compte sont votre responsabilité, y compris la création d'événements, l'importation de données de participants, le téléchargement de documents et les communications envoyées. Vous acceptez de nous notifier immédiatement de tout accès non autorisé ou utilisation abusive de votre compte. Il vous est interdit d'utiliser la plateforme pour: (a) des activités illégales ou frauduleuses; (b) stocker ou partager des informations qui violent les droits de tiers; (c) envoyer du spam ou des communications non sollicitées; (d) contourner les mesures de sécurité de la plateforme; (e) utiliser les données des participants en violation des lois applicables en matière de protection des données et de confidentialité."
+      },
+      "intellectualProperty": {
+        "title": "3. Protection des Droits Intellectuels et Propriété",
+        "content": "Tout le contenu de la plateforme Bafatorio, y compris l'interface, la conception, les fonctionnalités, le code source, le texte, les graphiques, les logos, les icônes, les images et la compilation de données, est protégé par les droits d'auteur et les lois de propriété intellectuelle. Vous recevez une licence limitée et non exclusive pour utiliser la plateforme exclusivement à des fins de gestion d'événements personnels ou organisationnels. Il est expressément interdit de: reproduire, modifier, distribuer, vendre ou tenter d'accéder au code source; créer des versions dérivées de la plateforme; ou utiliser tout contenu de la plateforme sans autorisation écrite préalable. Les données et informations que vous entrez dans la plateforme (événements, participants, documents) restent votre propriété, mais vous nous accordez des droits pour traiter, stocker et gérer ces données tel que nécessaire pour fournir le service."
+      },
+      "limitations": {
+        "title": "4. Limitation de Responsabilité",
+        "content": "La plateforme Bafatorio est fournie telle quelle. Dans la mesure maximale permise par la loi, Bafatorio, ses propriétaires, dirigeants, employés et agents ne seront pas responsables de: dommages directs, indirects, accessoires, spéciaux ou consécutifs; perte de données ou d'informations; perte de revenus ou de bénéfices; ou tout autre dommage résultant de l'utilisation de la plateforme. Vous utilisez la plateforme à vos propres risques. Bafatorio ne garantit pas que le service sera ininterrompu, sans erreur ou que tous les problèmes seront résolus. En cas d'insatisfaction à l'égard du service, votre seul recours est de cesser d'utiliser la plateforme et de demander la suppression de votre compte conformément à nos politiques de conservation des données."
+      },
+      "changes": {
+        "title": "5. Modifications des Services et Conditions",
+        "content": "Bafatorio se réserve le droit de modifier, d'améliorer ou de cesser tout aspect de la plateforme, des fonctionnalités ou des services à tout moment. Nous nous réservons également le droit de mettre à jour ces Conditions d'utilisation selon les besoins. Les modifications prendront effet immédiatement après publication. Pour les changements significatifs, nous ferons des efforts raisonnables pour vous notifier par email. Votre utilisation continue de la plateforme après la publication des modifications constitue une acceptation des conditions modifiées. Si vous n'êtes pas d'accord avec les modifications, vous devez cesser d'utiliser la plateforme."
+      },
+      "contact": {
+        "title": "6. Questions et Support",
+        "content": "Si vous avez des questions, des préoccupations ou besoin de clarifications sur ces Conditions d'utilisation, nos politiques de confidentialité ou le fonctionnement de la plateforme, veuillez nous contacter via notre page d'assistance ou envoyer un email à notre équipe d'assistance. Nous sommes disponibles pour vous aider et assurer que vous avez la meilleure expérience possible en utilisant Bafatorio pour gérer vos événements."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour:",
+    "sections": {
+      "introduction": {
+        "title": "1. Introduction et Engagement envers la Confidentialité",
+        "content": "Chez Bafatorio, nous traitons la confidentialité de vos données avec la plus haute importance. Cette Politique de confidentialité décrit comment nous collectons, traitons, protégeons et utilisons vos informations personnelles lorsque vous utilisez notre plateforme de gestion d'événements. Nous couvrons l'ensemble du cycle de vie des données, de la collecte initiale à la suppression, en conformité avec les lois applicables en matière de protection des données, y compris le RGPD. Nous vous recommandons de lire attentivement cette politique pour comprendre complètement comment nous protégeons vos données."
+      },
+      "dataCollection": {
+        "title": "2. Informations que nous collectons",
+        "content": "Nous collectons divers types d'informations pour fournir et améliorer Bafatorio. Cela comprend: (a) Informations que vous fournissez directement: nom, email, numéro de téléphone, informations de l'organisation, informations de paiement et contenu que vous téléchargez (événements, participants, documents); (b) Informations collectées automatiquement: données de l'appareil, adresse IP, type de navigateur, pages visitées, durée de session, cookies et jetons d'authentification; (c) Informations de tiers: données provenant des intégrations (Notion, Stripe) et métadonnées des documents téléchargés; (d) Données des participants: informations que vous importez ou entrez sur les participants de vos événements, pour lesquelles vous êtes responsable d'obtenir le consentement approprié."
+      },
+      "dataUsage": {
+        "title": "3. Comment nous utilisons vos données",
+        "content": "Nous utilisons vos informations pour: (a) Fournir le service: gérer votre compte, traiter les événements, stocker les documents, faciliter la communication avec les participants; (b) Améliorer le service: analyse d'utilisation, identification des tendances, optimisation des fonctionnalités; (c) Communication: envoyer des confirmations de compte, des mises à jour de sécurité, des améliorations de service, des informations promotionnelles (que vous pouvez refuser); (d) Sécurité: détecter et prévenir les fraudes et les abus, garantir la conformité légale; (e) Support: répondre à vos demandes et fournir une assistance technique. Nous ne partageons pas vos données personnelles avec des tiers sans votre consentement, sauf si légalement obligé ou avec des prestataires de services en vertu d'accords de confidentialité stricts."
+      },
+      "dataProtection": {
+        "title": "4. Protection et sécurité des données",
+        "content": "Nous mettons en place des mesures techniques, organisationnelles et administratives robustes pour protéger vos données: (a) Chiffrement: données en transit (TLS/SSL) et au repos (AES-256); (b) Contrôle d'accès: authentification à deux facteurs, permissions granulaires, audit des accès; (c) Infrastructure: serveurs sécurisés dans des centres de données certifiés, sauvegardes régulières, récupération après sinistre; (d) Conformité: évaluations de sécurité régulières, tests de pénétration, conformité aux normes de sécurité. Bien que nous mettions en place des mesures robustes, aucun système n'est 100% sécurisé. Toute violation de données sera communiquée comme l'exige la loi."
+      },
+      "userRights": {
+        "title": "5. Vos droits en matière de confidentialité",
+        "content": "Selon les lois comme le RGPD, vous disposez des droits suivants: (a) Droit d'accès: demander une copie de vos données personnelles; (b) Droit de rectification: corriger les données inexactes ou incomplètes; (c) Droit à l'oubli: demander la suppression de vos données dans certaines circonstances; (d) Droit de limitation: limiter le traitement de vos données; (e) Droit à la portabilité: recevoir vos données dans un format lisible; (f) Droit d'objection: vous opposer au traitement pour des fins spécifiques; (g) Droit de ne pas être soumis à des décisions automatisées. Pour exercer ces droits, contactez-nous à privacy@bafatorio.com avec une description claire de votre demande. Nous répondrons dans les 30 jours."
+      },
+      "retention": {
+        "title": "6. Période de conservation des données",
+        "content": "Nous conservons vos données personnelles uniquement aussi longtemps que nécessaire pour: (a) Fournir le service et répondre à ses objectifs; (b) Respecter les obligations légales et fiscales (généralement 7 ans); (c) Résoudre les litiges et les questions de sécurité. Après cette période, vos données sont supprimées ou anonymisées en toute sécurité. Si vous supprimez votre compte, vos données personnelles sont supprimées dans les 30 jours, bien que nous puissions conserver des données agrégées et anonymisées à des fins d'analyse. Les données de sauvegarde peuvent être conservées pour des périodes supplémentaires selon les besoins pour la récupération de sécurité."
+      },
+      "contact": {
+        "title": "7. Nous contacter",
+        "content": "Si vous avez des questions sur cette Politique de confidentialité, nos pratiques en matière de confidentialité, ou si vous souhaitez exercer vos droits en matière de confidentialité, veuillez nous contacter. Un Délégué à la Protection des Données (DPD) dédié est disponible pour les questions de confidentialité. Nous répondrons à toutes les demandes rapidement et avec la plus grande confidentialité."
+      }
+    }
+  },
+  "cookies": {
+    "title": "Politique relative aux cookies",
+    "lastUpdated": "Dernière mise à jour:",
+    "sections": {
+      "introduction": {
+        "title": "1. Que sont les cookies et pourquoi les utilisons-nous",
+        "content": "Bafatorio utilise uniquement des cookies strictement nécessaires au fonctionnement de la plateforme. Nous n'utilisons pas de cookies publicitaires, de marketing ou de suivi comportemental. Cette Politique relative aux cookies explique ce que sont les cookies, quels cookies essentiels nous utilisons, et comment vous pouvez les contrôler via votre navigateur."
+      },
+      "whatAreCookies": {
+        "title": "2. Que sont les cookies?",
+        "content": "Les cookies sont de petits fichiers texte (généralement de quelques kilooctets) stockés sur votre appareil (ordinateur, tablette ou téléphone) lorsque vous accédez à un site Web ou une application. Lorsque vous revenez sur le site, le serveur lit le cookie pour reconnaître votre appareil et accéder aux informations stockées. Il existe deux types principaux: (a) Cookies de session: créés lorsque vous accédez au site et supprimés à la fermeture du navigateur, utilisés pour maintenir votre état de connexion; (b) Cookies persistants: restent sur votre appareil après la fermeture du navigateur, identifiés par une date d'expiration."
+      },
+      "typesOfCookies": {
+        "title": "3. Types de cookies que nous utilisons",
+        "content": "Nous utilisons exclusivement des cookies essentiels, indispensables au fonctionnement de la plateforme: (a) Cookies d'authentification et de session: identifient l'utilisateur authentifié et maintiennent la session sécurisée pendant la navigation; (b) Cookies de sécurité: préviennent les attaques de falsification de requêtes (CSRF) et détectent les accès non autorisés; (c) Cookies de traitement des paiements: définis par notre processeur de paiement (Stripe) lors des opérations d'abonnement ou de paiement, pour la prévention de la fraude et la sécurité des transactions. Nous n'utilisons pas de cookies d'analyse, de publicité, de marketing ou de profilage comportemental."
+      },
+      "howWeUseCookies": {
+        "title": "4. Comment nous utilisons spécifiquement les cookies",
+        "content": "Dans le contexte de Bafatorio, les cookies essentiels sont utilisés pour: (a) Maintenir votre session connectée de manière sécurisée et vérifier votre identité; (b) Protéger contre les accès non autorisés et les attaques contre votre compte; (c) Garantir la sécurité et l'intégrité des transactions de paiement; (d) Mémoriser les préférences d'utilisation de base (langue, thème sombre/clair) pendant la session. Ces cookies sont fondamentaux - sans eux, vous ne pouvez ni vous authentifier ni utiliser la plateforme."
+      },
+      "cookieManagement": {
+        "title": "5. Comment contrôler les cookies",
+        "content": "Vous avez un contrôle total sur les cookies via votre navigateur. La plupart des navigateurs vous permettent de: (a) Voir les cookies stockés; (b) Supprimer les cookies existants; (c) Bloquer les cookies de sites spécifiques ou tous les cookies. Vous pouvez gérer ces paramètres dans les options de confidentialité/sécurité de votre navigateur (Chrome, Firefox, Safari, Edge). IMPORTANT: étant donné que nous utilisons uniquement des cookies essentiels, leur désactivation empêchera la connexion, les fonctionnalités de sécurité et le traitement des paiements - la plateforme ne fonctionnera plus."
+      },
+      "thirdPartyCookies": {
+        "title": "6. Cookies de tiers",
+        "content": "Le seul tiers susceptible de définir des cookies lors de l'utilisation de Bafatorio est notre processeur de paiement: (a) Stripe: définit des cookies pendant les flux de paiement et de gestion d'abonnement, exclusivement pour la sécurité des transactions et la prévention de la fraude. Ces cookies ne sont définis que lorsque vous interagissez avec les zones de paiement de la plateforme. Pour plus d'informations, consultez la Politique de Confidentialité de Stripe sur stripe.com/privacy. Si vous connectez des comptes de tiers (par exemple Notion), votre navigateur peut recevoir des cookies définis par ces services selon leurs propres politiques."
+      },
+      "contact": {
+        "title": "7. Questions sur les cookies",
+        "content": "Si vous avez des questions sur cette Politique relative aux cookies ou sur la gestion de vos préférences, veuillez nous contacter. Votre confidentialité est importante pour nous."
+      }
+    }
+  },
+  "banner": {
+    "title": "Paramètres de Cookies et Confidentialité",
+    "description": "Nous utilisons des cookies pour améliorer votre expérience, assurer la sécurité et analyser votre utilisation de notre plateforme. Veuillez consulter notre",
+    "policyLink": "Politique relative aux cookies",
+    "accept": "Accepter les Cookies",
+    "reject": "Rejeter"
+  },
+  "footer": {
+    "allRightsReserved": "Tous droits réservés."
+  }
+}

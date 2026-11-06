@@ -1,0 +1,146 @@
+{
+  "common": {
+    "email": {
+      "placeholder": "Email",
+      "required": "Email is required",
+      "invalid": "Invalid email"
+    },
+    "password": {
+      "placeholder": "Password",
+      "required": "Password is required",
+      "minLength": "Password must be at least 8 characters"
+    },
+    "loading": "Signing in..."
+  },
+  "signIn": {
+    "title": "Bafatorio",
+    "subtitle": "Your partner in event management",
+    "buttons": {
+      "submit": "Sign In",
+      "forgotPassword": "Forgot password?"
+    },
+    "register": {
+      "message": "Don't have an account yet?",
+      "action": "Register"
+    },
+    "processingInvitation": "Processing invitation...",
+    "invitationAccepted": "Invitation accepted successfully!",
+    "redirectingToEvent": "Redirecting to event...",
+    "invitationError": "Error accepting invitation"
+  },
+  "signUp": {
+    "title": {
+      "register": "Register",
+      "confirmation": "Registration Confirmation"
+    },
+    "subtitle": {
+      "register": "Register now!",
+      "confirmation": "We've sent a confirmation code to your email"
+    },
+    "form": {
+      "name": {
+        "placeholder": "Name",
+        "required": "Name is required"
+      },
+      "password": {
+        "requirements": {
+          "uppercase": "Contains at least one uppercase letter",
+          "number": "Contains at least one number",
+          "special": "Contains at least one special character",
+          "length": "At least 8 characters"
+        },
+        "pattern": "Password must contain at least one uppercase letter, one number and one special character"
+      },
+      "confirmPassword": {
+        "placeholder": "Confirm Password",
+        "required": "Please confirm your password",
+        "match": "Passwords do not match"
+      },
+      "confirmationCode": {
+        "placeholder": "Confirmation code",
+        "required": "Confirmation code is required",
+        "onlyNumbers": "Code must contain only numbers",
+        "length": "Code must be 6 digits"
+      }
+    },
+    "buttons": {
+      "submit": {
+        "register": "Register",
+        "confirm": "Confirm Registration"
+      },
+      "resend": {
+        "text": "Resend code",
+        "loading": "Resending...",
+        "success": "Code resent successfully"
+      },
+      "wrongEmail": {
+        "message": "Wrong email?",
+        "action": "Go back and fix it"
+      }
+    },
+    "login": {
+      "message": "Already have an account?",
+      "action": "Sign In"
+    },
+    "confirmEmail": {
+      "message": "Already created an account but still need to confirm your email?",
+      "action": "Confirm Email"
+    },
+    "resumedAccount": {
+      "note": "You already had an unconfirmed account with this email — use the password you set the first time."
+    },
+    "success": {
+      "accountCreated": "Account created successfully!",
+      "confirmationSent": "Confirmation code sent to",
+      "confirmed": "Account confirmed successfully! Redirecting...",
+      "confirmedManualSignIn": "Account confirmed successfully! Please sign in to continue."
+    },
+    "errors": {
+      "resendCode": "Failed to resend code. Please try again.",
+      "generic": "An error occurred. Please try again.",
+      "emailExists": "An account with this email already exists.",
+      "invalidPassword": "The password doesn't meet the security requirements.",
+      "invalidCode": "Incorrect code. Check the code and try again.",
+      "codeExpired": "The code has expired. Use \"Resend code\" to request a new one.",
+      "attemptsExceeded": "Too many attempts. Wait a moment before trying again."
+    }
+  },
+  "forgotPassword": {
+    "title": {
+      "initial": "Recover Account",
+      "reset": "Reset Password"
+    },
+    "subtitle": {
+      "initial": "Let's help you recover your account",
+      "reset": "Enter the code sent to your email"
+    },
+    "form": {
+      "code": {
+        "placeholder": "Confirmation code",
+        "required": "Confirmation code is required",
+        "onlyNumbers": "Code must contain only numbers",
+        "length": "Code must be 6 digits"
+      },
+      "newPassword": {
+        "placeholder": "New password",
+        "required": "New password is required"
+      }
+    },
+    "buttons": {
+      "sendCode": "Send code",
+      "resetPassword": "Reset password",
+      "backToLogin": "Back to login"
+    },
+    "success": {
+      "title": "Password reset successfully!",
+      "redirecting": "Redirecting to login page..."
+    },
+    "errors": {
+      "invalidCode": "Invalid confirmation code.",
+      "passwordTooShort": "Password must be at least 8 characters.",
+      "emailNotFound": "There is no account with the provided email.",
+      "attemptsExceeded": "Attempt limit exceeded. Please try again later.",
+      "generic": "An error occurred while resetting the password."
+    }
+  }
+}

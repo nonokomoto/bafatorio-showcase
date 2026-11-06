@@ -1,0 +1,54 @@
+{
+  "alertPopup": {
+    "deleting": "A eliminar...",
+    "generating": "A gerar..."
+  },
+  "footer": {
+    "copyright": " 2024 | Todos os direitos reservados",
+    "appName": "Sistema de Gestão de Eventos"
+  },
+  "header": {
+    "configuration": "Configurações",
+    "logout": "Terminar sessão",
+    "expandSidebar": "Expandir barra lateral",
+    "collapseSidebar": "Contrair barra lateral",
+    "user": "Utilizador",
+    "planFree": "Grátis",
+    "currentPlan": "Plano atual"
+  },
+  "sidebar": {
+    "title": "Bafatorio",
+    "events": "Eventos",
+    "participants": "Participantes",
+    "confirmPresence": "Confirmar presença",
+    "dashboard": "Painel de controlo",
+    "settings": "Configurações",
+    "planSelection": "Escolher plano",
+    "suppliers": "Fornecedores",
+    "akiliAssistant": "Bafatorio AI",
+    "group": {
+      "eventManagement": "Gestão de Eventos",
+      "ai": "Assistente IA",
+      "account": "Conta"
+    }
+  },
+  "statusUpdateHandler": {
+    "errors": {
+      "invalidParams": "Parâmetros inválidos na URL.",
+      "updateFailed": "Falha ao atualizar o estado. Por favor, tente novamente.",
+      "contactOrganizer": "Se o problema persistir, entre em contacto com o organizador do evento."
+    },
+    "success": {
+      "confirmation": "A sua presença foi confirmada com sucesso!",
+      "thankYou": "Obrigado por confirmar a sua presença. Pode fechar esta janela."
+    },
+    "status": {
+      "loading": {
+        "title": "Confirmação de presença",
+        "message": "A confirmar a inscrição..."
+      },
+      "success": "Confirmação Concluída",
+      "error": "Erro na Atualização"
+    }
+  }
+}

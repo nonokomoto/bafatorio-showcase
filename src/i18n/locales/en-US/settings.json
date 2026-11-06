@@ -1,0 +1,243 @@
+{
+  "page": {
+    "title": "Account Settings",
+    "settings": "Settings",
+    "profile": "Profile",
+    "plans": "Plans",
+    "notifications": "Notifications",
+    "security": "Security",
+    "integrations": "Integrations",
+    "underDevelopment": "This page is under development."
+  },
+  "profile": {
+    "title": "User Profile",
+    "subtitle": "Manage your personal information",
+    "personalInfo": {
+      "title": "Personal Information"
+    },
+    "googleProfile": {
+      "description": "Your account is linked to Google. To change your data, please access your Google profile.",
+      "buttonText": "Go to Google Profile"
+    },
+    "profilePicture": {
+      "title": "Profile Picture",
+      "uploadError": "Please select a file first.",
+      "uploadSuccess": "Profile picture updated successfully!",
+      "uploadFailed": "Error updating profile picture: ",
+      "uploadButton": "Upload",
+      "uploading": "Uploading...",
+      "upload": "Upload Photo",
+      "missingUserName": "User name is required for upload",
+      "invalidFileType": "Please select a valid image file (JPG, PNG, WebP)",
+      "fileTooLarge": "File size must be less than 5MB",
+      "networkError": "Network error during upload. Please try again.",
+      "authError": "Authentication failed. Please sign in again.",
+      "storageError": "Storage service error. Please try again later."
+    },
+    "form": {
+      "name": {
+        "label": "Name",
+        "required": "Name is required"
+      },
+      "email": {
+        "label": "Email",
+        "readOnlyHint": "Email cannot be changed"
+      },
+      "submit": {
+        "saving": "Saving...",
+        "saveButton": "Save Changes"
+      }
+    },
+    "feedback": {
+      "noChanges": "No changes detected.",
+      "nameUpdated": "Name updated successfully!",
+      "updateError": "Error updating profile: ",
+      "unknownError": "Unknown error",
+      "invalidData": "Invalid form data provided",
+      "networkError": "Network connection failed. Please try again.",
+      "authError": "Authentication failed. Please sign in again.",
+      "nameUpdateError": "Failed to update name"
+    },
+    "deleteAccount": {
+      "title": "Delete Account",
+      "description": "Deleting your account is permanent. All your data and information will be permanently removed.",
+      "warning": "Warning: Deleting your account is irreversible and will delete all your data. This action cannot be undone.",
+      "deleteButton": "Delete Account",
+      "confirmation": {
+        "title": "Confirm Account Deletion",
+        "description": "Are you sure you want to permanently delete your account? This action is irreversible and all your data will be lost.",
+        "message": "Are you sure you want to permanently delete your account? This action is irreversible and all your data will be lost.",
+        "cancelButton": "Cancel",
+        "confirmButton": "Delete Permanently",
+        "warning": "This action cannot be undone. All your data will be permanently deleted."
+      },
+      "status": {
+        "deletingData": "Deleting user data...",
+        "deletingAccount": "Deleting user account...",
+        "success": "Account deleted successfully!",
+        "error": "Error deleting account: ",
+        "validating": "Validating user data...",
+        "clearingLocalData": "Clearing local data...",
+        "networkError": "Network connection failed. Please check your internet.",
+        "authError": "Authentication failed. Please sign in again.",
+        "apiError": "Server error occurred. Please try again later.",
+        "userDeleteError": "Failed to delete user account.",
+        "missingUserData": "Required user information is missing.",
+        "dataError": "Error deleting user data",
+        "partialFailure": "Critical Error: Your data was deleted but account removal failed. Please contact support immediately.",
+        "partialFailureDetails": "Your personal data has been successfully removed from our systems for privacy compliance. However, your login account could not be deleted. Please contact our support team to complete the account removal process."
+      },
+      "progress": {
+        "deletingData": "Deleting user data",
+        "deletingAccount": "Deleting user account",
+        "clearingData": "Clearing local data",
+        "redirecting": "Redirecting to sign in page...",
+        "errorDetails": "Error details"
+      }
+    }
+  },
+  "subscription": {
+    "title": "Plan management",
+    "loading": {
+      "subscription": "Loading subscription data...",
+      "billingPortal": "Preparing billing portal...",
+      "redirecting": "Redirecting to the billing portal..."
+    },
+    "error": {
+      "description": "We couldn't load your subscription data. Please try again later.",
+      "billingPortal": "An error occurred while creating the billing session. Please try again later."
+    },
+    "planNames": {
+      "PRO": "Pro"
+    },
+    "status": {
+      "active": "Active",
+      "paused": "Paused",
+      "canceled": "Canceled",
+      "cancelScheduled": "Cancellation scheduled",
+      "paymentIssue": "Payment failed"
+    },
+    "plan": {
+      "title": "Current Plan",
+      "renewsOn": "Renews on {{date}}",
+      "pausedDescription": "Your subscription is paused. You can resume it at any time in the billing portal.",
+      "canceledTitle": "Subscription canceled",
+      "canceledDescription": "Your subscription has been canceled. You can subscribe again whenever you want.",
+      "manageButton": "Manage subscription",
+      "subscribe": "Subscribe to a plan",
+      "paymentIssueDescription": "The last payment failed. Update your payment method in the billing portal to keep your access."
+    },
+    "noPlan": {
+      "title": "No active plan",
+      "starterUsed": "Your free event has been used. Check the available plans to keep creating events.",
+      "description": "You're on the free plan. Check the available plans to unlock all features."
+    },
+    "purchases": {
+      "title": "Per-event purchases",
+      "available_one": "You have {{count}} event left to use",
+      "available_other": "You have {{count}} events left to use",
+      "createEvent": "Create event",
+      "table": {
+        "date": "Date",
+        "amount": "Amount",
+        "status": "Status"
+      },
+      "status": {
+        "available": "Unused",
+        "consumed": "Used",
+        "refunded": "Refunded"
+      },
+      "error": "We couldn't load your purchases. Refresh the page or try again later."
+    },
+    "portalHint": "Invoices, payment method and cancellation are managed in the billing portal.",
+    "payment": {
+      "title": "Payment Method",
+      "expiry": "Valid until",
+      "updateButton": "Update payment",
+      "noPaymentMethod": "No payment method",
+      "noMethods": "You don't have a card on file yet.",
+      "addMethod": "Add payment method"
+    }
+  },
+  "notion": {
+    "loading": "Checking integration status...",
+    "subtitle": "Connect external services to enhance your workflow.",
+    "description": "Import strategy documents directly from your Notion workspace.",
+    "connectedDescription": "Connected to {{workspace}}. You can now import pages from this workspace.",
+    "connect": "Connect Notion",
+    "disconnect": "Disconnect",
+    "refresh": "Refresh",
+    "openNotion": "Open Notion",
+    "status": {
+      "connected": "Connected"
+    },
+    "callback": {
+      "connecting": "Connecting to Notion",
+      "pleaseWait": "Exchanging authorization code...",
+      "connected": "Connected!",
+      "failed": "Connection Failed",
+      "success": "Notion connected successfully!",
+      "successWorkspace": "Connected to {{workspace}}!",
+      "denied": "Connection was cancelled or denied.",
+      "noCode": "No authorization code received.",
+      "exchangeFailed": "Failed to connect to Notion. Please try again.",
+      "invalidState": "Invalid security token. Please try connecting again.",
+      "backToSettings": "Back to Settings"
+    }
+  },
+  "fidelize": {
+    "title": "Fidelize",
+    "loading": "Checking integration status...",
+    "description": "Sync digital wallet cards from Fidelize as event participants.",
+    "connectedDescription": "Connected. Last sync: {{lastSync}}.",
+    "neverSynced": "Connected. No syncs yet.",
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "apiKeyPlaceholder": "Paste your Fidelize API key",
+    "connecting": "Validating...",
+    "status": {
+      "connected": "Connected"
+    }
+  },
+  "security": {
+    "title": "Security",
+    "subtitle": "Manage your password and access credentials",
+    "password": {
+      "title": "Change Password",
+      "current": {
+        "label": "Current Password",
+        "required": "Current password is required to change password"
+      },
+      "new": {
+        "label": "New Password",
+        "required": "New password is required if current password is provided",
+        "minLength": "Password must be at least 8 characters"
+      },
+      "confirm": {
+        "label": "Confirm New Password",
+        "mismatch": "Passwords do not match"
+      },
+      "mismatch": "Passwords do not match",
+      "tooShort": "Password must be at least 8 characters",
+      "tooWeak": "Password must contain uppercase, lowercase, numbers and special characters"
+    },
+    "form": {
+      "submit": {
+        "saving": "Saving...",
+        "saveButton": "Save Changes"
+      }
+    },
+    "feedback": {
+      "updated": "Password updated successfully!",
+      "incorrectPassword": "Current password is incorrect",
+      "updateError": "Failed to update password",
+      "networkError": "Network connection failed. Please try again.",
+      "unknownError": "Unknown error"
+    },
+    "googleAccount": {
+      "title": "Google Account",
+      "description": "Your account uses Google authentication. Your password is managed in your Google Account.",
+      "buttonText": "Manage in Google Account"
+    }
+  }
+}

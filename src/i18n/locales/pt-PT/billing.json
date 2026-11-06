@@ -1,0 +1,116 @@
+{
+  "plans": {
+    "billing": {
+      "cycles": {
+        "monthly": "Mensal",
+        "annual": "Anual"
+      }
+    },
+    "welcome": {
+      "greeting": "Olá, {{name}}!",
+      "greetingFallback": "Olá! Bem-vindo(a) à Bafatório",
+      "intro": "A tua conta foi criada com sucesso.",
+      "next": "Já podes começar a organizar os teus eventos de forma simples e eficiente."
+    },
+    "policy": {
+      "refund": {
+        "title": "Reembolsos",
+        "starter": "O plano Starter é gratuito e não requer cartão - experimente a plataforma sem qualquer cobrança.",
+        "payPerEvent": "A compra Pay-per-event não é reembolsável. A compra não expira até ser utilizada.",
+        "pro": "O plano Pro não inclui reembolsos, totais ou parciais. Se cancelar, mantém o acesso até ao final do período já pago.",
+        "downgrade": "As mudanças de Anual para Mensal tomam efeito no final do período atual, sem reembolso."
+      },
+      "cancel": {
+        "title": "Cancelar subscrição",
+        "description": "Pode cancelar a qualquer momento. Mantém o acesso até ao final do período já pago.",
+        "accessUntil": "Mantém o acesso até {{date}}",
+        "confirm": "Cancelar subscrição",
+        "keepPlan": "Manter o meu plano"
+      }
+    },
+    "grid": {
+      "title": "Seleciona o plano que mais te serve",
+      "badge": "50% desconto · lançamento",
+      "names": {
+        "starter": "1 evento grátis",
+        "pro": "Pro",
+        "payPerEvent": "Por evento"
+      },
+      "rows": {
+        "events": "Eventos",
+        "participants": "Participantes",
+        "suppliers": "Fornecedores",
+        "report": "Relatório PDF",
+        "integrations": "Integrações"
+      },
+      "values": {
+        "unlimited": "Ilimitados"
+      },
+      "perMonth": "/ mês",
+      "perYear": "/ ano",
+      "perEvent": "por evento",
+      "tiers": {
+        "label": "Dimensão do evento",
+        "capped": "até {{max}} participantes",
+        "uncapped": "sem limite"
+      },
+      "upgrade": {
+        "cta": "Aumentar limite",
+        "title": "Aumentar o limite de participantes",
+        "current": "Este evento vai até {{max}} participantes.",
+        "currentUncapped": "Este evento já não tem limite de participantes.",
+        "alreadyMax": "Não há escalão acima deste.",
+        "diff": "+ {{price}}",
+        "confirm": "Continuar",
+        "cancel": "Cancelar",
+        "note": "Pagas só a diferença. O limite sobe assim que o pagamento for confirmado.",
+        "error": "Não foi possível iniciar o pagamento. Tenta novamente."
+      },
+      "cta": {
+        "starter": "Começar grátis",
+        "pro": "Subscrever o Pro",
+        "payPerEvent": "Comprar um evento"
+      },
+      "universal": {
+        "lead": "Todos os planos incluem:",
+        "agenda": "Agenda",
+        "confirmations": "Confirmações de presença",
+        "documents": "Documentos",
+        "excel": "Importação e exportação Excel"
+      },
+      "footer": "Preços com IVA incluído · Cancela quando quiseres"
+    }
+  },
+  "loading": {
+    "processing": "A processar o seu pedido..."
+  },
+  "error": {
+    "title": "Erro",
+    "payment": "Ocorreu um erro ao processar o seu pedido. Por favor, tente novamente.",
+    "profileMessage": "Aceda ao seu perfil caso pretenda efetuar alterações ao seu plano."
+  },
+  "fields": {
+    "billingCycle": {
+      "label": "Ciclo de Faturação"
+    }
+  },
+  "checkoutSuccess": {
+    "title": "Pagamento confirmado",
+    "subtitle": {
+      "payPerEvent": "O teu evento está pago. O próximo passo é criá-lo: leva menos de um minuto.",
+      "pro": "A tua subscrição Pro está ativa. Cria o primeiro evento e começa a convidar.",
+      "generic": "O teu pagamento foi recebido. Já podes criar o teu evento."
+    },
+    "paid": "Pago",
+    "tier": {
+      "capped": "Até {{count}} participantes",
+      "uncapped": "Participantes ilimitados"
+    },
+    "cta": {
+      "payPerEvent": "Criar o meu evento",
+      "pro": "Criar um evento",
+      "generic": "Criar um evento"
+    },
+    "secondary": "Ver os meus eventos"
+  }
+}

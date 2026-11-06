@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-PT">
+  <head>
+    <!-- Head layout: everything route-agnostic first, then the per-page block.
+         The build generates /terms, /privacy and /cookies by swapping that block
+         wholesale (scripts/legalPages.mjs), so anything page-specific — title,
+         social tags, route-only preloads — belongs inside the markers. -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#334fc8" />
+    <meta name="application-name" content="Bafatório" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any" />
+    <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
+    <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <link rel="mask-icon" href="/favicon.svg" color="#334fc8" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="/fonts/fonts.css" />
+    <!-- Above-the-fold faces (h1 = Lexend 500, body = Jakarta 400). Fonts are
+         lazy-loaded on first use, which in a CSR app happens after React boots —
+         preloading wins that race so the hero never repaints mid-swap (the h1's
+         14ch max-width is font-relative, so a late swap reflows the title).
+         Every route uses both faces, so these stay outside the per-page block. -->
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/lexend-500-latin.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/plus-jakarta-sans-400-latin.woff2" crossorigin />
+    <!-- #head:page -->
+    <meta
+      name="description"
+      content="Toda a organização do teu evento num só lugar. Participantes, documentos, fornecedores, presenças e relatórios."
+    />
+    <title>Bafatório | Toda a organização do teu evento num só lugar</title>
+    <!-- Social sharing (static pt-PT — the QR/link audience). og:image must be an
+         absolute URL: scrapers don't resolve relative paths. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Bafatório" />
+    <meta property="og:url" content="https://hello.bafatorio.com/" />
+    <meta property="og:title" content="Bafatório | Toda a organização do teu evento num só lugar" />
+    <meta
+      property="og:description"
+      content="Participantes, documentos, fornecedores, presenças e relatórios. Tudo ligado, simples e na tua língua. Sê dos primeiros a usar."
+    />
+    <meta property="og:image" content="https://hello.bafatorio.com/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="pt_PT" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bafatório | Toda a organização do teu evento num só lugar" />
+    <meta
+      name="twitter:description"
+      content="Participantes, documentos, fornecedores, presenças e relatórios. Tudo ligado, simples e na tua língua."
+    />
+    <meta name="twitter:image" content="https://hello.bafatorio.com/og.png" />
+    <!-- The hero shot is the LCP element; preload lets it download in parallel
+         with the JS bundle instead of waiting for React to render the <img>.
+         Homepage-only: the legal routes never render it. -->
+    <link
+      rel="preload"
+      as="image"
+      imagesrcset="/hero/summit-inovacao-detalhe-640.webp 640w, /hero/summit-inovacao-detalhe-960.webp 960w, /hero/summit-inovacao-detalhe-1440.webp 1440w, /hero/summit-inovacao-detalhe-2048.webp 2048w"
+      imagesizes="(min-width: 1280px) 1110px, 90vw"
+      fetchpriority="high"
+    />
+    <!-- /head:page -->
+    <!-- Umami (cookieless, no consent banner needed). Declared after the LCP
+         preloads so it never competes with the hero for early bandwidth.
+         data-domains pins tracking to the live host, so localhost and any
+         *.amplifyapp.com preview don't pollute the numbers. -->
+    <script
+      defer
+      src="https://cloud.umami.is/script.js"
+      data-website-id="00000000-0000-0000-0000-000000000000"
+      data-domains="hello.bafatorio.com"
+    ></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

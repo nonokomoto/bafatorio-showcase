@@ -1,0 +1,54 @@
+{
+  "alertPopup": {
+    "deleting": "Deleting...",
+    "generating": "Generating..."
+  },
+  "footer": {
+    "copyright": " 2024 | All rights reserved",
+    "appName": "Event Management System"
+  },
+  "header": {
+    "configuration": "Settings",
+    "logout": "Log out",
+    "expandSidebar": "Expand sidebar",
+    "collapseSidebar": "Collapse sidebar",
+    "user": "User",
+    "planFree": "Free",
+    "currentPlan": "Current plan"
+  },
+  "sidebar": {
+    "title": "Bafatorio",
+    "events": "Events",
+    "participants": "Participants",
+    "confirmPresence": "Confirm presence",
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "planSelection": "Choose plan",
+    "suppliers": "Suppliers",
+    "akiliAssistant": "Bafatorio AI",
+    "group": {
+      "eventManagement": "Event Management",
+      "ai": "AI Assistant",
+      "account": "Account"
+    }
+  },
+  "statusUpdateHandler": {
+    "errors": {
+      "invalidParams": "Invalid parameters in the URL.",
+      "updateFailed": "Failed to update status. Please try again.",
+      "contactOrganizer": "If the problem persists, contact the event organizer."
+    },
+    "success": {
+      "confirmation": "Your presence has been successfully confirmed!",
+      "thankYou": "Thank you for confirming your presence. You can close this window."
+    },
+    "status": {
+      "loading": {
+        "title": "Presence confirmation",
+        "message": "Confirming registration..."
+      },
+      "success": "Confirmation Completed",
+      "error": "Update Error"
+    }
+  }
+}

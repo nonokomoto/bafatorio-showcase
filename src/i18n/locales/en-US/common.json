@@ -1,0 +1,108 @@
+{
+  "spinner": {
+    "loading": {
+      "default": "Loading...",
+      "participants": "Loading participants",
+      "processing": "Processing {{current}} of {{total}} records...",
+      "application": "Loading the application...",
+      "userInfo": "Loading user information..."
+    },
+    "success": {
+      "title": "Completed",
+      "default": "Operation completed successfully."
+    },
+    "error": {
+      "title": "Oops!",
+      "default": "An issue occurred. Please try again."
+    },
+    "partialFailure": {
+      "title": "Critical Issue",
+      "default": "Data deletion completed, but account removal failed.",
+      "contactSupport": "Your personal data has been deleted for privacy compliance, but your login account still exists. Please contact support to complete the account removal.",
+      "understood": "I Understand"
+    }
+  },
+  "alert": {
+    "confirmation": "Confirmation",
+    "alert": "Alert",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "ok": "OK",
+    "generating": "Processing..."
+  },
+  "actions": {
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "viewDetails": "View Details",
+    "associating": "Associating...",
+    "close": "Close",
+    "next": "Next",
+    "back": "Back",
+    "save": "Save",
+    "dropdownLabel": "Actions"
+  },
+  "pagination": {
+    "ariaLabel": "Pagination",
+    "buttons": {
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "statusUpdateHandler": {
+    "errors": {
+      "invalidParams": "Invalid parameters in the URL.",
+      "updateFailed": "Failed to update status. Please try again.",
+      "contactOrganizer": "If the problem persists, please contact the event organizer."
+    },
+    "success": {
+      "confirmation": "Your attendance has been successfully confirmed!",
+      "thankYou": "Thank you for confirming your attendance. You may close this window."
+    },
+    "status": {
+      "loading": {
+        "title": "Attendance Confirmation",
+        "message": "Confirming your registration..."
+      },
+      "success": "Confirmation Completed",
+      "error": "Update Error"
+    }
+  },
+  "paymentConfirmation": {
+    "confirmation": {
+      "loading": "Processing payment...",
+      "status": "Payment Confirmation"
+    },
+    "status": {
+      "success": "Payment confirmed successfully!",
+      "error": "An error occurred while processing the payment. Please try again."
+    }
+  },
+  "devOverlay": {
+    "badge": "In Development",
+    "description": "This feature will be available soon."
+  },
+  "sessionTimeout": {
+    "title": "Session about to expire",
+    "message": "Your session will be closed due to inactivity in {{seconds}} seconds.",
+    "continue": "Continue session",
+    "logout": "Log out"
+  },
+  "errorBoundary": {
+    "title": "Something went wrong loading this page",
+    "description": "Try reloading. If the problem persists, sign out and sign in again.",
+    "retry": "Reload"
+  },
+  "billingGate": {
+    "WINDOW_EXPIRED": "This event's editing window has closed. The event is read-only.",
+    "PRO_LAPSED": "The Pro subscription has ended - reactivate it to edit again.",
+    "PRO_PAUSED": "The Pro subscription is paused - resume it to continue.",
+    "LIMIT_SUPPLIERS": "You've reached your plan's supplier limit for this event.",
+    "LIMIT_PARTICIPANTS": "You've reached your plan's participant limit for this event.",
+    "STARTER_LIMIT_REACHED": "You've used your free event - pick a plan to create more events.",
+    "generic": "Your plan does not allow this action.",
+    "upgradeCta": "See plans"
+  },
+  "search": "Search...",
+  "noResults": "No results found"
+}

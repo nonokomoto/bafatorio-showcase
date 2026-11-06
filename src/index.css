@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Page */
+  --background: 248 250 252;
+  --foreground: 51 65 85;
+
+  /* Cards & surfaces */
+  --card: 255 255 255;
+  --card-foreground: 51 65 85;
+
+  /* Popover / dropdown */
+  --popover: 255 255 255;
+  --popover-foreground: 51 65 85;
+
+  /* Brand */
+  --primary: 64 105 255;
+  --primary-foreground: 255 255 255;
+
+  /* Secondary actions */
+  --secondary: 241 245 249;
+  --secondary-foreground: 51 65 85;
+
+  /* Muted / subtle */
+  --muted: 249 250 251;
+  --muted-foreground: 100 116 139;
+
+  /* Accent (highlighted items) */
+  --accent: 238 242 255;
+  --accent-foreground: 51 65 85;
+
+  /* Feedback */
+  --destructive: 239 68 68;
+  --destructive-foreground: 255 255 255;
+  --success: 16 185 129;
+  --success-foreground: 255 255 255;
+  --warning: 245 158 11;
+  --warning-foreground: 255 255 255;
+
+  /* Borders & inputs */
+  --border: 226 232 240;
+  --input: 226 232 240;
+  --ring: 64 105 255;
+  --placeholder: 163 163 163;
+
+  /* Sidebar */
+  --sidebar: 64 105 255;
+  --sidebar-foreground: 255 255 255;
+  --sidebar-accent: 52 81 219;
+  --sidebar-accent-foreground: 255 255 255;
+  --sidebar-border: rgba(255, 255, 255, 0.15);
+
+  /* Radius */
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 15 23 42;
+  --foreground: 241 245 249;
+  --card: 30 41 59;
+  --card-foreground: 241 245 249;
+  --popover: 30 41 59;
+  --popover-foreground: 241 245 249;
+  --primary: 64 105 255;
+  --primary-foreground: 255 255 255;
+  --secondary: 30 41 59;
+  --secondary-foreground: 241 245 249;
+  --muted: 30 41 59;
+  --muted-foreground: 148 163 184;
+  --accent: 51 65 85;
+  --accent-foreground: 241 245 249;
+  --destructive: 239 68 68;
+  --destructive-foreground: 255 255 255;
+  --success: 16 185 129;
+  --success-foreground: 255 255 255;
+  --warning: 245 158 11;
+  --warning-foreground: 255 255 255;
+  --border: 51 65 85;
+  --input: 51 65 85;
+  --ring: 64 105 255;
+  --placeholder: 115 115 115;
+  --sidebar: 2 6 23;
+  --sidebar-foreground: 203 213 225;
+  --sidebar-accent: 15 23 42;
+  --sidebar-accent-foreground: 241 245 249;
+  --sidebar-border: rgba(255, 255, 255, 0.08);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  /* Dynamic color badges — use inline CSS vars (--badge-dot, --badge-light-bg, etc.) */
+  .color-badge {
+    background-color: var(--badge-light-bg);
+    color: var(--badge-light-text);
+  }
+  .color-badge > .badge-dot {
+    background-color: var(--badge-dot);
+  }
+  .dark .color-badge {
+    background-color: var(--badge-dark-bg);
+    color: var(--badge-dark-text);
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  }
+}

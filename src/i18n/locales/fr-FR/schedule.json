@@ -1,0 +1,89 @@
+{
+  "authorFilter": {
+    "label": "Affichage",
+    "hideAuthor": "Masquer les entrées de {{name}}",
+    "showAuthor": "Afficher les entrées de {{name}}",
+    "unknownAuthor": "Auteur inconnu",
+    "allHidden": "Toutes les entrées sont masquées par le filtre de personnes - cliquez sur un avatar pour les afficher."
+  },
+  "emptyState": {
+    "noEntries": {
+      "title": "Agenda vide",
+      "description": "Aucune entrée n'a encore été ajoutée à l'agenda de cet événement."
+    }
+  },
+  "entryDetail": {
+    "allDay": "Toute la journée",
+    "location": "Lieu",
+    "supplier": "Fournisseur",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "close": "Fermer",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cette entrée ?",
+    "deleteCancel": "Annuler",
+    "deleteConfirmButton": "Supprimer",
+    "participants": "Participants",
+    "createdBy": "Créée par {{name}}"
+  },
+  "form": {
+    "title": "Nouvelle entrée",
+    "titleEdit": "Modifier l'entrée",
+    "cancel": "Annuler",
+    "submit": "Créer",
+    "submitEdit": "Enregistrer",
+    "genericError": "Une erreur s'est produite. Veuillez réessayer.",
+    "fields": {
+      "title": "Titre",
+      "date": "Date",
+      "allDay": "Toute la journée",
+      "startTime": "Heure de début",
+      "endTime": "Heure de fin",
+      "description": "Description",
+      "location": "Lieu",
+      "supplier": "Fournisseur",
+      "color": "Couleur",
+      "participants": "Participants"
+    },
+    "placeholders": {
+      "title": "Nom de l'entrée",
+      "description": "Description facultative",
+      "location": "Lieu facultatif",
+      "supplier": "Sans fournisseur",
+      "participants": "Aucun participant"
+    },
+    "validation": {
+      "titleRequired": "Le titre est obligatoire",
+      "dateRequired": "La date est obligatoire"
+    },
+    "supplierNew": "nouveau",
+    "colors": {
+      "tomato": "Tomate",
+      "flamingo": "Flamant",
+      "tangerine": "Mandarine",
+      "banana": "Banane",
+      "basil": "Basilic",
+      "peacock": "Paon",
+      "blueberry": "Myrtille",
+      "grape": "Raisin"
+    }
+  },
+  "loading": "Chargement de l'agenda...",
+  "daySheet": {
+    "empty": "Aucune entrée pour ce jour"
+  },
+  "calendar": {
+    "today": "Aujourd’hui",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "month": "Mois",
+    "week": "Semaine",
+    "day": "Jour",
+    "date": "Date",
+    "time": "Heure",
+    "event": "Entrée",
+    "noEventsInRange": "Aucune entrée dans cette période.",
+    "showMore": "+ {{count}} de plus",
+    "openPicker": "Ouvrir le sélecteur de date"
+  },
+  "restrictedStaffNotice": "Vous ne voyez que les entrées que vous avez créées. Demandez à l'organisateur de partager l'agenda de l'équipe."
+}

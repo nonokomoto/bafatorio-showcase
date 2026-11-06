@@ -1,0 +1,631 @@
+{
+  "pages": {
+    "suppliers": {
+      "title": "Suppliers",
+      "description": "Manage your list of suppliers."
+    }
+  },
+  "form": {
+    "titleEdit": "Edit Supplier",
+    "titleCreate": "Add New Supplier",
+    "errorSubmit": "Failed to save supplier. Please try again.",
+    "sections": {
+      "contact": "Contact Information",
+      "addressLegal": "Address & Legal",
+      "budgetDetails": "Budget Limits",
+      "other": "Other Details",
+      "notes": "Notes",
+      "financial": "Financial Information"
+    },
+    "fields": {
+      "name": {
+        "label": "Supplier Name",
+        "placeholder": "Enter supplier name",
+        "required": "Supplier name is required",
+        "minLength": "Name too short"
+      },
+      "category": {
+        "label": "Category",
+        "placeholder": "e.g., Catering, AV, Venue"
+      },
+      "country": {
+        "label": "Country",
+        "placeholder": "Enter country"
+      },
+      "contactName": {
+        "label": "Contact Name",
+        "placeholder": "Primary contact person"
+      },
+      "contactPhone": {
+        "label": "Contact Phone",
+        "placeholder": "Enter phone number"
+      },
+      "contactEmail": {
+        "label": "Contact Email",
+        "placeholder": "Enter email address"
+      },
+      "website": {
+        "label": "Website",
+        "placeholder": "https://..."
+      },
+      "address": {
+        "label": "Address",
+        "placeholder": "Street, City, Postal Code..."
+      },
+      "vatNumber": {
+        "label": "VAT Number",
+        "placeholder": "Optional VAT number"
+      },
+      "estimateRange": {
+        "label": "Budget Limits",
+        "placeholder": "e.g., 500-1500"
+      },
+      "estimateMin": {
+        "label": "Minimum Budget",
+        "placeholder": "e.g., 500"
+      },
+      "estimateMax": {
+        "label": "Maximum Budget",
+        "placeholder": "e.g., 1500"
+      },
+      "estimateUnit": {
+        "label": "Unit",
+        "placeholder": "Select Unit",
+        "options": {
+          "FIXED": "Fixed",
+          "PER_EVENT": "Per Event",
+          "PER_HOUR": "Per Hour",
+          "PER_DAY": "Per Day",
+          "PER_ITEM": "Per Item",
+          "PER_GUEST": "Per Guest"
+        }
+      },
+      "currency": {
+        "label": "Currency",
+        "placeholder": "e.g., EUR, USD"
+      },
+      "tags": {
+        "label": "Tags",
+        "placeholder": "Comma-separated, e.g., preferred, local"
+      },
+      "notes": {
+        "label": "Notes",
+        "placeholder": "Any additional notes about this supplier..."
+      },
+      "beneficiaryName": {
+        "label": "Beneficiary Name",
+        "placeholder": "Account holder name"
+      },
+      "iban": {
+        "label": "IBAN",
+        "placeholder": "International Bank Account Number"
+      },
+      "swiftBic": {
+        "label": "SWIFT/BIC",
+        "placeholder": "Bank Identifier Code"
+      },
+      "bankName": {
+        "label": "Bank Name",
+        "placeholder": "Name of the bank"
+      },
+      "email": {
+        "pattern": "Invalid email"
+      }
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "updating": "Updating...",
+      "creating": "Creating...",
+      "update": "Update Supplier",
+      "create": "Create Supplier"
+    },
+    "loading": "Loading supplier data...",
+    "errorLoading": "Failed to load supplier data.",
+    "notFound": "Supplier not found."
+  },
+  "list": {
+    "title": "Suppliers",
+    "addSupplierButton": "Add Supplier",
+    "headerTitle": "Suppliers List",
+    "loading": "Loading suppliers...",
+    "errorLoading": "Error loading suppliers.",
+    "errors": {
+      "loadFailed": "Failed to load suppliers.",
+      "bulkDeleteFailed": "Could not delete {{count}} supplier(s).",
+      "linkedToEventsTitle": "Supplier linked to events",
+      "linkedToEvents_one": "This supplier is linked to {{count}} event and cannot be deleted to preserve historical records. Remove the association from the event first.",
+      "linkedToEvents_other": "This supplier is linked to {{count}} events and cannot be deleted to preserve historical records. Remove the associations from all events first.",
+      "linkedToEventsBulk_one": "{{count}} supplier cannot be deleted because it is linked to events. Remove the event associations first.",
+      "linkedToEventsBulk_other": "{{count}} suppliers cannot be deleted because they are linked to events. Remove all event associations first.",
+      "deleteFailedTitle": "Delete failed",
+      "deleteFailed": "Failed to delete supplier. Please try again."
+    },
+    "empty": {
+      "title": "No suppliers found",
+      "description": "Add your first supplier to get started.",
+      "noMatchTitle": "No suppliers match the filters",
+      "noMatchDescription": "Try adjusting your search or filters.",
+      "imageAlt": "No suppliers"
+    },
+    "noSuppliersFound": "No suppliers found.",
+    "addFirstSupplier": "Add Your First Supplier",
+    "idPrefix": "ID:",
+    "moreTags": "+{{count}}",
+    "table": {
+      "summary": {
+        "filteredCount": "{{count}} supplier(s)",
+        "selectedCount": "{{count}} selected",
+        "showing": "showing {{shown}} of {{total}}"
+      },
+      "selection": {
+        "selectAll": "Select all suppliers on this page",
+        "selectSupplier": "Select supplier {{name}}",
+        "clear": "Clear selection"
+      },
+      "headers": {
+        "name": "Name",
+        "category": "Category",
+        "contact": "Contact",
+        "contactName": "Contact Name",
+        "phone": "Phone",
+        "email": "Email",
+        "location": "Location",
+        "tags": "Tags",
+        "budget": "Budget Limits",
+        "updated_at": "Updated At",
+        "actions": "Actions"
+      }
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "deleteSelected": "Delete {{count}} selected",
+      "bulkDeleteTitle": "Delete suppliers",
+      "bulkDeleteMessage": "Are you sure you want to delete {{count}} supplier(s)? This action cannot be undone.",
+      "bulkDeleteErrorTitle": "Could not complete deletion",
+      "view": "View Details",
+      "confirmDeleteTitle": "Confirm Deletion",
+      "confirmDeleteMessage": "Are you sure you want to delete the supplier \"{{name}}\"? This action cannot be undone.",
+      "import": "Import Suppliers"
+    }
+  },
+  "filters": {
+    "search": {
+      "label": "Search Suppliers",
+      "placeholder": "Search by name, email..."
+    },
+    "category": {
+      "label": "Category",
+      "all": "All Categories"
+    },
+    "filterButton": "Filter",
+    "sortButton": "Sort",
+    "categories": {
+      "catering": "Catering",
+      "av": "Audiovisual",
+      "venue": "Venue",
+      "decor": "Decoration"
+    },
+    "sort": {
+      "nameAsc": "Name (A-Z)",
+      "nameDesc": "Name (Z-A)",
+      "dateDesc": "Updated (Newest)",
+      "dateAsc": "Updated (Oldest)"
+    },
+    "clear": {
+      "label": "Clear",
+      "ariaLabel": "Clear filters"
+    }
+  },
+  "details": {
+    "title": "Supplier Details",
+    "panelAriaLabel": "Supplier details panel",
+    "loading": "Loading supplier details...",
+    "error": "Error loading supplier details.",
+    "notFound": "Supplier not found.",
+    "selectPrompt": "Select a supplier to view details."
+  },
+  "eventSupplierList": {
+    "title": "Associated Suppliers",
+    "addAssociation": "Add Supplier",
+    "addMenu": {
+      "aria": "More add options",
+      "importFromFile": "Import from file",
+      "importHint": ".xlsx / .csv - creates suppliers and links"
+    },
+    "addPanel": {
+      "title": "Add supplier",
+      "subtitle": "Pick from your supplier list or create a new one for this event.",
+      "tabsLabel": "Add supplier tabs",
+      "tabs": {
+        "fromList": "From list",
+        "manual": "Manual"
+      },
+      "cta": {
+        "associate": "Associate supplier",
+        "createAndAssociate": "Create and associate",
+        "creating": "Creating..."
+      },
+      "errors": {
+        "associate": "Could not associate the supplier. Please try again.",
+        "createAndAssociate": "Could not create the supplier. Please try again.",
+        "associateAfterCreate": "The supplier was created in the catalog, but linking it to the event failed. Find it under the \"From list\" tab and associate it manually."
+      }
+    },
+    "noEventSelected": "No event selected.",
+    "errorLoading": "Error loading suppliers for this event.",
+    "noSuppliers": "No suppliers associated with this event yet.",
+    "noSuppliersFound": "No suppliers match the current filter.",
+    "unknownSupplier": "Unknown Supplier",
+    "headers": {
+      "supplier": "Supplier",
+      "quote": "Quote Amount",
+      "status": "Status",
+      "invoice": "Invoice",
+      "actions": "Actions"
+    },
+    "status": {
+      "pending": "Pending",
+      "counting_on": "Counting on",
+      "approved": "Approved",
+      "paid": "Paid",
+      "rejected": "Rejected",
+      "unknown": "Unknown",
+      "selected": "Selected"
+    },
+    "invoice": {
+      "view": "View/Replace",
+      "upload": "Upload"
+    },
+    "actions": {
+      "viewDetails": "View Details",
+      "editSupplier": "Edit Supplier",
+      "delete": "Remove Association",
+      "deleteSelected": "Remove {{count}} selected",
+      "bulkDeleteTitle": "Remove associations",
+      "bulkDeleteMessage": "Are you sure you want to remove {{count}} supplier(s) from this event? This action cannot be undone.",
+      "bulkDeleteErrorTitle": "Could not complete removal",
+      "moreOptions": "More options",
+      "editAssociation": "Edit Association",
+      "approve": "Approve Supplier",
+      "approving": "Approving...",
+      "markAsPaid": "Mark as Paid",
+      "markingAsPaid": "Marking as paid..."
+    },
+    "errors": {
+      "bulkDeleteFailed": "Could not remove {{count}} association(s)."
+    },
+    "deleteConfirm": {
+      "title": "Remove Association",
+      "message": "Are you sure you want to remove this supplier from the event? This action cannot be undone.",
+      "confirmButton": "Remove",
+      "cancelButton": "Cancel"
+    },
+    "selectModal": {
+      "title": "Select Supplier",
+      "titleStep1": "Step 1: Select Supplier",
+      "titleStep2Prefix": "Step 2: Set Quote for",
+      "associateButton": "Associate Supplier",
+      "addButton": "Add Supplier",
+      "quoteLabel": "Quote Amount",
+      "quotePlaceholder": "Enter the quoted amount (e.g., 1250.50)",
+      "quoteErrorInvalid": "Please enter a valid positive number for the quote."
+    },
+    "defineQuote": {
+      "title": "Set Quote Amount & Approve",
+      "description": "Enter the final quote amount for {{supplierName}} before approving."
+    },
+    "editErrors": {
+      "invalidQuote": "Invalid quote amount.",
+      "statusRequired": "Status is required.",
+      "quoteCannotBeNullForApproved": "Quote amount cannot be removed for an approved supplier. Please provide a valid amount.",
+      "approvalPaymentWorkflow": "Approval and Payment must follow their specific workflow actions."
+    },
+    "editModal": {
+      "title": "Edit Association Details",
+      "supplierLabel": "Supplier",
+      "quoteLabel": "Quote Amount",
+      "statusLabel": "Status",
+      "loading": "Loading association details...",
+      "error": "Error loading association details",
+      "quoteDisabledMsg": "Quote amount cannot be changed after approval/payment.",
+      "quoteInfoPendingRejected": "(This amount is informational and only impacts the budget upon approval)",
+      "statusPlaceholder": "Change status...",
+      "approvedStatusHint": "This supplier is approved. Select a new status to revert, or leave blank to keep."
+    },
+    "summary": {
+      "ariaLabel": "Supplier status summary",
+      "totalCommitted": "Total committed",
+      "filterByStatus": "Filter by this status",
+      "viewByCategory": "View by category"
+    },
+    "committedByCategory": {
+      "title": "Budget by category",
+      "subtitle": "Committed amount (approved and paid suppliers) in each category.",
+      "category": "Category",
+      "suppliers": "Suppliers",
+      "supplierCount": "{{count}} supplier(s)",
+      "committed": "Committed",
+      "empty": "No suppliers to show."
+    },
+    "approvalBanner": {
+      "message": "{{count}} supplier(s) awaiting your approval",
+      "action": "View pending",
+      "showAll": "Show all"
+    },
+    "filter": {
+      "active": "Showing: {{status}}",
+      "clear": "Show all",
+      "clearAriaLabel": "Clear filters",
+      "total": "Total"
+    },
+    "table": {
+      "summary": {
+        "filteredCount": "{{count}} supplier(s)",
+        "selectedCount": "{{count}} selected"
+      },
+      "selection": {
+        "selectAll": "Select all suppliers in this list",
+        "selectSupplier": "Select association for {{name}}",
+        "clear": "Clear selection"
+      }
+    },
+    "limitReached": "Plan limit of {{max}} suppliers reached",
+    "categoryFilter": {
+      "none": "No category"
+    },
+    "statusFilter": {
+      "all": "All statuses"
+    },
+    "filtersAriaLabel": "Filter suppliers"
+  },
+  "eventSupplierForm": {
+    "titleEdit": "Edit Supplier Association",
+    "titleCreate": "Add Supplier to Event",
+    "errors": {
+      "missingEventId": "Event ID is missing.",
+      "missingSupplier": "Please select a supplier.",
+      "supplierRequired": "Supplier is required",
+      "statusRequired": "Status is required",
+      "submitFailed": "Failed to save association. Please try again."
+    },
+    "fields": {
+      "supplier": {
+        "label": "Select Supplier",
+        "placeholder": "Search or select a supplier..."
+      },
+      "quote": {
+        "label": "Quote Amount",
+        "placeholder": "e.g., 1250.50"
+      },
+      "status": {
+        "label": "Status"
+      },
+      "notes": {
+        "label": "Notes",
+        "placeholder": "Optional notes about this association..."
+      }
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "updating": "Updating...",
+      "creating": "Adding...",
+      "update": "Update Association",
+      "create": "Add Association"
+    }
+  },
+  "invoiceUpload": {
+    "title": "Manage Invoice",
+    "currentInvoice": "Current Invoice:",
+    "viewDownload": "View/Download",
+    "remove": "Remove",
+    "noInvoice": "No invoice uploaded yet.",
+    "replaceTitle": "Upload New / Replace",
+    "uploadTitle": "Upload Invoice",
+    "dropzone": {
+      "active": "Drop the file here...",
+      "inactive": "Drag & drop file here, or click to select"
+    },
+    "acceptedFormats": "Accepted: PDF, JPG, PNG",
+    "selectedFile": "Selected:",
+    "uploadButton": "Upload & Save",
+    "closeButton": "Close",
+    "errors": {
+      "urlError": "Could not load current invoice link.",
+      "uploadFailed": "Upload failed. Please try again.",
+      "removeFailed": "Failed to remove invoice."
+    }
+  },
+  "units": {
+    "FIXED": "Fixed",
+    "PER_EVENT": "Per Event",
+    "PER_HOUR": "Per Hour",
+    "PER_DAY": "Per Day",
+    "PER_ITEM": "Per Item",
+    "PER_GUEST": "Per Guest"
+  },
+  "currencies": {
+    "EUR": "🇪🇺 EUR (Euro)",
+    "USD": "🇺🇸 USD (US Dollar)",
+    "GBP": "🇬🇧 GBP (British Pound)",
+    "BRL": "🇧🇷 BRL (Brazilian Real)",
+    "AOA": "🇦🇴 AOA (Angolan Kwanza)",
+    "CVE": "🇨🇻 CVE (Cape Verdean Escudo)",
+    "MZN": "🇲🇿 MZN (Mozambican Metical)",
+    "STN": "🇸🇹 STN (São Tomé & Príncipe Dobra)",
+    "XOF": "🇬🇼 XOF (CFA Franc - BCEAO)",
+    "XAF": "🇬🇶 XAF (CFA Franc - BEAC)",
+    "CAD": "🇨🇦 CAD (Canadian Dollar)",
+    "AUD": "🇦🇺 AUD (Australian Dollar)",
+    "JPY": "🇯🇵 JPY (Japanese Yen)",
+    "CHF": "🇨🇭 CHF (Swiss Franc)"
+  },
+  "categories": {
+    "CATERING": "Catering",
+    "AV": "Audiovisual (AV)",
+    "VENUE": "Venue",
+    "DECORATION": "Decoration",
+    "ENTERTAINMENT": "Entertainment",
+    "PHOTOGRAPHY": "Photography",
+    "VIDEOGRAPHY": "Videography",
+    "TRANSPORTATION": "Transportation",
+    "FLOWERS": "Flowers",
+    "CAKE": "Cake",
+    "WINE": "Wine",
+    "FOOD": "Food",
+    "SERVICES": "Services"
+  },
+  "reactSelect": {
+    "createLabel": "Create \"{{inputValue}}\"",
+    "loading": "Loading...",
+    "noOptions": "No options"
+  },
+  "states": {
+    "unavailable": "-"
+  },
+  "importModal": {
+    "title": "Import Suppliers",
+    "steps": {
+      "upload": "Upload",
+      "analyze": "Analyze",
+      "preview": "Preview",
+      "result": "Result"
+    },
+    "upload": {
+      "dropzone": "Drag file or click to select",
+      "hint": "Column mapping is done automatically",
+      "globalScopeBanner": "You're importing suppliers into your global catalog. To import directly into an event, go to that event's page instead.",
+      "templateButton": "Download template",
+      "templateHint": "Not sure how to fill it in? Download an example file."
+    },
+    "template": {
+      "sheetName": "Suppliers"
+    },
+    "normalizing": {
+      "title": "Analyzing file...",
+      "description": "Detecting columns and mapping fields automatically"
+    },
+    "preview": {
+      "suppliersToImport": "Suppliers to import",
+      "invalidRows": "{{count}} row(s) with errors",
+      "currentSuppliers": "Current suppliers",
+      "totalAfterImport": "Total after import"
+    },
+    "importing": {
+      "title": "Importing suppliers...",
+      "description": "{{count}} suppliers"
+    },
+    "success": {
+      "title": "Import complete",
+      "subtitle": "{{count}} suppliers imported successfully",
+      "subtitleWithSkipped": "{{count}} suppliers imported successfully ({{skipped}} skipped)",
+      "allDuplicates": "All suppliers already exist in the catalog",
+      "duplicatesSkipped": "Skipped as duplicates",
+      "suppliers": "Imported"
+    },
+    "error": {
+      "title": "Import error",
+      "description": "Could not import suppliers. Check the file and try again.",
+      "defaultMessage": "An error occurred while importing suppliers.",
+      "emptySupplierData": "No valid suppliers were found in the file.",
+      "allInvalidRows": "No suppliers were imported. {{count}} row(s) had validation errors.",
+      "allSkipped": "No suppliers were imported. {{count}} row(s) were skipped.",
+      "allSkippedMixed": "No suppliers were imported. {{duplicates}} row(s) were duplicates and {{invalid}} had validation errors.",
+      "invalidFileType": "Invalid file type. Only .xlsx, .xls and .csv files are accepted.",
+      "fileTooLarge": "File is too large. Maximum size: 5MB.",
+      "fileReadError": "Error reading file.",
+      "fileRequired": "Please select a file to import.",
+      "templateDownloadFailed": "Couldn't generate the template file. Please try again.",
+      "rowErrorsTitle": "Error details:",
+      "rowLabel": "Row {{row}}:",
+      "rowErrorsMore": "+{{count}} more",
+      "rowErrorsApproximateNote": "Row numbers are approximate — the AI normalizer may merge or drop rows."
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "import": "Import {{count}} suppliers",
+      "importing": "Importing...",
+      "done": "Done",
+      "tryAgain": "Try again",
+      "close": "Close"
+    }
+  },
+  "importEventSuppliersModal": {
+    "title": "Import suppliers to this event",
+    "subtitle": "Upload a .xlsx, .xls or .csv file. Each row creates a supplier and links it to the event.",
+    "uploadHint": ".xlsx · .xls · .csv · max 5 MB",
+    "normalizing": {
+      "title": "Analyzing the file...",
+      "description": "Detecting columns and preparing the preview.",
+      "takingLongerHint": "Still analyzing - larger files or ambiguous headers may take longer.",
+      "longRunningHint": "Analysis is still running. It may take longer for files with many rows, columns or sheets.",
+      "durationHint": "Analysis typically takes 10-30s, depending on the file.",
+      "progressAriaLabel": "File analysis in progress"
+    },
+    "preview": {
+      "valid": "Valid rows",
+      "invalid": "Skipped"
+    },
+    "logisticsNote": {
+      "generic": "As Logistics, suppliers will be created as \"Pending\" and await the manager's approval.",
+      "withDowngrade": "As Logistics, {{count}} row(s) with a status other than \"Pending\" will be created as \"Pending\" and await the manager's approval."
+    },
+    "currencyMismatch": {
+      "note": "{{count}} row(s) use a currency different from the event's ({{currency}}). The event budget is single-currency - these amounts won't be converted and may distort the totals.",
+      "rowTitle": "Different from the event currency ({{currency}})"
+    },
+    "columns": {
+      "name": "Supplier",
+      "category": "Category",
+      "quote": "Quote",
+      "status": "Status",
+      "description": "Description",
+      "ref": "Ref."
+    },
+    "template": {
+      "sheetName": "Event Suppliers"
+    },
+    "importing": {
+      "title": "Importing to event..."
+    },
+    "success": {
+      "subtitle": "{{count}} supplier(s) linked to the event successfully",
+      "subtitleWithSkipped": "{{count}} supplier(s) linked to the event successfully ({{skipped}} skipped)"
+    },
+    "stats": {
+      "suppliersCreated": "New suppliers",
+      "suppliersReused": "Reused from catalog",
+      "linked": "Linked to event",
+      "alreadyLinked": "Already linked to event",
+      "duplicateNames": "Duplicate names in file",
+      "invalidRows": "Invalid rows"
+    },
+    "error": {
+      "description": "Could not import suppliers to the event. Check the file and try again.",
+      "defaultMessage": "An error occurred while importing suppliers to the event.",
+      "normalize": "Could not analyze the file.",
+      "importFailed": "Failed to import suppliers to the event.",
+      "emptySupplierData": "No valid suppliers were found to import into this event.",
+      "allInvalidRows": "No suppliers were imported. {{count}} row(s) had validation errors.",
+      "allDuplicateRows": "No suppliers were imported. {{count}} row(s) were duplicates in the file.",
+      "allAlreadyLinked": "All rows were already linked to this event. Nothing was imported.",
+      "allSkippedMixed": "No suppliers were imported. {{count}} row(s) were skipped ({{reasons}}).",
+      "invalidInput": "The submitted import data is invalid.",
+      "batchLimitExceeded": "The file exceeds the maximum limit of 500 rows per import.",
+      "unauthenticated": "Your session expired. Please sign in again to import suppliers.",
+      "unauthorized": "You do not have permission to import suppliers into this event.",
+      "eventNotFound": "The event for this import could not be found.",
+      "skippedReasons": {
+        "alreadyLinked": "{{count}} already linked to the event",
+        "duplicateRows": "{{count}} duplicate row(s) in the file",
+        "invalidRows": "{{count}} invalid"
+      }
+    }
+  },
+  "errors": {
+    "generic": "An error occurred. Please try again."
+  },
+  "actions": {
+    "moreOptions": "More options"
+  }
+}

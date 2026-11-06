@@ -1,0 +1,113 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main, development]
+
+# Cancel superseded runs: a new push to a PR stops the in-progress run for that
+# PR instead of letting it bill to completion alongside the fresh one.
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  hello-bafatorio:
+    name: Hello Bafatorio
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: sites/hello-bafatorio
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+          cache-dependency-path: sites/hello-bafatorio/package-lock.json
+
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run check:boundaries
+      - run: npm run test:run
+      - run: npm run build
+
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - run: npm ci
+
+      - run: npm run lint
+        continue-on-error: true
+
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - run: npm ci
+
+      - run: npm test -- --ci --coverage --maxWorkers=2
+        continue-on-error: true
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Create Amplify outputs stub
+        run: echo '{}' > amplify_outputs.json
+
+      - run: npm run build
+
+  # Blocking gate: fail only if this PR INTRODUCES new issues vs its base branch.
+  # Legacy debt (whole-repo score) does not block — it is tracked by the advisory
+  # job below. Ratchets code quality up without freezing all work behind a score
+  # the codebase does not meet yet.
+  react-doctor:
+    name: React Doctor
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # need the base branch history for --scope changed
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: React Doctor — new issues vs base
+        env:
+          BASE_REF: ${{ github.base_ref }} # via env, not inlined in run (injection-safe)
+        run: |
+          git fetch origin "$BASE_REF" --depth=1
+          npx react-doctor@0.7.4 . \
+            --scope changed \
+            --base "origin/$BASE_REF" \
+            --blocking error \
+            --no-score

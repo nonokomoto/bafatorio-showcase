@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- App Favicons -->
+    <link rel="icon" type="image/x-icon" href="/src/assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/assets/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Sync theme class to <html> before the body paints so the pre-React
+         skeleton (and Tailwind's dark: variants on <body>) honour the user's
+         stored preference. Mirrors the logic in ThemeInitializer. -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('theme') || 'system';
+          var systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (saved === 'system' && systemDark)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (_) { /* privacy mode, SSR sandbox, etc. — fall back to light */ }
+      })();
+    </script>
+
+    <title>Bafatório</title>
+
+    <!-- Umami (cookieless, sem banner de consentimento). data-domains prende o
+         tracking à produção — localhost e previews não enviam nada. -->
+    <script
+      defer
+      src="https://cloud.umami.is/script.js"
+      data-website-id="00000000-0000-0000-0000-000000000000"
+      data-domains="bafatorio.com,www.bafatorio.com"
+    ></script>
+  </head>
+  <body class="bg-background dark:bg-black">
+    <!-- Inline pre-React loader. Rendered from the first paint (no JS/CSS
+         dependency) and automatically replaced when ReactDOM.createRoot takes
+         over #root. Neutral centered spinner on a themed background —
+         intentionally shape-agnostic so it does not clash with whatever route
+         lands next. -->
+    <div id="root">
+      <style>
+        #app-preloader {
+          position: fixed; inset: 0;
+          display: flex; align-items: center; justify-content: center;
+          background: #f8fafc;            /* --background light */
+        }
+        #app-preloader-spinner {
+          width: 40px; height: 40px;
+          border-radius: 50%;
+          border: 3px solid rgba(64, 105, 255, 0.18);  /* primary @ 18% */
+          border-top-color: #4069ff;                    /* primary */
+          animation: app-preloader-spin 0.85s linear infinite;
+        }
+        @keyframes app-preloader-spin {
+          to { transform: rotate(360deg); }
+        }
+        html.dark #app-preloader         { background: #0f172a; }
+        html.dark #app-preloader-spinner {
+          border-color: rgba(64, 105, 255, 0.22);
+          border-top-color: #4069ff;
+        }
+      </style>
+      <div id="app-preloader" aria-hidden="true">
+        <div id="app-preloader-spinner"></div>
+      </div>
+    </div>
+    <div id="modal-root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

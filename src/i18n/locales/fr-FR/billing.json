@@ -1,0 +1,116 @@
+{
+  "plans": {
+    "billing": {
+      "cycles": {
+        "monthly": "Mensuel",
+        "annual": "Annuel"
+      }
+    },
+    "welcome": {
+      "greeting": "Bonjour, {{name}} !",
+      "greetingFallback": "Bonjour ! Bienvenue sur Bafatório",
+      "intro": "Ton compte a été créé avec succès.",
+      "next": "Tu peux maintenant commencer à organiser tes événements simplement et efficacement."
+    },
+    "policy": {
+      "refund": {
+        "title": "Remboursements",
+        "starter": "Le plan Starter est gratuit et ne nécessite pas de carte - essayez la plateforme sans aucun frais.",
+        "payPerEvent": "L'achat Pay-per-event n'est pas remboursable. L'achat n'expire pas tant qu'il n'est pas utilisé.",
+        "pro": "Le plan Pro n'inclut aucun remboursement, total ou partiel. Si vous annulez, vous conservez l'accès jusqu'à la fin de la période déjà payée.",
+        "downgrade": "Les changements d'Annuel vers Mensuel prennent effet à la fin de la période en cours, sans remboursement."
+      },
+      "cancel": {
+        "title": "Annuler l'abonnement",
+        "description": "Vous pouvez annuler à tout moment. Vous conservez l'accès jusqu'à la fin de la période déjà payée.",
+        "accessUntil": "Vous conservez l'accès jusqu'au {{date}}",
+        "confirm": "Annuler l'abonnement",
+        "keepPlan": "Garder mon plan"
+      }
+    },
+    "grid": {
+      "title": "Choisissez le plan qui vous convient le mieux",
+      "badge": "-50% · lancement",
+      "names": {
+        "starter": "1 événement gratuit",
+        "pro": "Pro",
+        "payPerEvent": "Par événement"
+      },
+      "rows": {
+        "events": "Événements",
+        "participants": "Participants",
+        "suppliers": "Fournisseurs",
+        "report": "Rapport PDF",
+        "integrations": "Intégrations"
+      },
+      "values": {
+        "unlimited": "Illimités"
+      },
+      "perMonth": "/ mois",
+      "perYear": "/ an",
+      "perEvent": "par événement",
+      "tiers": {
+        "label": "Taille de l'événement",
+        "capped": "jusqu'à {{max}} invités",
+        "uncapped": "sans limite"
+      },
+      "upgrade": {
+        "cta": "Augmenter la limite",
+        "title": "Augmenter la limite d'invités",
+        "current": "Cet événement accepte jusqu'à {{max}} invités.",
+        "currentUncapped": "Cet événement n'a déjà aucune limite d'invités.",
+        "alreadyMax": "Il n'y a pas de palier au-dessus de celui-ci.",
+        "diff": "+ {{price}}",
+        "confirm": "Continuer",
+        "cancel": "Annuler",
+        "note": "Tu ne paies que la différence. La limite augmente dès que le paiement est confirmé.",
+        "error": "Impossible de démarrer le paiement. Réessaie."
+      },
+      "cta": {
+        "starter": "Commencer gratuitement",
+        "pro": "S'abonner au Pro",
+        "payPerEvent": "Acheter un événement"
+      },
+      "universal": {
+        "lead": "Tous les plans incluent :",
+        "agenda": "Agenda",
+        "confirmations": "Confirmations de présence",
+        "documents": "Documents",
+        "excel": "Import et export Excel"
+      },
+      "footer": "Prix TTC · Annulez à tout moment"
+    }
+  },
+  "loading": {
+    "processing": "Traitement de votre demande..."
+  },
+  "error": {
+    "title": "Erreur",
+    "payment": "Une erreur s'est produite lors du traitement de votre commande. Veuillez réessayer.",
+    "profileMessage": "Accédez à votre profil si vous souhaitez apporter des modifications à votre plan."
+  },
+  "fields": {
+    "billingCycle": {
+      "label": "Cycle de Facturation"
+    }
+  },
+  "checkoutSuccess": {
+    "title": "Paiement confirmé",
+    "subtitle": {
+      "payPerEvent": "Votre événement est payé. La prochaine étape est de le créer : cela prend moins d'une minute.",
+      "pro": "Votre abonnement Pro est actif. Créez votre premier événement et commencez à inviter.",
+      "generic": "Votre paiement a été reçu. Vous pouvez maintenant créer votre événement."
+    },
+    "paid": "Payé",
+    "tier": {
+      "capped": "Jusqu'à {{count}} participants",
+      "uncapped": "Participants illimités"
+    },
+    "cta": {
+      "payPerEvent": "Créer mon événement",
+      "pro": "Créer un événement",
+      "generic": "Créer un événement"
+    },
+    "secondary": "Voir mes événements"
+  }
+}

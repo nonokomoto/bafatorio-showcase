@@ -1,0 +1,315 @@
+{
+  "main": {
+    "title": "Tableau de Bord",
+    "description": "Ce tableau de bord vous offre:",
+    "features": {
+      "holisticView": {
+        "title": "Vue Holistique",
+        "description": "Suivez tous vos événements sur un seul écran."
+      },
+      "realTimeAnalysis": {
+        "title": "Analyse en Temps Réel",
+        "description": "Métriques actualisées pour des décisions rapides et éclairées."
+      },
+      "valuableInsights": {
+        "title": "Insights Précieux",
+        "description": "Graphiques et tendances pour optimiser votre planification."
+      }
+    },
+    "callToAction": "Préparez-vous à transformer les données en action et à élever vos événements à de nouveaux sommets de succès!"
+  },
+  "loading": {
+    "dashboard": "Chargement des données du tableau de bord...",
+    "summary": "Chargement du résumé...",
+    "insights": "Chargement des insights...",
+    "charts": "Chargement des graphiques consolidés..."
+  },
+  "error": {
+    "title": "Erreur"
+  },
+  "eventCharts": {
+    "eventType": "Distribution par Type",
+    "eventStatus": "Statut des Événements",
+    "topCategories": "Top 5 Catégories",
+    "budgetDistribution": "Budget par Catégorie",
+    "monthlyGrowth": "Croissance Mensuelle"
+  },
+  "participantCharts": {
+    "participantRole": "Distribution par Type de Participant",
+    "participantStatus": "Distribution par Statut d'Inscription",
+    "attendanceRate": "Taux de Présence",
+    "registrationGrowth": "Croissance des Inscriptions"
+  },
+  "dependentsCharts": {
+    "dependentAge": "Distribution par Âge",
+    "dependentsPerParticipant": "Personnes à Charge par Participant",
+    "dependentGrowth": "Croissance Mensuelle",
+    "dependentConversion": "Conversion par Personnes à Charge"
+  },
+  "charts": {
+    "eventTypes": {
+      "public": "Public",
+      "private": "Privé",
+      "other": "Autre"
+    },
+    "eventStatus": {
+      "scheduled": "Programmé",
+      "ongoing": "En cours",
+      "completed": "Terminé",
+      "cancelled": "Annulé",
+      "pending": "En attente",
+      "unknown": "Inconnu"
+    },
+    "participantStatus": {
+      "registered": "Inscrit",
+      "confirmed": "Confirmé",
+      "cancelled": "Annulé",
+      "attended": "Présent",
+      "pending": "En attente",
+      "unknown": "Inconnu"
+    },
+    "roles": {
+      "attendee": "Participant",
+      "media": "Média",
+      "team": "Équipe",
+      "vip": "VIP",
+      "unknown": "Autre"
+    },
+    "dependentAge": {
+      "child": "Enfant",
+      "baby": "Bébé",
+      "adult": "Adulte",
+      "unknown": "Inconnu",
+      "title": "Distribution par Âge"
+    },
+    "attendanceRate": {
+      "present": "Présent",
+      "notConfirmed": "Présence non confirmée"
+    },
+    "dependentsPerParticipant": {
+      "title": "Moyenne de Personnes à Charge",
+      "name": "Personnes à Charge/Participant"
+    },
+    "dependentGrowth": {
+      "newDependents": "nouvelles personnes à charge"
+    },
+    "dependentConversion": {
+      "withDependents": "Avec personnes à charge",
+      "withoutDependents": "Sans personnes à charge",
+      "attendanceRate": "Taux de Participation",
+      "conversionRate": "Taux de Conversion"
+    },
+    "categories": {
+      "uncategorized": "Sans Catégorie"
+    },
+    "series": {
+      "eventCount": "Nombre d'Événements",
+      "budgetTotal": "Budget Total",
+      "registrations": "Inscriptions",
+      "total": "Total",
+      "attendanceRate": "Taux de Présence",
+      "newDependents": "Nouvelles Personnes à Charge"
+    }
+  },
+  "tabs": {
+    "all": "Tous",
+    "events": "Événements",
+    "participants": "Participants",
+    "dependents": "Personnes à Charge"
+  },
+  "chartInfo": {
+    "eventType": "Ce graphique montre la distribution des événements par type (public, privé, etc.). Il vous aide à comprendre quels types d'événements sont les plus courants dans votre organisation.",
+    "eventStatus": "Ce graphique affiche l'état actuel de tous les événements, montrant combien sont à venir, en cours ou terminés.",
+    "topCategories": "Ce graphique met en évidence les 5 catégories d'événements les plus fréquentes, vous aidant à identifier quels types d'événements sont les plus courants.",
+    "budgetDistribution": "Ce graphique détaille l'allocation du budget des événements par catégorie, vous permettant de voir où les ressources financières sont utilisées.",
+    "monthlyGrowth": "Ce graphique suit le nombre d'événements créés au fil du temps, montrant les tendances et les modèles de croissance mois par mois.",
+    "participantRole": "Ce graphique montre la distribution des types et des rôles des participants, vous aidant à comprendre la composition de votre audience.",
+    "participantStatus": "Ce graphique affiche l'état actuel de tous les participants, montrant combien sont inscrits, confirmés, présents ou ont annulé.",
+    "attendanceRate": "Ce graphique montre le taux de présence à différents événements, vous aidant à suivre la participation réelle par rapport aux inscriptions.",
+    "registrationGrowth": "Ce graphique suit la croissance des inscriptions au fil du temps, montrant les tendances dans les inscriptions des participants mois par mois.",
+    "dependentAge": "Ce graphique affiche la distribution d'âge des personnes à charge, vous aidant à comprendre la démographie de ce groupe de participants.",
+    "dependentsPerParticipant": "Ce graphique montre combien de personnes à charge sont inscrites par participant, fournissant des insights sur les modèles de participation familiale.",
+    "dependentGrowth": "Ce graphique suit la croissance des inscriptions de personnes à charge au fil du temps, montrant les tendances mois par mois.",
+    "dependentConversion": "Ce graphique compare le taux de participation entre les participants avec personnes à charge et ceux sans personnes à charge."
+  },
+  "chartDetails": {
+    "eventType": {
+      "title": "Détails de la Distribution par Type d'Événement",
+      "description": "Analyse détaillée des événements par type. Cette analyse vous aide à comprendre la diversité des types d'événements dans votre organisation."
+    },
+    "eventStatus": {
+      "title": "Détails de la Distribution par État d'Événement",
+      "description": "Analyse complète des états d'événements. Suivez la proportion d'événements à différentes phases de leur cycle de vie."
+    },
+    "topCategories": {
+      "title": "Détails de la Distribution par Catégorie",
+      "description": "Analyse approfondie des catégories d'événements. Identifiez quelles catégories sont les plus courantes et pourraient mériter plus d'attention."
+    },
+    "budgetDistribution": {
+      "title": "Détails de la Distribution du Budget",
+      "description": "Analyse détaillée des budgets d'événements par catégorie. Comprenez comment les ressources financières sont allouées entre différents types d'événements."
+    },
+    "monthlyGrowth": {
+      "title": "Détails de la Tendance de Croissance des Événements",
+      "description": "Vue complète des tendances de création d'événements au fil du temps. Identifiez les modèles saisonniers et les trajectoires de croissance."
+    },
+    "participantRole": {
+      "title": "Détails de la Distribution par Fonction du Participant",
+      "description": "Analyse approfondie des types de participants. Comprenez la composition de votre audience à travers différentes fonctions."
+    },
+    "participantStatus": {
+      "title": "Détails du Statut des Participants",
+      "description": "Analyse complète des statuts d'inscription des participants. Suivez les taux de confirmation et identifiez les problèmes potentiels."
+    },
+    "attendanceRate": {
+      "title": "Analyse du Taux de Présence",
+      "description": "Métriques détaillées de présence aux événements. Comparez la participation réelle avec les inscriptions pour optimiser les événements futurs."
+    },
+    "registrationGrowth": {
+      "title": "Détails de la Croissance des Inscriptions",
+      "description": "Vue complète des tendances d'inscription des participants au fil du temps. Identifiez les modèles et les opportunités de croissance."
+    },
+    "dependentAge": {
+      "title": "Détails de la Distribution par Âge des Personnes à Charge",
+      "description": "Analyse détaillée de la démographie des personnes à charge par groupe d'âge. Comprenez mieux les modèles de participation familiale."
+    },
+    "dependentsPerParticipant": {
+      "title": "Analyse des Personnes à Charge par Participant",
+      "description": "Vue approfondie de combien de personnes à charge accompagnent chaque participant. Optimisez les événements orientés famille avec ces données."
+    },
+    "dependentGrowth": {
+      "title": "Détails de la Tendance de Croissance des Personnes à Charge",
+      "description": "Vue complète des tendances d'inscription des personnes à charge au fil du temps. Suivez les modèles de croissance de la participation familiale."
+    },
+    "dependentConversion": {
+      "title": "Taux de Conversion par Personnes à Charge",
+      "description": "Compare le taux de participation entre les participants avec personnes à charge et ceux sans personnes à charge."
+    },
+    "distributionsTitle": "Distributions Statistiques",
+    "distributions": "Distributions"
+  },
+  "metrics": {
+    "totalEvents": "Total des Événements",
+    "totalParticipants": "Total des Participants",
+    "totalDependents": "Total des Personnes à Charge",
+    "totalBudget": "Budget Total",
+    "averageBudget": "Budget Moyen",
+    "avgDependentsPerParticipant": "Moyenne des Personnes à Charge par Participant",
+    "attendanceRate": "Taux de Présence"
+  },
+  "distributions": {
+    "byType": "Distribution par Type",
+    "byStatus": "Distribution par Statut",
+    "byRole": "Distribution par Fonction",
+    "byCategory": "Distribution par Catégorie",
+    "byAgeGroup": "Distribution par Groupe d'Âge",
+    "budgetByCategory": "Budget par Catégorie",
+    "dependentsDistribution": "Distribution des Personnes à Charge",
+    "byMonth": "Distribution Mensuelle"
+  },
+  "dependents": "personnes à charge",
+  "noDataAvailable": "Pas de données disponibles pour ce graphique",
+  "common": {
+    "information": "Information",
+    "minimize": "Minimiser",
+    "maximize": "Maximiser"
+  },
+  "header": {
+    "events": "Total des Événements",
+    "participants": "Total des Participants",
+    "futureEvents": "Événements Futurs",
+    "doneEvents": "Événements Réalisés",
+    "relation": "Par rapport à l'année dernière"
+  },
+  "insights": {
+    "title": "Analyse de Données",
+    "noData": {
+      "title": "Pas assez de données pour générer des insights.",
+      "description": "Ajoutez des événements et des participants pour afficher les statistiques."
+    },
+    "categories": {
+      "uncategorized": "Sans catégorie"
+    },
+    "locations": {
+      "unspecified": "Sans localisation"
+    },
+    "types": {
+      "unspecified": "Sans type"
+    },
+    "events": {
+      "unnamed": "Événement sans nom"
+    },
+    "justification": {
+      "title": "Détails du Calcul",
+      "hoverInfo": "Passez la souris pour voir plus de détails",
+      "viewDetails": "Voir les calculs détaillés",
+      "breakdown": "Données Utilisées",
+      "examples": "Exemples",
+      "totalEvents": "Total des événements",
+      "eventsThisMonth": "Événements ce mois-ci",
+      "eventsLastMonth": "Événements le mois dernier",
+      "growthRate": "Taux de croissance",
+      "totalParticipants": "Total des participants",
+      "attendedParticipants": "Participants présents",
+      "attendanceRate": "Taux de présence",
+      "cancelledParticipants": "Participants qui ont annulé",
+      "cancellationRate": "Taux d'annulation",
+      "recurringParticipants": "Total des présences récurrentes",
+      "uniqueRecurringParticipants": "Participants récurrents uniques",
+      "recurringRate": "Taux de récurrence",
+      "eventsAttended": "événements assistés",
+      "averageBudget": "Budget moyen",
+      "maxBudget": "Budget le plus élevé",
+      "minBudget": "Budget le plus bas",
+      "eventsWithBudget": "Événements avec budget",
+      "budget": "Budget",
+      "totalBudget": "Budget total",
+      "growthExplanation": "Le taux de croissance de {{rate}}% a été calculé en considérant {{eventsThisMonth}} événements dans le mois actuel ({{currentMonth}}) par rapport au total de {{totalEvents}} événements.",
+      "budgetExplanation": "Le budget moyen de {{average}}€ a été calculé en additionnant le montant total du budget ({{totalBudget}}€) et en le divisant par le nombre d'événements avec un budget ({{eventsWithBudget}}).",
+      "dayExplanation": "{{day}} est le jour de la semaine le plus fréquent pour les événements, représentant {{percentage}}% de tous les événements.",
+      "categoryExplanation": "La catégorie {{category}} est la plus fréquente avec {{count}} événements sur un total de {{total}}, représentant {{percentage}}% de tous les événements.",
+      "locationExplanation": "Le lieu {{location}} est le plus fréquent avec {{count}} événements sur un total de {{total}}, représentant {{percentage}}% de tous les événements.",
+      "typeExplanation": "Les {{type}} sont les plus courants avec {{count}} événements sur un total de {{total}}, représentant {{percentage}}% de tous les événements.",
+      "cancellationExplanation": "Le taux d'annulation de {{rate}}% a été calculé en considérant {{cancelledParticipants}} participants qui ont annulé par rapport au total de {{totalParticipants}} participants.",
+      "attendanceExplanation": "Le taux de présence de {{rate}}% a été calculé en considérant {{attendedParticipants}} participants présents par rapport au total de {{totalParticipants}} participants.",
+      "recurringExplanation": "Le taux de récurrence de {{rate}}% a été calculé en considérant {{uniqueRecurringParticipants}} participants qui ont assisté à plusieurs événements, pour un total de {{recurringParticipants}} présences récurrentes."
+    },
+    "monthlyGrowth": {
+      "text": "de croissance mensuelle",
+      "description": "Événements ajoutés ce mois-ci par rapport au total"
+    },
+    "averageBudget": {
+      "text": "de budget moyen",
+      "description": "Valeur moyenne des budgets d'événements"
+    },
+    "mostFrequentDay": {
+      "text": "des événements",
+      "description": "Jour de la semaine le plus courant pour les événements"
+    },
+    "attendanceRate": {
+      "text": "taux de présence",
+      "description": "Pourcentage de participants qui ont assisté aux événements"
+    },
+    "recurringRate": {
+      "text": "participants récurrents",
+      "description": "Participants qui se sont inscrits à plus d'un événement"
+    },
+    "mostFrequentCategory": {
+      "text": "Catégorie la plus fréquente:",
+      "description": "des événements"
+    },
+    "mostFrequentLocation": {
+      "text": "des événements",
+      "description": "Lieu le plus fréquent pour la tenue d'événements"
+    },
+    "eventType": {
+      "publicText": "Événements publics",
+      "privateText": "Événements privés",
+      "description": "Majorité des événements par type"
+    },
+    "cancellationRate": {
+      "text": "Taux d'annulation:",
+      "description": "Pourcentage de participants qui ont annulé leur présence"
+    }
+  }
+}

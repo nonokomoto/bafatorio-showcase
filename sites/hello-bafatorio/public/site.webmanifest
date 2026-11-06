@@ -1,0 +1,17 @@
+{
+  "name": "Bafatório",
+  "short_name": "Bafatório",
+  "description": "Toda a organização do teu evento num só lugar.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#334fc8",
+  "theme_color": "#334fc8",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

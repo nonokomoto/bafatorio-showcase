@@ -1,0 +1,89 @@
+{
+  "authorFilter": {
+    "label": "A mostrar",
+    "hideAuthor": "Esconder as entradas de {{name}}",
+    "showAuthor": "Mostrar as entradas de {{name}}",
+    "unknownAuthor": "Autor desconhecido",
+    "allHidden": "Todas as entradas estão escondidas pelo filtro de pessoas - carrega num avatar para as mostrar."
+  },
+  "emptyState": {
+    "noEntries": {
+      "title": "Agenda vazia",
+      "description": "Ainda não há entradas na agenda deste evento."
+    }
+  },
+  "entryDetail": {
+    "allDay": "Dia inteiro",
+    "location": "Local",
+    "supplier": "Fornecedor",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "close": "Fechar",
+    "deleteConfirm": "Tens a certeza que queres eliminar esta entrada?",
+    "deleteCancel": "Cancelar",
+    "deleteConfirmButton": "Eliminar",
+    "participants": "Participantes",
+    "createdBy": "Criada por {{name}}"
+  },
+  "form": {
+    "title": "Nova entrada",
+    "titleEdit": "Editar entrada",
+    "cancel": "Cancelar",
+    "submit": "Criar",
+    "submitEdit": "Guardar",
+    "genericError": "Ocorreu um erro. Tenta novamente.",
+    "fields": {
+      "title": "Título",
+      "date": "Data",
+      "allDay": "Dia inteiro",
+      "startTime": "Hora início",
+      "endTime": "Hora fim",
+      "description": "Descrição",
+      "location": "Local",
+      "supplier": "Fornecedor",
+      "color": "Cor",
+      "participants": "Participantes"
+    },
+    "placeholders": {
+      "title": "Nome da entrada",
+      "description": "Descrição opcional",
+      "location": "Local opcional",
+      "supplier": "Sem fornecedor",
+      "participants": "Sem participantes"
+    },
+    "validation": {
+      "titleRequired": "O título é obrigatório",
+      "dateRequired": "A data é obrigatória"
+    },
+    "supplierNew": "novo",
+    "colors": {
+      "tomato": "Tomate",
+      "flamingo": "Flamingo",
+      "tangerine": "Tangerina",
+      "banana": "Banana",
+      "basil": "Manjericão",
+      "peacock": "Pavão",
+      "blueberry": "Mirtilo",
+      "grape": "Uva"
+    }
+  },
+  "daySheet": {
+    "empty": "Sem entradas para este dia"
+  },
+  "calendar": {
+    "today": "Hoje",
+    "previous": "Anterior",
+    "next": "Próximo",
+    "month": "Mês",
+    "week": "Semana",
+    "day": "Dia",
+    "date": "Data",
+    "time": "Hora",
+    "event": "Entrada",
+    "noEventsInRange": "Sem entradas neste período.",
+    "showMore": "+ {{count}} mais",
+    "openPicker": "Abrir selector de data"
+  },
+  "loading": "A carregar agenda...",
+  "restrictedStaffNotice": "Vês apenas as entradas que criaste. Pede ao organizador para partilhar a agenda da equipa."
+}

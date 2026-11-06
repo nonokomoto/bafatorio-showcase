@@ -1,0 +1,126 @@
+{
+  "title": "Équipe",
+  "description": "Gérer les collaborateurs et les permissions de l'événement",
+  "noPermission": "Vous n'avez pas la permission de gérer l'équipe de cet événement",
+  "owner": {
+    "title": "Organisateur",
+    "badge": "Organisateur",
+    "description": "Vous êtes l'organisateur de cet événement avec un contrôle total"
+  },
+  "empty": {
+    "title": "Votre équipe commence ici",
+    "description": "Invitez des collaborateurs pour aider à gérer l'événement. Définissez des permissions spécifiques pour chaque membre.",
+    "cta": "Inviter le premier collaborateur"
+  },
+  "roles": {
+    "owner": {
+      "name": "Organisateur",
+      "description": "Contrôle total de l'événement",
+      "short": "Contrôle total"
+    },
+    "coManager": {
+      "name": "Co-Organisateur",
+      "description": "Permissions étendues, peut inviter du Staff",
+      "short": "Gestion complète"
+    },
+    "staffCheckin": {
+      "name": "Staff Check-in",
+      "description": "Check-in des participants uniquement",
+      "short": "Check-in des participants"
+    },
+    "staffLogistics": {
+      "name": "Staff Logistique",
+      "description": "Gestion des participants et sélection des fournisseurs",
+      "short": "Gestion des participants"
+    }
+  },
+  "collaborators": {
+    "title": "Collaborateurs"
+  },
+  "list": {
+    "empty": "Aucun collaborateur ajouté",
+    "activeMembers": "Membres Actifs",
+    "pendingInvites": "Invitations en Attente"
+  },
+  "card": {
+    "invitedAt": "Invité le",
+    "acceptedAt": "Accepté le",
+    "sharedFolders": "{{count}} dossier(s) partagé(s)",
+    "sharedSuppliers": "{{count}} fournisseur(s) partagé(s)"
+  },
+  "status": {
+    "pending": "En attente",
+    "accepted": "Accepté",
+    "declined": "Refusé"
+  },
+  "actions": {
+    "invite": "Inviter",
+    "inviteMember": "Inviter un Membre",
+    "remove": "Supprimer",
+    "edit": "Modifier"
+  },
+  "invite": {
+    "title": "Inviter un Collaborateur",
+    "emailLabel": "Email du collaborateur",
+    "roleLabel": "Sélectionner le Rôle",
+    "submit": "Envoyer l'Invitation",
+    "info": "Le collaborateur recevra un email avec l'invitation. Après acceptation, il aura accès à l'événement avec les permissions du rôle sélectionné.",
+    "shareFolders": "Partager les Dossiers",
+    "shareFoldersDescription": "Sélectionnez les dossiers auxquels le collaborateur peut accéder",
+    "shareSuppliers": "Partager les Fournisseurs",
+    "shareSuppliersDescription": "Fournisseurs de votre liste que le collaborateur peut ajouter à cet événement. Ceux déjà dans l'événement sont accessibles automatiquement.",
+    "selectAll": "Tout sélectionner",
+    "deselectAll": "Tout désélectionner",
+    "noFoldersAvailable": "Aucun dossier disponible",
+    "noSuppliersAvailable": "Aucun fournisseur disponible",
+    "foldersSelected": "{{count}} dossier(s) sélectionné(s)",
+    "suppliersSelected": "{{count}} fournisseur(s) sélectionné(s)",
+    "errors": {
+      "emailRequired": "L'email est requis",
+      "emailInvalid": "Email invalide",
+      "roleRequired": "Sélectionnez un rôle",
+      "alreadyInvited": "Cet email a déjà été invité",
+      "generic": "Erreur lors de l'envoi de l'invitation"
+    }
+  },
+  "invitation": {
+    "title": "Invitations",
+    "newInvite": "Nouvelle invitation",
+    "viewInvitations": "Voir les invitations",
+    "noInvitations": "Aucune invitation en attente",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "welcomeMessage": "Bienvenue dans l'équipe !",
+    "roleAssigned": "Vous avez été ajouté comme {{role}} à cet événement.",
+    "teamMember": "Vous faites maintenant partie de l'équipe de cet événement."
+  },
+  "edit": {
+    "title": "Modifier le Collaborateur",
+    "roleLabel": "Rôle",
+    "submit": "Enregistrer les Modifications",
+    "successTitle": "Modifications Enregistrées !",
+    "successMessage": "{{name}} est maintenant {{role}}.",
+    "successMessageFolders": "Les dossiers partagés de {{name}} ont été mis à jour.",
+    "successMessageSuppliers": "Les fournisseurs partagés de {{name}} ont été mis à jour.",
+    "checkinWarning": "Le Staff Check-in ne peut que faire le check-in des participants. Les dossiers et fournisseurs partagés seront supprimés.",
+    "errors": {
+      "generic": "Erreur lors de la mise à jour du collaborateur"
+    },
+    "scheduleAccess": {
+      "label": "Voir l'agenda de l'équipe",
+      "onDescription": "Voit toutes les entrées de l'agenda de cet événement.",
+      "offDescription": "Ne voit que les entrées qu'il a créées."
+    },
+    "successMessageScheduleAccess": "L'accès à l'agenda de {{name}} a été mis à jour."
+  },
+  "confirm": {
+    "removeMessage": "Êtes-vous sûr de vouloir supprimer ce collaborateur ?"
+  },
+  "error": {
+    "loadFailed": "Erreur lors du chargement de l'équipe",
+    "removeFailed": "Erreur lors de la suppression du collaborateur"
+  },
+  "legend": {
+    "title": "Rôles disponibles"
+  }
+}

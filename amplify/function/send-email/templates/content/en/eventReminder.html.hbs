@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Reminder</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        .container { box-sizing: border-box; width: 100%; max-width: 600px; margin: 0 auto; padding: 20px; }
+        .header { background-color: #0093EB; color: white; padding: 10px; text-align: center; }
+        .content { background-color: #f8f8f8; padding: 20px; }
+        .footer { text-align: center; margin-top: 20px; font-size: 0.8em; color: #666; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Event Reminder</h1>
+        </div>
+        <div class="content">
+            <p>Hello {{participantName}},</p>
+            <p>This is a reminder for the event <strong>{{eventName}}</strong> happening soon.</p>
+            <h2>Event Details:</h2>
+            <ul>
+                <li><strong>Date:</strong> {{eventDate}}</li>
+                {{#if eventTime}}
+                <li><strong>Time:</strong> {{eventTime}}</li>
+                {{/if}}
+                {{#if eventLocation}}
+                <li><strong>Location:</strong> {{eventLocation}}</li>
+                {{/if}}
+                <li><strong>Organizer:</strong> {{eventManagerName}} ({{eventManagerContact}})</li>
+            </ul>
+            <p>If you have any questions or need more information, please contact the organizer.</p>
+            <p>We look forward to seeing you at the event!</p>
+        </div>
+        <div class="footer">
+            <p>This is an automated message. Please do not reply to this email.</p>
+        </div>
+    </div>
+</body>
+</html>

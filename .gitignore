@@ -1,0 +1,82 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Package files with computer names
+package-*.json
+!package-lock.json
+package-lock-*.json
+
+# pnpm files (local only)
+pnpm-lock.yaml
+pnpm-workspace.yaml
+.pnpm-store/
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# amplify
+.amplify
+amplify_outputs*
+amplifyconfiguration*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Admin documentation (sensitive)
+docs/admin/ADMIN_ONBOARDING.md
+
+#Ignore vscode AI rules
+.github/instructions/codacy.instructions.md
+
+# Claude Code project instructions
+# CLAUDE.md is tracked — shared with the team
+
+# MCP config (local only)
+.mcp.json
+.mcp/
+
+# MCP config (local only)
+.mcp.json
+.mcp/
+
+# Git worktrees
+.worktrees/
+
+# Claude Code agent memory and local settings
+.claude/agent-memory/
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+
+# Generated docs and temp files
+*.tmp
+.~lock.*
+Bafatorio_BMC_v2.0.*
+Bafatorio_Beta_Testing_Plan_v1.0.docx
+Bafatorio_Fluxo_Plataforma.pdf
+gerar_fluxo_pdf.py
+.superpowers/
+
+# Local backup artifacts
+scripts/backups/
+backups/

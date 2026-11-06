@@ -1,0 +1,707 @@
+{
+  "eventDatePicker": {
+    "modal": {
+      "title": "Sélectionner la date de l'événement"
+    },
+    "instructions": {
+      "range": "Choisissez le mois et l'année, puis sélectionnez le premier et le dernier jour.",
+      "specific": "Choisissez le mois et l'année, puis sélectionnez toutes les dates souhaitées."
+    },
+    "trigger": {
+      "placeholder": "Sélectionner la date de l'événement"
+    },
+    "modeSwitcher": {
+      "label": "Mode de sélection"
+    },
+    "modes": {
+      "range": "Plage de dates",
+      "specific": "Dates spécifiques",
+      "specificComingSoon": "Bientôt disponible"
+    },
+    "summary": {
+      "empty": "Aucune date sélectionnée",
+      "dayCount_one": "{{count}} jour",
+      "dayCount_other": "{{count}} jours",
+      "dateCount_one": "{{count}} date sélectionnée",
+      "dateCount_other": "{{count}} dates sélectionnées"
+    },
+    "actions": {
+      "clear": "Effacer",
+      "cancel": "Annuler",
+      "confirm": "Confirmer",
+      "close": "Fermer la sélection des dates"
+    }
+  },
+  "eventCard": {
+    "status": {
+      "scheduled": "Planifié",
+      "completed": "Terminé",
+      "cancelled": "Annulé",
+      "ongoing": "En cours",
+      "unknown": "Inconnu"
+    },
+    "date": {
+      "label": "Date:",
+      "missing": "Date non disponible"
+    },
+    "participant": {
+      "label": "Participant:"
+    },
+    "totalRegistrations": {
+      "label": "Total d'inscrits:"
+    },
+    "buttons": {
+      "details": "Voir détails",
+      "viewDetails": "Voir détails"
+    }
+  },
+  "eventDelete": {
+    "button": "Supprimer",
+    "title": "Supprimer l'événement",
+    "confirmTarget": "Vous allez supprimer l'événement :",
+    "confirmMessage": "Cette action est irréversible. Toutes les données de cet événement seront définitivement supprimées : participants et personnes à charge, fournisseurs, équipe, documents, programme et rôles.\n\nÊtes-vous sûr de vouloir continuer?",
+    "cancel": "Retour",
+    "success": "L'événement a été supprimé avec succès",
+    "error": {
+      "title": "Erreur",
+      "message": "Une erreur s'est produite lors de la suppression de l'événement."
+    },
+    "loading": {
+      "deletingEvent": "Suppression de l'événement..."
+    }
+  },
+  "eventControls": {
+    "title": "Gestion des Événements",
+    "buttons": {
+      "search": "Rechercher un événement...",
+      "filter": "Filtrer par",
+      "sort": "Trier par"
+    },
+    "sort": {
+      "dateAsc": "Date - Plus anciens",
+      "dateDesc": "Date - Plus récents",
+      "titleAsc": "Titre - A à Z",
+      "titleDesc": "Titre - Z à A"
+    },
+    "totalEvents": "Total des événements"
+  },
+  "noEvents": {
+    "title": "Aucun événement trouvé",
+    "messageCreate": "Commencez par créer votre premier événement. C'est rapide et simple!",
+    "messageFiltered": "Votre recherche n'a donné aucun résultat",
+    "messageSearch": "Nous vous suggérons d'essayer d'autres critères de recherche ou d'ajuster vos filtres.",
+    "altText": "Pas d'événements"
+  },
+  "pagination": {
+    "ariaLabel": "Pagination",
+    "buttons": {
+      "previous": "Précédent",
+      "next": "Suivant"
+    }
+  },
+  "eventDetails": {
+    "title": "Informations sur l'événement",
+    "fields": {
+      "dateTime": {
+        "missing": "Non défini"
+      },
+      "location": {
+        "missing": "Non défini"
+      },
+      "manager": {
+        "missing": "Non défini"
+      },
+      "email": {
+        "missing": "Non défini"
+      },
+      "phone": {
+        "missing": "Non défini"
+      },
+      "participants": {
+        "title": "Nombre de participants",
+        "missing": "Non défini"
+      },
+      "dependents": {
+        "title": "Accompagnateurs",
+        "missing": "Non défini"
+      },
+      "budget": {
+        "missing": "Non défini"
+      }
+    },
+    "sections": {
+      "dateLocation": "Date et Lieu",
+      "contact": "Contact",
+      "participants": "Participation",
+      "configuration": "Configuration",
+      "description": "Description"
+    },
+    "groups": {
+      "whenWhere": "Quand et Où",
+      "organizer": "Organisateur",
+      "eventProfile": "Profil de l'événement"
+    },
+    "completeEventBanner": {
+      "title": "Événement terminé",
+      "generateReport": "Generer le rapport",
+      "reportDescription": "L'événement est terminé. Vous pouvez maintenant générer le rapport final avec toutes les informations pertinentes.",
+      "generating": "Génération du rapport...",
+      "loading": "Chargement des données...",
+      "alertPopUp": {
+        "title": "Fonctionnalité Premium",
+        "message": "La génération de rapports PDF n'est disponible que dans le Plan Organisateur.",
+        "confirmText": "Mise à niveau",
+        "cancelText": "Plus tard"
+      },
+      "upgradeForReport": "Passez à un plan supérieur pour générer le rapport",
+      "endedTitle": "L'événement est terminé",
+      "endedDescription": "La date de l'événement est passée. Vous pouvez générer le rapport pour analyse.",
+      "markCompletedDescription": "La date de l'événement est passée, mais il n'est pas encore marqué comme Terminé. Marquez-le pour le clôturer et générer le rapport.",
+      "markCompletedCta": "Marquer comme Terminé",
+      "markCompletedSaving": "Mise à jour…",
+      "markCompletedError": "Impossible de mettre à jour le statut de l'événement.",
+      "loadDataError": "Impossible de charger les données du rapport.",
+      "modeModal": {
+        "title": "Choisir le Type de Rapport",
+        "description": "Choisissez le type de rapport que vous souhaitez générer.",
+        "summary": {
+          "label": "Rapport Résumé",
+          "description": "Statistiques agrégées uniquement, sans données personnelles des participants. Peut être partagé en toute sécurité avec des entités externes."
+        },
+        "detailed": {
+          "label": "Rapport Détaillé",
+          "description": "Inclut la liste nominale des participants, avec statut, contact et accompagnateurs."
+        },
+        "cancel": "Annuler"
+      }
+    },
+    "documents": {
+      "title": "Documents de l'Événement",
+      "noDocuments": {
+        "title": "Aucun Document",
+        "message": "Il n'y a pas encore de documents associés à cet événement.",
+        "altText": "Illustration sans documents"
+      },
+      "search": {
+        "placeholder": "Rechercher des documents..."
+      },
+      "table": {
+        "name": "Nom",
+        "size": "Taille",
+        "date": "Date",
+        "modified": "Modifié",
+        "type": "Type",
+        "creator": "Créateur",
+        "access": "Accès",
+        "actions": "Actions"
+      },
+      "add": {
+        "title": "Ajouter des Documents",
+        "error": "Erreur lors de l'ajout de documents",
+        "partialError": "Impossible d'ajouter : {{files}}",
+        "maxMessage": "Vous pouvez ajouter jusqu'à {{max}} documents à la fois",
+        "success": "{{count}} document ajouté avec succès",
+        "success_plural": "{{count}} documents ajoutés avec succès",
+        "fileTooLarge": "Le fichier \"{{name}}\" dépasse la limite de {{maxFileSize}} par fichier.",
+        "invalidType": "Le fichier \"{{name}}\" a un format non pris en charge. Formats autorisés : PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, TXT, CSV, MD, JPG, JPEG, PNG, GIF, PAGES, NUMBERS, KEY.",
+        "planLimitMessage": "Votre plan permet {{max}} documents dans cet événement. Passez à un plan supérieur pour en ajouter."
+      },
+      "edit": {
+        "title": "Modifier le Document",
+        "success": "Document mis à jour avec succès",
+        "noChange": "Aucune modification détectée",
+        "error": "Erreur lors de la mise à jour du document",
+        "name": "Nom du document",
+        "namePlaceholder": "Entrez le nouveau nom du document",
+        "currentName": "Nom actuel",
+        "buttonEdit": "Modifier la feuille de calcul",
+        "buttonCancel": "Annuler la modification",
+        "buttonSave": "Enregistrer les modifications",
+        "buttonSaving": "Enregistrement...",
+        "unsavedWarning": "Vous avez des modifications non enregistrées. Êtes-vous sûr de vouloir les abandonner?",
+        "saveSuccess": "Feuille de calcul enregistrée avec succès",
+        "saveError": "Impossible d'enregistrer la feuille de calcul",
+        "noPermission": "Vous n'avez pas la permission de modifier ce document"
+      },
+      "delete": {
+        "success": "Document supprimé avec succès",
+        "error": "Erreur lors de la suppression du document"
+      },
+      "preview": {
+        "loading": "Chargement du document...",
+        "fetchError": "Erreur lors du chargement du document",
+        "close": "Fermer",
+        "download": "Télécharger",
+        "saveAsPdf": "Enregistrer en PDF",
+        "unsupported": "Aperçu non disponible",
+        "unsupportedMessage": "Ce type de fichier ({{ext}}) ne prend pas en charge l'aperçu. Téléchargez-le pour voir son contenu.",
+        "page": "Page {{current}} sur {{total}}",
+        "pageCount": "{{count}} pages",
+        "zoom": "Zoom",
+        "zoomIn": "Agrandir",
+        "zoomOut": "Réduire",
+        "previousPage": "Page précédente",
+        "nextPage": "Page suivante",
+        "sheet": "Feuille",
+        "moreRows": "et {{count}} lignes supplémentaires",
+        "moreSheets": "et {{count}} feuilles supplémentaires",
+        "parseError": "Erreur lors du traitement du fichier",
+        "resizeHandle": "Redimensionner le panneau",
+        "truncated": {
+          "title": "Fichier trop volumineux",
+          "message": "L'aperçu n'affiche que les premiers {{limit}} pour maintenir la réactivité du navigateur. Téléchargez le fichier pour voir le contenu complet."
+        }
+      },
+      "buttons": {
+        "add": "Ajouter un Document",
+        "add2": "Ajouter",
+        "save": "Enregistrer",
+        "cancel": "Annuler",
+        "uploading": "Téléchargement...",
+        "selectedOne": "document sélectionné",
+        "selectedMultiple": "documents sélectionnés",
+        "browse": "Choisir des fichiers",
+        "clear": "Effacer",
+        "editAria": "Modifier le document",
+        "deleteAria": "Supprimer le document",
+        "closeAria": "Fermer la fenêtre"
+      },
+      "upload": {
+        "select": "Documents à importer",
+        "placeholder": "Nom du document",
+        "progress": "{{value}}% terminé",
+        "dragDropOr": "Glissez-déposez les fichiers ici",
+        "limits": "Jusqu'à {{maxDocuments}} fichiers, {{maxFileSize}} maximum par fichier",
+        "selected": "{{count}} fichier sélectionné",
+        "selected_plural": "{{count}} fichiers sélectionnés",
+        "dropHere": "Déposez les fichiers pour les ajouter à l'événement",
+        "dropOrClick": "Déposez des fichiers ou cliquez pour envoyer"
+      },
+      "viewMode": {
+        "label": "Mode d'affichage",
+        "list": "Vue en liste",
+        "grid": "Vue en grille"
+      },
+      "fetchError": "Erreur lors du chargement des documents",
+      "uploadError": "Erreur lors du téléchargement du document",
+      "deleteError": "Erreur lors de la suppression du document",
+      "spreadsheet": {
+        "addRow": "Insérer Ligne",
+        "addColumn": "Insérer Colonne",
+        "columnNamePlaceholder": "Nom de la colonne",
+        "confirm": "OK",
+        "defaultColumnName": "Colonne {{number}}"
+      },
+      "folders": {
+        "title": "Dossiers",
+        "addFolder": "Nouveau Dossier",
+        "createTitle": "Créer un Dossier",
+        "editTitle": "Modifier le Dossier",
+        "openFolder": "Ouvrir le dossier {{name}}",
+        "editFolder": "Modifier le dossier",
+        "deleteFolder": "Supprimer le dossier",
+        "document": "document",
+        "documents": "documents",
+        "root": "Racine",
+        "goToRoot": "Aller à la racine",
+        "breadcrumbLabel": "Navigation des dossiers",
+        "filesTitle": "Fichiers",
+        "emptyFolder": "Dossier Vide",
+        "emptyFolderMessage": "Ce dossier ne contient pas encore de documents.",
+        "uploadingTo": "Téléchargement vers",
+        "createSuccess": "Dossier créé avec succès",
+        "createError": "Erreur lors de la création du dossier",
+        "updateSuccess": "Dossier mis à jour avec succès",
+        "updateError": "Erreur lors de la mise à jour du dossier",
+        "deleteSuccess": "Dossier supprimé avec succès",
+        "deleteError": "Erreur lors de la suppression du dossier",
+        "deleteConfirmTitle": "Supprimer le Dossier",
+        "deleteConfirmMessage": "Êtes-vous sûr de vouloir supprimer le dossier \"{{name}}\" ? Les documents à l'intérieur seront également supprimés.",
+        "deleteConfirmButton": "Supprimer",
+        "defaultFolderName": "Général",
+        "cannotDeleteDefault": "Le dossier Général ne peut pas être supprimé",
+        "form": {
+          "name": "Nom du dossier",
+          "namePlaceholder": "Ex : Contrats, Factures, Rapports...",
+          "description": "Description (optionnel)",
+          "descriptionPlaceholder": "Brève description du contenu du dossier",
+          "color": "Couleur du dossier",
+          "createButton": "Créer le Dossier"
+        },
+        "validation": {
+          "nameRequired": "Le nom du dossier est obligatoire",
+          "nameMinLength": "Le nom doit comporter au moins 2 caractères"
+        },
+        "selectFolder": "Sélectionner le dossier",
+        "createdBy": "Créé par {{name}}",
+        "noFoldersTitle": "Aucun dossier créé",
+        "noFoldersMessage": "Créez un dossier avant d'ajouter des documents. Les dossiers aident à organiser et contrôler l'accès aux fichiers.",
+        "newFolder": "Nouveau dossier",
+        "deletePartial": "Dossier supprimé, mais certains fichiers n'ont pas pu être supprimés. Réessayez plus tard."
+      },
+      "retry": "Réessayer"
+    },
+    "notion": {
+      "importFromNotion": "Importer depuis Notion",
+      "importTitle": "Importer depuis Notion",
+      "searchPlaceholder": "Rechercher des pages...",
+      "search": "Rechercher",
+      "selected": "{{count}}/{{max}} sélectionnées",
+      "clearSelection": "Effacer la sélection",
+      "loadingPages": "Chargement des pages...",
+      "noPages": "Aucune page trouvée",
+      "loadMore": "Charger plus",
+      "importing": "Importation de {{count}} pages...",
+      "importButton": "Importer ({{count}})",
+      "cancel": "Annuler",
+      "close": "Fermer",
+      "notConnected": "Notion Non Connecté",
+      "connectFirst": "Connectez votre espace Notion dans Paramètres > Intégrations.",
+      "importFailed": "Échec de l'importation. Veuillez réessayer.",
+      "partialFailure": "{{imported}} pages importées, {{failed}} ont échoué.",
+      "databases": "Bases de données",
+      "pages": "Pages",
+      "entries": "{{count}} entrées",
+      "properties": "{{count}} propriétés",
+      "importDatabase": "Importer",
+      "sync": {
+        "title": "Synchroniser Notion",
+        "check": "Synchroniser",
+        "checking": "Vérification des modifications...",
+        "available": "{{count}} mises à jour disponibles",
+        "update": "Mettre à jour",
+        "updateAll": "Tout mettre à jour ({{count}})",
+        "syncing": "Mise à jour des documents...",
+        "upToDate": "Tout est à jour",
+        "allCurrent_one": "{{count}} document est à jour",
+        "allCurrent_other": "{{count}} documents sont à jour",
+        "totalDocs_one": "{{count}} document au total",
+        "totalDocs_other": "{{count}} documents au total",
+        "editedInNotion": "Modifié dans Notion",
+        "minutesAgo": "il y a {{count}} min",
+        "hoursAgo": "il y a {{count}}h",
+        "daysAgo": "il y a {{count}} jours",
+        "success": "{{count}} documents mis à jour",
+        "partialFailure": "{{failed}} ont échoué",
+        "error": "Échec de la synchronisation"
+      }
+    }
+  },
+  "eventForm": {
+    "fields": {
+      "eventTitle": {
+        "title": "Nom de l'événement",
+        "placeholder": "Saisissez le nom officiel de l'événement",
+        "message": "Vous devez mettre à niveau votre forfait pour utiliser cette fonctionnalité.",
+        "minLength": "Le nom de l'événement doit comporter au moins 3 caractères"
+      },
+      "dateTime": {
+        "title": "Date de l'événement",
+        "placeholder": "Sélectionnez quand l'événement aura lieu",
+        "required": "Vous devez définir quand l'événement aura lieu"
+      },
+      "eventTime": {
+        "title": "Heure (optionnel)",
+        "hint": "S'applique uniquement au premier jour de l'événement"
+      },
+      "eventDate": {
+        "title": "Date et heure",
+        "placeholder": "Sélectionnez quand l'événement aura lieu",
+        "required": "Vous devez définir quand l'événement aura lieu"
+      },
+      "location": {
+        "title": "Emplacement",
+        "placeholder": "Indiquez où l'événement aura lieu (adresse complète)",
+        "required": "Vous devez indiquer où l'événement aura lieu"
+      },
+      "eventLocation": {
+        "title": "Emplacement",
+        "placeholder": "Indiquez où l'événement aura lieu (adresse complète)",
+        "required": "Vous devez indiquer où l'événement aura lieu"
+      },
+      "manager": {
+        "title": "Responsable de l'événement",
+        "placeholder": "Nom de la personne responsable",
+        "required": "Vous devez indiquer qui sera responsable de l'événement"
+      },
+      "eventManager": {
+        "title": "Responsable de l'événement",
+        "placeholder": "Nom de la personne responsable",
+        "required": "Vous devez indiquer qui sera responsable de l'événement"
+      },
+      "email": {
+        "title": "Email du responsable",
+        "placeholder": "Email pour les communications officielles de l'événement",
+        "required": "Vous devez fournir un email pour les communications importantes",
+        "pattern": "L'email indiqué n'est pas valide"
+      },
+      "eventManagerEmail": {
+        "title": "Email du responsable",
+        "placeholder": "Email pour les communications officielles de l'événement",
+        "required": "Vous devez fournir un email pour les communications importantes",
+        "pattern": "L'email indiqué n'est pas valide"
+      },
+      "phone": {
+        "title": "Contact téléphonique",
+        "placeholder": "Mobile ou WhatsApp pour contact direct",
+        "required": "Vous devez fournir un contact téléphonique"
+      },
+      "eventManagerPhone": {
+        "title": "Contact téléphonique",
+        "placeholder": "Mobile ou WhatsApp pour contact direct",
+        "required": "Vous devez fournir un contact téléphonique"
+      },
+      "access": {
+        "title": "Type d'accès",
+        "placeholder": "Sélectionnez les conditions d'accès à l'événement",
+        "required": "Vous devez définir les conditions d'accès à l'événement"
+      },
+      "eventType": {
+        "title": "Nature de l'événement",
+        "placeholder": "Sélectionnez le type d'événement que vous souhaitez organiser",
+        "required": "Vous devez indiquer la nature de l'événement"
+      },
+      "eventStatus": {
+        "title": "État de l'événement",
+        "placeholder": "Sélectionnez l'état actuel de l'événement",
+        "required": "Vous devez définir l'état actuel de l'événement"
+      },
+      "budget": {
+        "title": "Budget",
+        "placeholder": "Valeur estimée pour l'événement (en euros)",
+        "required": "Vous devez indiquer un budget estimé pour l'événement",
+        "min": "Le budget estimé ne peut pas être négatif",
+        "validate": "Veuillez saisir un nombre valide",
+        "total": "Budget Total",
+        "spent": "Montant Dépensé",
+        "committed": "Montant Engagé",
+        "available": "Montant Disponible"
+      },
+      "currency": {
+        "title": "Devise",
+        "placeholder": "Sélectionnez une devise"
+      },
+      "description": {
+        "title": "Autres informations",
+        "placeholder": "Partagez des informations pertinentes sur l'événement (programme, exigences spéciales, notes importantes)",
+        "required": "Vous devez fournir quelques détails sur l'événement"
+      },
+      "categories": {
+        "title": "Nature de l'événement",
+        "placeholder": "Sélectionnez le type d'événement que vous souhaitez organiser",
+        "required": "Vous devez indiquer la nature de l'événement"
+      }
+    },
+    "buttons": {
+      "create": "Enregistrer un nouvel événement",
+      "update": "Enregistrer les modifications",
+      "cancel": "Retour",
+      "delete": "Supprimer"
+    },
+    "loading": {
+      "create": "Enregistrement de l'événement. Veuillez patienter...",
+      "update": "Enregistrement des modifications. Veuillez patienter...",
+      "delete": "Suppression de l'événement. Veuillez patienter..."
+    },
+    "select": {
+      "placeholder": "Sélectionnez {{field}}..."
+    },
+    "validation": {
+      "required": "Ce champ est obligatoire",
+      "email": "L'email indiqué n'est pas valide",
+      "minLength": "Ce champ doit comporter au moins {{min}} caractères"
+    },
+    "errors": {
+      "submitFailed": "Échec de la création/mise à jour de l'événement:",
+      "invalidTitle": "Le titre de l'événement ne peut pas être vide.",
+      "forbidden": "Vous n'avez pas la permission de modifier cet événement.",
+      "sessionExpired": "Votre session a expiré. Veuillez vous reconnecter."
+    },
+    "defaults": {
+      "noDescription": "Aucune description fournie"
+    },
+    "accessTypes": {
+      "public": "Événement ouvert au public",
+      "private": "Événement privé"
+    },
+    "categories": {
+      "personal": "Personnel",
+      "corporate": "Entreprise"
+    },
+    "gate": {
+      "starterLimitReached": "Le plan Gratuit inclut 1 événement. Passez à un plan supérieur pour en créer d'autres.",
+      "proPaused": "L'abonnement Pro est en pause - reprenez-le pour continuer.",
+      "proLapsed": "L'abonnement Pro est terminé - réactivez-le pour éditer à nouveau.",
+      "windowExpired": "La fenêtre d'édition de cet événement est fermée. L'événement est en lecture seule.",
+      "generic": "Impossible d'enregistrer l'événement.",
+      "upgradeCta": "Voir les plans"
+    }
+  },
+  "pages": {
+    "events": {
+      "welcome": "Bonjour, {{name}}!",
+      "description": "Organisez et gérez facilement tous vos événements à partir d'ici."
+    },
+    "eventDetails": {
+      "description": "Consultez et gérez les détails de cet événement."
+    }
+  },
+  "buttons": {
+    "edit": "Modifier les détails de l'événement",
+    "create": "Ajouter un événement"
+  },
+  "fields": {
+    "eventStatus": {
+      "title": "État de l'événement",
+      "missing": "Non défini"
+    },
+    "access": {
+      "title": "Type d'accès",
+      "missing": "Non défini"
+    },
+    "dateTime": {
+      "title": "Date et heure",
+      "missing": "Non défini"
+    },
+    "budget": {
+      "title": "Budget prévu",
+      "missing": "Non défini"
+    }
+  },
+  "error": {
+    "title": "Erreur",
+    "message": "Une erreur s'est produite lors du chargement de l'événement.",
+    "missing": {
+      "title": "Non trouvé",
+      "message": "L'événement n'a pas été trouvé."
+    }
+  },
+  "loading": {
+    "loadingDetails": "Chargement des détails de l'événement...",
+    "events": "Chargement des événements..."
+  },
+  "status": {
+    "label": {
+      "SCHEDULED": "Planifié",
+      "COMPLETED": "Terminé",
+      "CANCELLED": "Annulé",
+      "ONGOING": "En cours",
+      "UNKNOWN": "Inconnu"
+    }
+  },
+  "accessTypes": {
+    "label": {
+      "public": "Événement public",
+      "private": "Événement privé"
+    }
+  },
+  "participants": {
+    "title": "Participants",
+    "summary": "{{total}} participants · {{deps}} accompagnants",
+    "readonlyTag": "Consultation",
+    "manage": "Gérer les participants",
+    "search": "Rechercher par nom, e-mail ou organisation…",
+    "empty": "Aucun participant dans cet événement pour l'instant.",
+    "noResults": "Aucun participant ne correspond à la recherche.",
+    "error": "Impossible de charger les participants.",
+    "retry": "Réessayer",
+    "readonlyNote": "Vue en lecture seule. Pour ajouter ou modifier, utilisez Gérer les participants.",
+    "columns": {
+      "name": "Nom",
+      "role": "Rôle",
+      "status": "Statut",
+      "organization": "Organisation",
+      "deps": "Acc."
+    }
+  },
+  "financial": {
+    "info": {
+      "trigger": "Comment ces valeurs sont-elles calculées ?",
+      "title": "D'où viennent ces valeurs",
+      "subtitle": "Le budget est alimenté par les fournisseurs",
+      "intro": "Les dépenses proviennent uniquement des fournisseurs. Sélectionner un fournisseur engage son coût ; le payer le rend effectif.",
+      "budget": "Budget",
+      "budgetDesc": "Valeur définie lors de la création ou de la modification de l'événement. C'est le plafond de référence.",
+      "committedDesc": "Coût des fournisseurs sélectionnés ou approuvés qui n'ont pas encore été payés.",
+      "effectiveDesc": "Fournisseurs déjà payés. Au paiement, la valeur passe d'engagée à effective.",
+      "availableDesc": "Ce qui reste du budget après déduction de l'engagé et de l'effectif.",
+      "formula": "Disponible = Budget − Engagées − Effectives",
+      "percentFormula": "% utilisé = (Engagées + Effectives) ÷ Budget",
+      "thresholds": {
+        "healthy": "Sain (jusqu'à 60%)",
+        "caution": "Attention (60-85%)",
+        "critical": "Critique (au-delà de 85%)"
+      }
+    },
+    "title": "Résumé Financier",
+    "description": "Aperçu du budget de l'événement",
+    "budgetTotal": "Budget total",
+    "effective": "Dépenses effectives",
+    "committed": "Engagées",
+    "available": "Disponible",
+    "noBudget": "Aucun budget défini",
+    "metricsGroup": "Métriques financières",
+    "health": {
+      "healthy": "Sain",
+      "caution": "Attention",
+      "critical": "Critique"
+    },
+    "legend": {
+      "healthy": "Dans le budget",
+      "caution": "Proche de la limite",
+      "critical": "Au-dessus du budget"
+    }
+  },
+  "fab": {
+    "uploadDocument": "Envoyer un document",
+    "addSupplier": "Ajouter un fournisseur",
+    "inviteMember": "Inviter un membre",
+    "addScheduleEntry": "Ajouter une entrée"
+  },
+  "tabs": {
+    "documents": "Documents",
+    "participants": "Participants",
+    "suppliers": "Fournisseurs",
+    "team": "Équipe",
+    "ariaLabel": "Sections de l'événement",
+    "pendingApproval": "approbation en attente",
+    "pendingInvites": "invitations en attente",
+    "schedule": "Agenda"
+  },
+  "header": {
+    "countdown": {
+      "daysRemaining": "{{count}} jours restants",
+      "today": "Aujourd'hui !",
+      "tomorrow": "Demain",
+      "daysAgo": "Il y a {{count}} jours"
+    },
+    "progress": {
+      "label": "Progression de l'événement"
+    },
+    "quickSummary": "Résumé rapide",
+    "actions": {
+      "copyLink": "Copier le lien",
+      "shareEvent": "Partager",
+      "linkCopied": "Copié !"
+    }
+  },
+  "access": {
+    "denied": {
+      "title": "Accès Refusé",
+      "message": "Vous n'avez pas la permission d'accéder à cet événement. Contactez l'organisateur pour demander l'accès."
+    }
+  },
+  "readOnlyBanner": {
+    "title": "Événement en lecture seule",
+    "WINDOW_EXPIRED": "La fenêtre d'édition est fermée (30 jours après la fin de l'événement, max. 14 mois). Vous pouvez toujours tout consulter et générer le rapport.",
+    "WINDOW_EXPIRED_NO_REPORT": "La fenêtre d'édition est fermée (30 jours après la fin de l'événement, max. 14 mois). Vous pouvez toujours tout consulter.",
+    "PRO_LAPSED": "L'abonnement Pro est terminé. L'événement est en lecture seule - réactivez Pro pour éditer à nouveau.",
+    "PRO_PAUSED": "L'abonnement Pro est en pause. Reprenez-le pour éditer à nouveau.",
+    "reactivateCta": "Réactiver Pro"
+  },
+  "feedback": {
+    "error": {
+      "message": "Erreur lors du chargement des événements"
+    }
+  }
+}

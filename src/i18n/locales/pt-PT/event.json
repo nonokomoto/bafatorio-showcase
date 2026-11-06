@@ -1,0 +1,721 @@
+{
+  "eventDatePicker": {
+    "modal": {
+      "title": "Seleccionar data do evento"
+    },
+    "instructions": {
+      "range": "Escolha o mês e o ano e, depois, seleccione o primeiro e o último dia.",
+      "specific": "Escolha o mês e o ano e seleccione todos os dias pretendidos."
+    },
+    "trigger": {
+      "placeholder": "Seleccionar data do evento"
+    },
+    "modeSwitcher": {
+      "label": "Modo de selecção"
+    },
+    "modes": {
+      "range": "Intervalo de datas",
+      "specific": "Datas específicas",
+      "specificComingSoon": "Em breve"
+    },
+    "summary": {
+      "empty": "Nenhuma data seleccionada",
+      "dayCount_one": "{{count}} dia",
+      "dayCount_other": "{{count}} dias",
+      "dateCount_one": "{{count}} data seleccionada",
+      "dateCount_other": "{{count}} datas seleccionadas"
+    },
+    "actions": {
+      "clear": "Limpar",
+      "cancel": "Cancelar",
+      "confirm": "Confirmar",
+      "close": "Fechar selecção de datas"
+    }
+  },
+  "eventCard": {
+    "status": {
+      "scheduled": "Por realizar",
+      "completed": "Realizado",
+      "cancelled": "Cancelado",
+      "ongoing": "Em curso",
+      "unknown": "Desconhecido"
+    },
+    "date": {
+      "label": "Data:",
+      "missing": "Data não disponível"
+    },
+    "participant": {
+      "label": "Participante:"
+    },
+    "totalRegistrations": {
+      "label": "Total de Inscritos:"
+    },
+    "buttons": {
+      "details": "Ver detalhes",
+      "viewDetails": "Ver Detalhes"
+    }
+  },
+  "eventDelete": {
+    "button": "Eliminar",
+    "title": "Eliminar Evento",
+    "confirmTarget": "Vai eliminar o evento:",
+    "confirmMessage": "Esta ação é irreversível. Serão eliminados permanentemente todos os dados deste evento: participantes e dependentes, fornecedores, equipa, documentos, agenda e funções.\n\nTem a certeza que pretende continuar?",
+    "cancel": "Voltar",
+    "success": "O evento foi eliminado com sucesso",
+    "error": {
+      "title": "Erro",
+      "message": "Ocorreu um erro ao eliminar o evento."
+    },
+    "loading": {
+      "deletingEvent": "A eliminar evento..."
+    }
+  },
+  "eventControls": {
+    "title": "Gestão de Eventos",
+    "buttons": {
+      "search": "Procurar evento...",
+      "filter": "Filtrar por",
+      "sort": "Ordenar por"
+    },
+    "sort": {
+      "dateAsc": "Data - Mais antigos",
+      "dateDesc": "Data - Mais recentes",
+      "titleAsc": "Título - A a Z",
+      "titleDesc": "Título - Z a A"
+    },
+    "totalEvents": "Total de eventos"
+  },
+  "noEvents": {
+    "title": "Nenhum evento encontrado",
+    "messageCreate": "Comece por registar o seu primeiro evento. É rápido e simples!",
+    "messageFiltered": "A sua pesquisa não devolveu resultados",
+    "messageSearch": "Sugerimos que experimente outros critérios de pesquisa ou ajuste os filtros aplicados.",
+    "altText": "Sem Eventos"
+  },
+  "pagination": {
+    "ariaLabel": "Paginação",
+    "buttons": {
+      "previous": "Anterior",
+      "next": "Próximo"
+    }
+  },
+  "eventDetails": {
+    "title": "Detalhes do Evento",
+    "missingField": "Campo não preenchido",
+    "header": {
+      "title": "Informações do Evento",
+      "startDate": "Data de Início",
+      "endDate": "Data de Fim",
+      "location": "Localização",
+      "type": "Tipo de Evento",
+      "status": "Estado",
+      "coordinator": "Coordenador",
+      "description": "Descrição"
+    },
+    "sections": {
+      "dateLocation": "Data e Local",
+      "contact": "Contacto",
+      "participants": "Participação",
+      "configuration": "Configuração",
+      "description": "Descrição"
+    },
+    "groups": {
+      "whenWhere": "Quando e Onde",
+      "organizer": "Organizador",
+      "eventProfile": "Perfil do Evento"
+    },
+    "completeEventBanner": {
+      "title": "Evento Concluído",
+      "generateReport": "Gerar Relatório",
+      "reportDescription": "Este evento foi concluído com sucesso. Pode gerar um relatório para análise.",
+      "generating": "A gerar relatório...",
+      "loading": "A carregar dados...",
+      "alertPopUp": {
+        "title": "Plano Necessário",
+        "message": "Precisa de atualizar o seu plano para utilizar esta funcionalidade.",
+        "confirmText": "Ver Planos",
+        "cancelText": "Cancelar"
+      },
+      "upgradeForReport": "Faz upgrade para gerar o relatório",
+      "endedTitle": "O evento já terminou",
+      "endedDescription": "A data do evento já passou. Pode gerar o relatório para análise.",
+      "markCompletedDescription": "A data do evento já passou, mas ainda não está marcado como Realizado. Marca-o para o concluíres e gerares o relatório.",
+      "markCompletedCta": "Marcar como Realizado",
+      "markCompletedSaving": "A atualizar…",
+      "markCompletedError": "Não foi possível atualizar o estado do evento.",
+      "loadDataError": "Não foi possível carregar os dados do relatório.",
+      "modeModal": {
+        "title": "Escolher Tipo de Relatório",
+        "description": "Escolhe o tipo de relatório que queres gerar.",
+        "summary": {
+          "label": "Relatório Resumido",
+          "description": "Apenas estatísticas agregadas, sem dados pessoais dos participantes. Seguro para partilhar com entidades externas."
+        },
+        "detailed": {
+          "label": "Relatório Detalhado",
+          "description": "Inclui a lista nominal de participantes, com estado, contacto e acompanhantes."
+        },
+        "cancel": "Cancelar"
+      }
+    },
+    "documents": {
+      "title": "Documentos do Evento",
+      "noDocuments": {
+        "title": "Sem Documentos",
+        "message": "Ainda não existem documentos associados a este evento.",
+        "altText": "Imagem ilustrativa sem documentos"
+      },
+      "search": {
+        "placeholder": "Pesquisar documentos..."
+      },
+      "table": {
+        "name": "Nome",
+        "size": "Tamanho",
+        "date": "Data",
+        "modified": "Modificado",
+        "type": "Tipo",
+        "creator": "Criador",
+        "access": "Acesso",
+        "actions": "Ações"
+      },
+      "add": {
+        "title": "Adicionar Documentos",
+        "error": "Erro ao adicionar documentos",
+        "partialError": "Não foi possível adicionar: {{files}}",
+        "maxMessage": "Pode adicionar no máximo {{max}} documentos de uma vez",
+        "success": "{{count}} documento adicionado com sucesso",
+        "success_plural": "{{count}} documentos adicionados com sucesso",
+        "fileTooLarge": "O ficheiro \"{{name}}\" excede o limite de {{maxFileSize}} por ficheiro.",
+        "invalidType": "O ficheiro \"{{name}}\" tem um formato não suportado. Formatos permitidos: PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, TXT, CSV, MD, JPG, JPEG, PNG, GIF, PAGES, NUMBERS, KEY.",
+        "planLimitMessage": "O teu plano permite {{max}} documentos neste evento. Faz upgrade para adicionar mais."
+      },
+      "edit": {
+        "title": "Editar Documento",
+        "success": "Documento atualizado com sucesso",
+        "noChange": "Nenhuma alteração detetada",
+        "error": "Erro ao atualizar documento",
+        "name": "Nome do documento",
+        "namePlaceholder": "Introduza o novo nome do documento",
+        "currentName": "Nome atual",
+        "buttonEdit": "Editar Folha de Cálculo",
+        "buttonCancel": "Cancelar Edição",
+        "buttonSave": "Guardar Alterações",
+        "buttonSaving": "Guardando...",
+        "unsavedWarning": "Tem alterações não guardadas. Tem a certeza que pretende descartá-las?",
+        "saveSuccess": "Folha de cálculo guardada com sucesso",
+        "saveError": "Falha ao guardar a folha de cálculo",
+        "noPermission": "Não tem permissão para editar este documento"
+      },
+      "delete": {
+        "success": "Documento eliminado com sucesso",
+        "error": "Erro ao eliminar documento"
+      },
+      "preview": {
+        "loading": "A carregar documento...",
+        "fetchError": "Erro ao carregar o documento",
+        "close": "Fechar",
+        "download": "Descarregar",
+        "saveAsPdf": "Guardar como PDF",
+        "unsupported": "Pré-visualização não disponível",
+        "unsupportedMessage": "Este tipo de ficheiro ({{ext}}) não suporta pré-visualização. Faça download para ver o conteúdo.",
+        "page": "Página {{current}} de {{total}}",
+        "pageCount": "{{count}} páginas",
+        "zoom": "Zoom",
+        "zoomIn": "Aumentar zoom",
+        "zoomOut": "Diminuir zoom",
+        "previousPage": "Página anterior",
+        "nextPage": "Próxima página",
+        "sheet": "Folha",
+        "moreRows": "e mais {{count}} linhas",
+        "moreSheets": "e mais {{count}} folhas",
+        "parseError": "Erro ao processar o ficheiro",
+        "resizeHandle": "Redimensionar painel",
+        "truncated": {
+          "title": "Ficheiro demasiado grande",
+          "message": "A pré-visualização mostra apenas os primeiros {{limit}} para manter o browser responsivo. Faça download para ver o conteúdo completo."
+        }
+      },
+      "buttons": {
+        "add": "Adicionar Documento",
+        "add2": "Adicionar",
+        "save": "Guardar",
+        "cancel": "Cancelar",
+        "uploading": "A enviar...",
+        "selectedOne": "documento selecionado",
+        "selectedMultiple": "documentos selecionados",
+        "browse": "Escolher ficheiros",
+        "clear": "Limpar",
+        "editAria": "Editar documento",
+        "deleteAria": "Eliminar documento",
+        "closeAria": "Fechar modal"
+      },
+      "upload": {
+        "select": "Documentos a carregar",
+        "placeholder": "Nome do documento",
+        "progress": "{{value}}% concluído",
+        "dragDropOr": "Arraste e solte os ficheiros aqui",
+        "limits": "Até {{maxDocuments}} ficheiros, máximo de {{maxFileSize}} por ficheiro",
+        "selected": "{{count}} ficheiro selecionado",
+        "selected_plural": "{{count}} ficheiros selecionados",
+        "dropHere": "Solte os ficheiros para os adicionar ao evento",
+        "dropOrClick": "Arraste ficheiros ou clique para enviar"
+      },
+      "viewMode": {
+        "label": "Modo de visualização",
+        "list": "Vista em lista",
+        "grid": "Vista em grelha"
+      },
+      "fetchError": "Erro ao carregar documentos",
+      "uploadError": "Erro ao carregar documento",
+      "deleteError": "Erro ao eliminar documento",
+      "spreadsheet": {
+        "addRow": "Inserir Linha",
+        "addColumn": "Inserir Coluna",
+        "columnNamePlaceholder": "Nome da coluna",
+        "confirm": "OK",
+        "defaultColumnName": "Coluna {{number}}"
+      },
+      "folders": {
+        "title": "Pastas",
+        "addFolder": "Nova Pasta",
+        "createTitle": "Criar Pasta",
+        "editTitle": "Editar Pasta",
+        "openFolder": "Abrir pasta {{name}}",
+        "editFolder": "Editar pasta",
+        "deleteFolder": "Eliminar pasta",
+        "document": "documento",
+        "documents": "documentos",
+        "root": "Raiz",
+        "goToRoot": "Ir para a raiz",
+        "breadcrumbLabel": "Navegação de pastas",
+        "filesTitle": "Ficheiros",
+        "person": "pessoa",
+        "people": "pessoas",
+        "sharedWith": "Partilhado com",
+        "emptyFolder": "Pasta Vazia",
+        "emptyFolderMessage": "Esta pasta ainda não contém documentos.",
+        "uploadingTo": "A carregar para",
+        "createSuccess": "Pasta criada com sucesso",
+        "createError": "Erro ao criar pasta",
+        "updateSuccess": "Pasta atualizada com sucesso",
+        "updateError": "Erro ao atualizar pasta",
+        "deleteSuccess": "Pasta eliminada com sucesso",
+        "deleteError": "Erro ao eliminar pasta",
+        "deleteConfirmTitle": "Eliminar Pasta",
+        "deleteConfirmMessage": "Tem a certeza que pretende eliminar a pasta \"{{name}}\"? Os documentos dentro da pasta também serão eliminados.",
+        "deleteConfirmButton": "Eliminar",
+        "defaultFolderName": "Geral",
+        "cannotDeleteDefault": "A pasta Geral não pode ser eliminada",
+        "form": {
+          "name": "Nome da pasta",
+          "namePlaceholder": "Ex: Contratos, Faturas, Relatórios...",
+          "description": "Descrição (opcional)",
+          "descriptionPlaceholder": "Breve descrição do conteúdo da pasta",
+          "color": "Cor da pasta",
+          "createButton": "Criar Pasta"
+        },
+        "validation": {
+          "nameRequired": "O nome da pasta é obrigatório",
+          "nameMinLength": "O nome deve ter pelo menos 2 caracteres"
+        },
+        "selectFolder": "Selecionar pasta",
+        "createdBy": "Criado por {{name}}",
+        "noFoldersTitle": "Nenhuma pasta criada",
+        "noFoldersMessage": "Crie uma pasta antes de adicionar documentos. As pastas ajudam a organizar e controlar o acesso aos ficheiros.",
+        "newFolder": "Nova pasta",
+        "deletePartial": "Pasta eliminada, mas alguns ficheiros não foram removidos. Tenta novamente mais tarde."
+      },
+      "retry": "Tentar de novo"
+    },
+    "notion": {
+      "importFromNotion": "Importar do Notion",
+      "importTitle": "Importar do Notion",
+      "searchPlaceholder": "Pesquisar páginas...",
+      "search": "Pesquisar",
+      "selected": "{{count}}/{{max}} selecionadas",
+      "clearSelection": "Limpar seleção",
+      "loadingPages": "A carregar páginas...",
+      "noPages": "Nenhuma página encontrada",
+      "loadMore": "Carregar mais",
+      "importing": "A importar {{count}} páginas...",
+      "importButton": "Importar ({{count}})",
+      "cancel": "Cancelar",
+      "close": "Fechar",
+      "notConnected": "Notion Não Ligado",
+      "connectFirst": "Ligue o seu espaço Notion em Configurações > Integrações.",
+      "importFailed": "Falha na importação. Tente novamente.",
+      "partialFailure": "{{imported}} páginas importadas, {{failed}} falharam.",
+      "databases": "Bases de dados",
+      "pages": "Páginas",
+      "entries": "{{count}} entradas",
+      "properties": "{{count}} propriedades",
+      "importDatabase": "Importar",
+      "sync": {
+        "title": "Sincronizar Notion",
+        "check": "Sincronizar",
+        "checking": "A verificar alterações...",
+        "available": "{{count}} atualizações disponíveis",
+        "update": "Atualizar",
+        "updateAll": "Atualizar todos ({{count}})",
+        "syncing": "A atualizar documentos...",
+        "upToDate": "Tudo atualizado",
+        "allCurrent_one": "{{count}} documento está atualizado",
+        "allCurrent_other": "{{count}} documentos estão atualizados",
+        "totalDocs_one": "{{count}} documento no total",
+        "totalDocs_other": "{{count}} documentos no total",
+        "editedInNotion": "Editado no Notion",
+        "minutesAgo": "há {{count}} min",
+        "hoursAgo": "há {{count}}h",
+        "daysAgo": "há {{count}} dias",
+        "success": "{{count}} documentos atualizados",
+        "partialFailure": "{{failed}} falharam",
+        "error": "Erro ao sincronizar"
+      }
+    },
+    "fields": {
+      "dateTime": {
+        "missing": "Por definir"
+      },
+      "location": {
+        "missing": "Por definir"
+      },
+      "manager": {
+        "missing": "Por definir"
+      },
+      "email": {
+        "missing": "Por definir"
+      },
+      "phone": {
+        "missing": "Por definir"
+      },
+      "participants": {
+        "title": "Número de Participantes",
+        "missing": "Por definir"
+      },
+      "dependents": {
+        "title": "Acompanhantes",
+        "missing": "Por definir"
+      },
+      "budget": {
+        "missing": "Não definido"
+      }
+    }
+  },
+  "eventForm": {
+    "fields": {
+      "eventTitle": {
+        "title": "Nome do Evento",
+        "placeholder": "Introduza o nome oficial do evento",
+        "required": "É necessário indicar o nome do evento para prosseguir",
+        "minLength": "O nome do evento deve ter pelo menos 3 caracteres"
+      },
+      "dateTime": {
+        "title": "Data do evento",
+        "placeholder": "Selecione quando o evento irá decorrer",
+        "required": "É necessário definir quando o evento irá decorrer"
+      },
+      "eventTime": {
+        "title": "Hora (opcional)",
+        "hint": "Aplica-se apenas ao primeiro dia do evento"
+      },
+      "eventDate": {
+        "title": "Data e Hora",
+        "placeholder": "Selecione quando o evento irá decorrer",
+        "required": "É necessário definir quando o evento irá decorrer"
+      },
+      "location": {
+        "title": "Localização",
+        "placeholder": "Indique onde o evento irá decorrer (morada completa)",
+        "required": "É necessário indicar onde o evento irá decorrer"
+      },
+      "eventLocation": {
+        "title": "Localização",
+        "placeholder": "Indique onde o evento irá decorrer (morada completa)",
+        "required": "É necessário indicar onde o evento irá decorrer"
+      },
+      "manager": {
+        "title": "Responsável pelo Evento",
+        "placeholder": "Nome da pessoa responsável",
+        "required": "É necessário indicar quem será responsável pelo evento"
+      },
+      "eventManager": {
+        "title": "Responsável pelo Evento",
+        "placeholder": "Nome da pessoa responsável",
+        "required": "É necessário indicar quem será responsável pelo evento"
+      },
+      "email": {
+        "title": "Email do Responsável",
+        "placeholder": "Email para comunicações oficiais do evento",
+        "required": "É necessário fornecer um email para comunicações importantes",
+        "pattern": "O email indicado não é válido"
+      },
+      "eventManagerEmail": {
+        "title": "Email do Responsável",
+        "placeholder": "Email para comunicações oficiais do evento",
+        "required": "É necessário fornecer um email para comunicações importantes",
+        "pattern": "O email indicado não é válido"
+      },
+      "phone": {
+        "title": "Contacto Telefónico",
+        "placeholder": "Telemóvel ou WhatsApp para contacto direto",
+        "required": "É necessário fornecer um contacto telefónico"
+      },
+      "eventManagerPhone": {
+        "title": "Contacto Telefónico",
+        "placeholder": "Telemóvel ou WhatsApp para contacto direto",
+        "required": "É necessário fornecer um contacto telefónico"
+      },
+      "access": {
+        "title": "Tipo de Acesso",
+        "placeholder": "Selecione as condições de acesso ao evento",
+        "required": "É necessário definir as condições de acesso ao evento"
+      },
+      "eventType": {
+        "title": "Natureza do Evento",
+        "placeholder": "Selecione o tipo de evento que pretende realizar",
+        "required": "É necessário indicar qual a natureza do evento"
+      },
+      "eventStatus": {
+        "title": "Estado do Evento",
+        "placeholder": "Selecione o estado atual do evento",
+        "required": "É necessário definir o estado atual do evento"
+      },
+      "budget": {
+        "title": "Orçamento",
+        "placeholder": "Valor estimado para o evento (em euros)",
+        "required": "É necessário indicar um orçamento estimado para o evento",
+        "min": "O orçamento estimado não pode ser negativo",
+        "validate": "Introduza um número válido",
+        "total": "Orçamento Total",
+        "spent": "Valor Gasto",
+        "committed": "Valor Comprometido",
+        "available": "Valor Disponível"
+      },
+      "currency": {
+        "title": "Moeda",
+        "placeholder": "Seleciona a moeda"
+      },
+      "description": {
+        "title": "Outras Informações",
+        "placeholder": "Partilhe informações relevantes sobre o evento (programa, requisitos especiais, notas importantes)",
+        "required": "É necessário fornecer alguns detalhes sobre o evento"
+      },
+      "categories": {
+        "title": "Natureza do Evento",
+        "placeholder": "Selecione o tipo de evento que pretende realizar",
+        "required": "É necessário indicar qual a natureza do evento"
+      }
+    },
+    "buttons": {
+      "create": "Registar Evento",
+      "update": "Guardar Alterações",
+      "cancel": "Voltar",
+      "delete": "Eliminar"
+    },
+    "loading": {
+      "create": "A registar o evento. Aguarde, por favor...",
+      "update": "A guardar as alterações. Aguarde, por favor...",
+      "delete": "A eliminar o evento. Aguarde, por favor..."
+    },
+    "select": {
+      "placeholder": "Selecione {{field}}..."
+    },
+    "validation": {
+      "required": "Campo obrigatório",
+      "email": "O email indicado não é válido",
+      "minLength": "Este campo deve ter pelo menos {{min}} caracteres"
+    },
+    "errors": {
+      "submitFailed": "Falha ao criar/atualizar evento:",
+      "invalidTitle": "O título do evento não pode ficar vazio.",
+      "forbidden": "Não tens permissão para editar este evento.",
+      "sessionExpired": "A tua sessão expirou. Inicia sessão novamente."
+    },
+    "defaults": {
+      "noDescription": "Nenhuma descrição fornecida"
+    },
+    "accessTypes": {
+      "public": "Evento aberto ao público",
+      "private": "Evento privado"
+    },
+    "categories": {
+      "personal": "Particular",
+      "corporate": "Corporativo"
+    },
+    "gate": {
+      "starterLimitReached": "O plano Grátis inclui 1 evento. Faz upgrade para criar mais eventos.",
+      "proPaused": "A subscrição Pro está em pausa - retoma-a para continuar.",
+      "proLapsed": "A subscrição Pro terminou - reativa-a para voltar a editar.",
+      "windowExpired": "A janela de edição deste evento fechou. O evento fica em consulta.",
+      "generic": "Não foi possível guardar o evento.",
+      "upgradeCta": "Ver planos"
+    }
+  },
+  "pages": {
+    "events": {
+      "welcome": "Olá, {{name}}!",
+      "description": "Organize e gerencie facilmente todos os seus eventos a partir daqui."
+    },
+    "eventDetails": {
+      "description": "Visualize e gerencie os detalhes deste evento."
+    }
+  },
+  "buttons": {
+    "edit": "Alterar Detalhes do Evento",
+    "create": "Registar Evento"
+  },
+  "fields": {
+    "eventStatus": {
+      "title": "Estado do Evento",
+      "missing": "Por definir"
+    },
+    "access": {
+      "title": "Tipo de Acesso",
+      "missing": "Por definir"
+    },
+    "dateTime": {
+      "title": "Data e Hora",
+      "missing": "Por definir"
+    },
+    "budget": {
+      "title": "Orçamento Previsto",
+      "missing": "Por definir"
+    }
+  },
+  "error": {
+    "title": "Erro",
+    "message": "Ocorreu um erro ao carregar o evento.",
+    "missing": {
+      "title": "Não Encontrado",
+      "message": "O evento não foi encontrado."
+    }
+  },
+  "loading": {
+    "loadingDetails": "A carregar os detalhes do evento...",
+    "events": "A carregar eventos..."
+  },
+  "status": {
+    "label": {
+      "SCHEDULED": "Por realizar",
+      "COMPLETED": "Realizado",
+      "CANCELLED": "Cancelado",
+      "ONGOING": "Em curso",
+      "UNKNOWN": "Desconhecido"
+    }
+  },
+  "accessTypes": {
+    "label": {
+      "public": "Evento aberto ao público",
+      "private": "Evento privado"
+    }
+  },
+  "participants": {
+    "title": "Participantes",
+    "summary": "{{total}} participantes · {{deps}} dependentes",
+    "readonlyTag": "Consulta",
+    "manage": "Gerir participantes",
+    "search": "Procurar por nome, email ou organização…",
+    "empty": "Ainda não há participantes neste evento.",
+    "noResults": "Nenhum participante corresponde à procura.",
+    "error": "Não foi possível carregar os participantes.",
+    "retry": "Tentar de novo",
+    "readonlyNote": "Vista só de leitura. Para adicionar ou editar, usa Gerir participantes.",
+    "columns": {
+      "name": "Nome",
+      "role": "Função",
+      "status": "Estado",
+      "organization": "Organização",
+      "deps": "Deps"
+    }
+  },
+  "financial": {
+    "info": {
+      "trigger": "Como são calculados estes valores?",
+      "title": "De onde vêm estes valores",
+      "subtitle": "O orçamento é alimentado pelos fornecedores",
+      "intro": "As despesas vêm apenas dos fornecedores. Ao selecionar um fornecedor, o custo fica comprometido; ao pagá-lo, passa a efetivo.",
+      "budget": "Orçamento",
+      "budgetDesc": "Valor definido ao criar ou editar o evento. É o teto de referência.",
+      "committedDesc": "Custo dos fornecedores selecionados ou aprovados que ainda não foram pagos.",
+      "effectiveDesc": "Fornecedores já pagos. Ao pagar, o valor passa de comprometido a efetivo.",
+      "availableDesc": "O que sobra do orçamento depois de descontar o comprometido e o efetivo.",
+      "formula": "Disponível = Orçamento − Comprometidas − Efetivas",
+      "percentFormula": "% utilizado = (Comprometidas + Efetivas) ÷ Orçamento",
+      "thresholds": {
+        "healthy": "Saudável (até 60%)",
+        "caution": "Atenção (60-85%)",
+        "critical": "Crítico (acima de 85%)"
+      }
+    },
+    "title": "Resumo Financeiro",
+    "description": "Visão geral do orçamento do evento",
+    "budgetTotal": "Orçamento total",
+    "effective": "Despesas efetivas",
+    "committed": "Comprometidas",
+    "available": "Disponível",
+    "noBudget": "Nenhum orçamento definido",
+    "metricsGroup": "Métricas financeiras",
+    "health": {
+      "healthy": "Saudável",
+      "caution": "Atenção",
+      "critical": "Crítico"
+    },
+    "legend": {
+      "healthy": "Dentro do orçamento",
+      "caution": "Perto do limite",
+      "critical": "Acima do orçamento"
+    }
+  },
+  "fab": {
+    "uploadDocument": "Enviar documento",
+    "addSupplier": "Adicionar fornecedor",
+    "inviteMember": "Convidar membro",
+    "addScheduleEntry": "Adicionar entrada"
+  },
+  "tabs": {
+    "documents": "Documentos",
+    "participants": "Participantes",
+    "suppliers": "Fornecedores",
+    "team": "Equipa",
+    "ariaLabel": "Secções do evento",
+    "pendingApproval": "aprovação pendente",
+    "pendingInvites": "convites pendentes",
+    "schedule": "Agenda"
+  },
+  "header": {
+    "countdown": {
+      "daysRemaining": "Faltam {{count}} dias",
+      "today": "Hoje!",
+      "tomorrow": "Amanhã",
+      "daysAgo": "Há {{count}} dias"
+    },
+    "progress": {
+      "label": "Progresso do evento"
+    },
+    "quickSummary": "Resumo rápido",
+    "actions": {
+      "copyLink": "Copiar link",
+      "shareEvent": "Partilhar",
+      "linkCopied": "Copiado!"
+    }
+  },
+  "access": {
+    "denied": {
+      "title": "Acesso Negado",
+      "message": "Não tem permissão para aceder a este evento. Contacte o organizador para solicitar acesso."
+    }
+  },
+  "readOnlyBanner": {
+    "title": "Evento em modo de consulta",
+    "WINDOW_EXPIRED": "A janela de edição fechou (30 dias após o fim do evento, máx. 14 meses). Podes continuar a consultar tudo e a gerar o relatório.",
+    "WINDOW_EXPIRED_NO_REPORT": "A janela de edição fechou (30 dias após o fim do evento, máx. 14 meses). Podes continuar a consultar tudo.",
+    "PRO_LAPSED": "A subscrição Pro terminou. O evento fica em consulta - reativa o Pro para voltar a editar.",
+    "PRO_PAUSED": "A subscrição Pro está em pausa. Retoma a subscrição para voltar a editar.",
+    "reactivateCta": "Reativar Pro"
+  },
+  "feedback": {
+    "error": {
+      "message": "Erro ao carregar os eventos"
+    }
+  }
+}

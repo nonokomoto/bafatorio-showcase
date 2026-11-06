@@ -1,0 +1,108 @@
+{
+  "spinner": {
+    "loading": {
+      "default": "A carregar...",
+      "participants": "A carregar participantes",
+      "processing": "A processar {{current}} de {{total}} registos...",
+      "application": "A carregar a aplicação...",
+      "userInfo": "A carregar informações do utilizador..."
+    },
+    "success": {
+      "title": "Concluído",
+      "default": "Operação concluída com sucesso."
+    },
+    "error": {
+      "title": "Erro",
+      "default": "Ocorreu um problema. Por favor, tente novamente."
+    },
+    "partialFailure": {
+      "title": "Problema Crítico",
+      "default": "Eliminação de dados concluída, mas remoção da conta falhou.",
+      "contactSupport": "Os seus dados pessoais foram eliminados para conformidade de privacidade, mas a sua conta de login ainda existe. Contacte o suporte para completar a remoção da conta.",
+      "understood": "Compreendo"
+    }
+  },
+  "alert": {
+    "confirmation": "Confirmação",
+    "alert": "Alerta",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "ok": "OK",
+    "generating": "A processar..."
+  },
+  "actions": {
+    "delete": "Eliminar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "viewDetails": "Ver Detalhes",
+    "associating": "A associar...",
+    "close": "Fechar",
+    "next": "Seguinte",
+    "back": "Voltar",
+    "save": "Guardar",
+    "dropdownLabel": "Ações"
+  },
+  "pagination": {
+    "ariaLabel": "Paginação",
+    "buttons": {
+      "previous": "Anterior",
+      "next": "Próximo"
+    }
+  },
+  "statusUpdateHandler": {
+    "errors": {
+      "invalidParams": "Parâmetros inválidos na URL.",
+      "updateFailed": "Falha ao atualizar o estado. Por favor, tente novamente.",
+      "contactOrganizer": "Se o problema persistir, entre em contato com o organizador do evento."
+    },
+    "success": {
+      "confirmation": "Sua presença foi confirmada com sucesso!",
+      "thankYou": "Obrigado por confirmar sua presença. Pode fechar esta janela."
+    },
+    "status": {
+      "loading": {
+        "title": "Confirmação de presença",
+        "message": "A confirmar a inscrição..."
+      },
+      "success": "Confirmação Concluída",
+      "error": "Erro na Atualização"
+    }
+  },
+  "paymentConfirmation": {
+    "confirmation": {
+      "loading": "A processar pagamento...",
+      "status": "Confirmação de Pagamento"
+    },
+    "status": {
+      "success": "Pagamento confirmado com sucesso!",
+      "error": "Ocorreu um erro ao processar o pagamento. Por favor, tente novamente."
+    }
+  },
+  "devOverlay": {
+    "badge": "Em Desenvolvimento",
+    "description": "Esta funcionalidade estará disponível em breve."
+  },
+  "sessionTimeout": {
+    "title": "Sessão prestes a expirar",
+    "message": "A sua sessão será encerrada por inatividade em {{seconds}} segundos.",
+    "continue": "Continuar sessão",
+    "logout": "Terminar sessão"
+  },
+  "errorBoundary": {
+    "title": "Algo correu mal ao carregar esta página",
+    "description": "Tente recarregar. Se o problema persistir, saia e entre novamente na aplicação.",
+    "retry": "Recarregar"
+  },
+  "billingGate": {
+    "WINDOW_EXPIRED": "A janela de edição deste evento fechou. O evento fica em consulta.",
+    "PRO_LAPSED": "A subscrição Pro terminou - reativa-a para voltar a editar.",
+    "PRO_PAUSED": "A subscrição Pro está em pausa - retoma-a para continuar.",
+    "LIMIT_SUPPLIERS": "Atingiste o limite de fornecedores do teu plano neste evento.",
+    "LIMIT_PARTICIPANTS": "Atingiste o limite de participantes do teu plano neste evento.",
+    "STARTER_LIMIT_REACHED": "Já usaste o teu evento grátis - escolhe um plano para criar mais eventos.",
+    "generic": "O teu plano não permite esta ação.",
+    "upgradeCta": "Ver planos"
+  },
+  "search": "Pesquisar...",
+  "noResults": "Nenhum resultado encontrado"
+}

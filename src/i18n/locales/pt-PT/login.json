@@ -1,0 +1,146 @@
+{
+  "common": {
+    "email": {
+      "placeholder": "Email",
+      "required": "O Email é obrigatório",
+      "invalid": "Email inválido"
+    },
+    "password": {
+      "placeholder": "Palavra-passe",
+      "required": "A palavra-passe é obrigatória",
+      "minLength": "A palavra-passe deve ter pelo menos 8 caracteres"
+    },
+    "loading": "A iniciar sessão..."
+  },
+  "signIn": {
+    "title": "Bafatório",
+    "subtitle": "O seu parceiro na gestão de eventos",
+    "buttons": {
+      "submit": "Iniciar Sessão",
+      "forgotPassword": "Esqueceu a palavra-passe?"
+    },
+    "register": {
+      "message": "Ainda não tem uma conta?",
+      "action": "Registar"
+    },
+    "processingInvitation": "A processar convite...",
+    "invitationAccepted": "Convite aceite com sucesso!",
+    "redirectingToEvent": "A redirecionar para o evento...",
+    "invitationError": "Erro ao aceitar convite"
+  },
+  "signUp": {
+    "title": {
+      "register": "Registo",
+      "confirmation": "Confirmação do Registo"
+    },
+    "subtitle": {
+      "register": "Faça o seu registo agora!",
+      "confirmation": "Enviámos um código de confirmação para o seu Email"
+    },
+    "form": {
+      "name": {
+        "placeholder": "Nome",
+        "required": "O nome é obrigatório"
+      },
+      "password": {
+        "requirements": {
+          "uppercase": "Contém pelo menos uma letra maiúscula",
+          "number": "Contém pelo menos um número",
+          "special": "Contém pelo menos um caractere especial",
+          "length": "Pelo menos 8 caracteres"
+        },
+        "pattern": "A palavra-passe deve conter pelo menos uma letra maiúscula, um número e um caractere especial"
+      },
+      "confirmPassword": {
+        "placeholder": "Confirmar Palavra-passe",
+        "required": "Por favor, confirme a sua palavra-passe",
+        "match": "As palavras-passe não coincidem"
+      },
+      "confirmationCode": {
+        "placeholder": "Código de confirmação",
+        "required": "O código de confirmação é obrigatório",
+        "onlyNumbers": "O código deve conter apenas números",
+        "length": "O código deve ter 6 dígitos"
+      }
+    },
+    "buttons": {
+      "submit": {
+        "register": "Registar",
+        "confirm": "Confirmar Registo"
+      },
+      "resend": {
+        "text": "Reenviar código",
+        "loading": "A reenviar...",
+        "success": "Código reenviado com sucesso"
+      },
+      "wrongEmail": {
+        "message": "Email errado?",
+        "action": "Voltar e corrigir"
+      }
+    },
+    "login": {
+      "message": "Já tem uma conta?",
+      "action": "Entrar"
+    },
+    "confirmEmail": {
+      "message": "Já criou a conta mas falta confirmar o email?",
+      "action": "Confirmar Email"
+    },
+    "resumedAccount": {
+      "note": "Já tinha uma conta por confirmar com este email — usa a palavra-passe que definiu da primeira vez."
+    },
+    "success": {
+      "accountCreated": "Conta criada com sucesso!",
+      "confirmationSent": "Código de confirmação enviado para",
+      "confirmed": "Conta confirmada com sucesso! A redirecionar...",
+      "confirmedManualSignIn": "Conta confirmada com sucesso! Inicia sessão para continuar."
+    },
+    "errors": {
+      "resendCode": "Falha ao reenviar o código. Por favor, tente novamente.",
+      "generic": "Ocorreu um erro. Por favor, tente novamente.",
+      "emailExists": "Já existe uma conta com este email.",
+      "invalidPassword": "A palavra-passe não cumpre os requisitos de segurança.",
+      "invalidCode": "Código incorreto. Verifica o código e tenta novamente.",
+      "codeExpired": "O código expirou. Usa \"Reenviar código\" para pedires um novo.",
+      "attemptsExceeded": "Demasiadas tentativas. Aguarda um pouco antes de tentares novamente."
+    }
+  },
+  "forgotPassword": {
+    "title": {
+      "initial": "Recuperar Conta",
+      "reset": "Redefinir Palavra-passe"
+    },
+    "subtitle": {
+      "initial": "Vamos ajudar a recuperar a sua conta",
+      "reset": "Introduza o código enviado para o seu Email"
+    },
+    "form": {
+      "code": {
+        "placeholder": "Código de confirmação",
+        "required": "O código de confirmação é obrigatório",
+        "onlyNumbers": "O código deve conter apenas números",
+        "length": "O código deve ter 6 dígitos"
+      },
+      "newPassword": {
+        "placeholder": "Nova palavra-passe",
+        "required": "A nova palavra-passe é obrigatória"
+      }
+    },
+    "buttons": {
+      "sendCode": "Enviar código",
+      "resetPassword": "Redefinir palavra-passe",
+      "backToLogin": "Voltar ao início de sessão"
+    },
+    "success": {
+      "title": "Palavra-passe redefinida com sucesso!",
+      "redirecting": "A redirecionar para a página de início de sessão..."
+    },
+    "errors": {
+      "invalidCode": "Código de confirmação inválido.",
+      "passwordTooShort": "A palavra-passe deve ter pelo menos 8 caracteres.",
+      "emailNotFound": "Não existe nenhuma conta com o Email introduzido.",
+      "attemptsExceeded": "Limite de tentativas excedido. Por favor, tente novamente mais tarde.",
+      "generic": "Ocorreu um erro ao redefinir a palavra-passe."
+    }
+  }
+}

@@ -1,0 +1,146 @@
+.event-date-picker .rdp-root {
+  --rdp-accent-color: #4069FF;
+  --rdp-accent-background-color: #EEF2FF;
+  --rdp-day-height: 2.75rem;
+  --rdp-day-width: 2.75rem;
+  --rdp-day_button-height: 2.75rem;
+  --rdp-day_button-width: 2.75rem;
+  --rdp-day_button-border-radius: 9999px;
+  --rdp-selected-border: 0;
+  --rdp-today-color: #4069FF;
+  --rdp-outside-opacity: 0.45;
+  --rdp-month_caption-font: 600 0.95rem/1.4 inherit;
+  --rdp-weekday-padding: 0.375rem 0;
+  --rdp-weekday-font: 600 0.6875rem/1 inherit;
+  --rdp-weekday-text-transform: uppercase;
+  color: rgb(var(--foreground));
+  width: 100%;
+  max-width: 100%;
+}
+
+.event-date-picker .rdp-months {
+  justify-content: center;
+  gap: 1.5rem;
+  max-width: 100%;
+}
+
+.event-date-picker .rdp-month {
+  min-width: 0;
+}
+
+.event-date-picker .rdp-month_caption {
+  min-height: 2.75rem;
+  padding-inline: 0;
+}
+
+.event-date-picker .rdp-dropdowns {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.event-date-picker .rdp-dropdown_root {
+  border: 1px solid rgb(var(--border));
+  border-radius: 0.5rem;
+  background: rgb(var(--card));
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.event-date-picker .rdp-dropdown_root:focus-within {
+  border-color: var(--rdp-accent-color);
+  box-shadow: 0 0 0 2px rgb(64 105 255 / 0.2);
+}
+
+.event-date-picker .rdp-dropdown {
+  min-height: 2.75rem;
+  cursor: pointer;
+}
+
+.event-date-picker .rdp-caption_label {
+  padding: 0.625rem 1.75rem 0.625rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.event-date-picker .rdp-chevron {
+  fill: var(--rdp-accent-color);
+}
+
+.event-date-picker .rdp-button_previous,
+.event-date-picker .rdp-button_next {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 9999px;
+}
+
+.event-date-picker .rdp-button_previous:hover,
+.event-date-picker .rdp-button_next:hover {
+  background: rgb(var(--accent));
+}
+
+.event-date-picker .rdp-day_button {
+  color: rgb(var(--foreground));
+}
+
+.event-date-picker .rdp-weekday {
+  color: rgb(var(--muted-foreground));
+}
+
+.event-date-picker .rdp-month_caption {
+  color: rgb(var(--foreground));
+}
+
+.dark .event-date-picker .rdp-root {
+  --rdp-accent-color: #4069FF;
+  --rdp-accent-background-color: rgba(64, 105, 255, 0.18);
+  --rdp-today-color: #94ABFF;
+}
+
+.event-date-picker .rdp-day_button:focus-visible {
+  outline: 2px solid var(--rdp-accent-color);
+  outline-offset: 2px;
+}
+
+/* specific mode: wider cells for ~60% modal width, height unchanged */
+.event-date-picker-specific .rdp-root {
+  --rdp-day-width: 3.85rem;
+  --rdp-day_button-width: 3.85rem;
+}
+
+/* range start/end and multiple selected — filled circle with white text */
+.event-date-picker .rdp-range_start .rdp-day_button,
+.event-date-picker .rdp-range_end .rdp-day_button,
+.event-date-picker .rdp-selected:not(.rdp-range_start):not(.rdp-range_end):not(.rdp-range_middle) .rdp-day_button {
+  background-color: var(--rdp-accent-color);
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .event-date-picker .rdp-root,
+  .event-date-picker-specific .rdp-root {
+    --rdp-day-height: 2.75rem;
+    --rdp-day-width: min(2.75rem, calc((100vw - 3rem) / 7));
+    --rdp-day_button-height: 2.75rem;
+    --rdp-day_button-width: min(2.75rem, calc((100vw - 3rem) / 7));
+  }
+
+  .event-date-picker .rdp-month,
+  .event-date-picker .rdp-month_grid {
+    width: 100%;
+    max-width: 22rem;
+  }
+
+  .event-date-picker .rdp-month_caption {
+    justify-content: flex-start;
+    padding-right: 5.75rem;
+  }
+
+  .event-date-picker .rdp-dropdowns {
+    gap: 0.375rem;
+  }
+
+  .event-date-picker .rdp-caption_label {
+    padding-inline: 0.625rem 1.5rem;
+    font-size: 0.8125rem;
+  }
+}

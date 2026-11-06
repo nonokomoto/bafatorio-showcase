@@ -1,0 +1,205 @@
+{
+  "brand": {
+    "tagline": "Event Management System"
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "home": "Accueil",
+    "testimonials": "Événements",
+    "pricing": "Tarifs",
+    "login": "Connexion",
+    "signUp": "S'inscrire",
+    "ariaLabel": "Navigation principale",
+    "toggleMenu": "Ouvrir ou fermer le menu de navigation",
+    "mobileMenuAriaLabel": "Menu de navigation mobile"
+  },
+  "hero": {
+    "titleHighlight": "Toute l'organisation de votre événement",
+    "titleSecondary": " en un seul endroit.",
+    "description": "Participants, documents, fournisseurs, présences et rapports. Tout est connecté, simple et dans votre langue.",
+    "ctaStart": "Commencer maintenant",
+    "noCreditCard": "Sans carte de crédit",
+    "freeAccount": "Créez votre compte gratuit",
+    "paidEvents": "Commencez avec 1 événement gratuit",
+    "imageAlt": "Plateforme Bafatorio montrant la gestion d'un événement",
+    "eventsCompleted": "Des événements réels depuis 2024"
+  },
+  "features": {
+    "title": "Tout ce qu'il vous faut ",
+    "titleHighlight": "pour mieux gérer",
+    "description": "De la première invitation au rapport final : les espaces que vous utilisez chaque jour, connectés entre eux.",
+    "badge": "Fonctionnalités principales",
+    "menuTitle": "Explorez les fonctionnalités",
+    "callToAction": "Cliquez sur chaque fonctionnalité pour voir les détails",
+    "items": {
+      "eventManagement": {
+        "title": "Gestion d'événements",
+        "description": "Créez et suivez des événements avec un contrôle total sur les dates, l'accès et le statut.",
+        "bullets": [
+          "Dates flexibles : jour unique, période ou dates spécifiques",
+          "Événements publics ou privés",
+          "Tableau de bord avec le statut et le résumé de l'événement",
+          "Rapport PDF"
+        ]
+      },
+      "participantManagement": {
+        "title": "Gestion des participants",
+        "description": "Organisez catégories, personnes à charge et confirmations en un seul endroit.",
+        "bullets": [
+          "Catégories de participants et personnes à charge",
+          "Import Excel avec normalisation intelligente",
+          "Confirmations de présence (RSVP)",
+          "Recherche et filtres avancés"
+        ]
+      },
+      "suppliers": {
+        "title": "Fournisseurs",
+        "description": "Contacts, services et informations opérationnelles dans un espace unique.",
+        "bullets": [
+          "Une fiche par fournisseur avec contacts et services",
+          "Import via Excel",
+          "Lien avec les entrées de l'agenda",
+          "Partage avec l'équipe de l'événement"
+        ]
+      },
+      "documentation": {
+        "title": "Documents centralisés",
+        "description": "Des fichiers liés au bon événement et toujours faciles à retrouver.",
+        "bullets": [
+          "Dossiers organisés par événement",
+          "Prévisualisation des fichiers",
+          "Import de pages Notion",
+          "Contrôle des permissions par rôle"
+        ]
+      },
+      "agenda": {
+        "title": "Agenda de l'événement",
+        "description": "Planifiez tâches, échéances et responsables dans un calendrier partagé.",
+        "bullets": [
+          "Vues mois, semaine et jour",
+          "Entrées avant, pendant et après l'événement",
+          "Lien avec les fournisseurs",
+          "Visibilité contrôlée par rôle"
+        ]
+      },
+      "team": {
+        "title": "Équipe et permissions",
+        "description": "Invitez votre équipe et contrôlez ce que chaque personne voit et fait.",
+        "bullets": [
+          "Rôles de co-gestionnaire, logistique et check-in",
+          "Invitations par email",
+          "Permissions par espace de l'événement",
+          "Données chiffrées et conformité RGPD"
+        ]
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Des événements qui ont déjà ",
+    "titleHighlight": "compté sur nous",
+    "subtitle": "Conférences, mariages et lancements de marque gérés sur Bafatorio.",
+    "items": [
+      {
+        "name": "Human Leaders",
+        "detail": "Partenaire technologique · Cap-Vert"
+      },
+      {
+        "name": "Powerlist 100",
+        "detail": "2 éditions · 2024 et 2025"
+      },
+      {
+        "name": "Forum de l'Innovation",
+        "detail": "Mafra · 2026"
+      },
+      {
+        "name": "Ntú Natural",
+        "detail": "Lancement de marque"
+      },
+      {
+        "name": "Mariages",
+        "detail": "2 événements · Grand Lisbonne"
+      },
+      {
+        "name": "Camp de jeunes",
+        "detail": "Guarda · Portugal"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Oui, vous avez bien lu.",
+    "badge": "-50% · lancement",
+    "perMonth": "/ mois",
+    "perYear": "/ an",
+    "fromPrice": "à partir de",
+    "perEvent": "par événement",
+    "billing": {
+      "monthly": "Mensuel",
+      "annual": "Annuel"
+    },
+    "plans": {
+      "starter": {
+        "name": "1 événement gratuit",
+        "cta": "Commencer gratuitement"
+      },
+      "pro": {
+        "name": "Pro",
+        "cta": "Créer un compte"
+      },
+      "perEvent": {
+        "name": "Par événement",
+        "cta": "Créer un compte"
+      }
+    },
+    "universal": {
+      "lead": "Tous les plans incluent :",
+      "agenda": "Agenda",
+      "confirmations": "Confirmations de présence",
+      "documents": "Documents",
+      "excel": "Import et export Excel"
+    },
+    "rows": {
+      "events": "Événements",
+      "participants": "Participants",
+      "suppliers": "Fournisseurs",
+      "report": "Rapport PDF",
+      "integrations": "Intégrations"
+    },
+    "values": {
+      "unlimited": "Illimités",
+      "tierRange": "{{min}} à illimité"
+    },
+    "footer": "Prix TTC · Annulez à tout moment"
+  },
+  "callToAction": {
+    "title": "Prêt à organiser votre prochain événement ?",
+    "description": "Créez votre compte gratuit et montez votre premier événement en quelques minutes.",
+    "button": "Commencer maintenant",
+    "features": {
+      "security": {
+        "title": "Sécurité et confidentialité",
+        "description": "Données chiffrées, contrôle d'accès par rôle et conformité RGPD."
+      },
+      "implementation": {
+        "title": "Commencez en quelques minutes",
+        "description": "Configurez votre premier événement sans formation ni installation."
+      },
+      "support": {
+        "title": "Dans votre langue",
+        "description": "Plateforme et support en portugais, anglais et français."
+      }
+    }
+  },
+  "footer": {
+    "description": "Une plateforme pour organiser, gérer et suivre vos événements : participants, fournisseurs, documents et agenda en un seul endroit.",
+    "allRightsReserved": "Tous droits réservés.",
+    "product": "Produit",
+    "pricing": "Tarifs",
+    "resources": "Ressources",
+    "docs": "Documentation",
+    "blog": "Blog",
+    "legal": "Mentions légales",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "cookies": "Politique de cookies"
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "main": {
+    "title": "Dashboard",
+    "description": "This dashboard offers you:",
+    "features": {
+      "holisticView": {
+        "title": "Holistic View",
+        "description": "Track all your events on a single screen."
+      },
+      "realTimeAnalysis": {
+        "title": "Real-Time Analysis",
+        "description": "Updated metrics for quick and informed decisions."
+      },
+      "valuableInsights": {
+        "title": "Valuable Insights",
+        "description": "Charts and trends to optimize your planning."
+      }
+    },
+    "callToAction": "Get ready to transform data into action and elevate your events to new heights of success!"
+  },
+  "loading": {
+    "dashboard": "Loading dashboard data...",
+    "summary": "Loading summary...",
+    "insights": "Loading insights...",
+    "charts": "Loading consolidated charts..."
+  },
+  "error": {
+    "title": "Error"
+  },
+  "eventCharts": {
+    "eventType": "Distribution by Type",
+    "eventStatus": "Event Status",
+    "topCategories": "Top 5 Categories",
+    "budgetDistribution": "Budget by Category",
+    "monthlyGrowth": "Monthly Growth"
+  },
+  "participantCharts": {
+    "participantRole": "Distribution by Participant Type",
+    "participantStatus": "Distribution by Registration Status",
+    "attendanceRate": "Attendance Rate",
+    "registrationGrowth": "Registration Growth"
+  },
+  "dependentsCharts": {
+    "dependentAge": "Distribution by Age",
+    "dependentsPerParticipant": "Dependents per Participant",
+    "dependentGrowth": "Monthly Growth",
+    "dependentConversion": "Dependent Conversion Rate"
+  },
+  "charts": {
+    "eventTypes": {
+      "public": "Public",
+      "private": "Private",
+      "other": "Other"
+    },
+    "eventStatus": {
+      "scheduled": "Scheduled",
+      "ongoing": "In Progress",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "pending": "Pending",
+      "unknown": "Unknown"
+    },
+    "participantStatus": {
+      "registered": "Registered",
+      "confirmed": "Confirmed",
+      "cancelled": "Cancelled",
+      "attended": "Attended",
+      "pending": "Pending",
+      "unknown": "Unknown"
+    },
+    "roles": {
+      "attendee": "Attendee",
+      "media": "Media",
+      "team": "Team",
+      "vip": "VIP",
+      "unknown": "Other"
+    },
+    "dependentAge": {
+      "child": "Child",
+      "baby": "Baby",
+      "adult": "Adult",
+      "unknown": "Unknown",
+      "title": "Age Distribution"
+    },
+    "attendanceRate": {
+      "present": "Present",
+      "notConfirmed": "Not Confirmed"
+    },
+    "dependentsPerParticipant": {
+      "title": "Average Dependents",
+      "name": "Dependents/Participant"
+    },
+    "dependentGrowth": {
+      "newDependents": "new dependents"
+    },
+    "dependentConversion": {
+      "withDependents": "With dependents",
+      "withoutDependents": "Without dependents",
+      "attendanceRate": "Attendance Rate",
+      "conversionRate": "Conversion Rate"
+    },
+    "categories": {
+      "uncategorized": "Uncategorized"
+    },
+    "series": {
+      "eventCount": "Event Count",
+      "budgetTotal": "Total Budget",
+      "registrations": "Registrations",
+      "total": "Total",
+      "attendanceRate": "Attendance Rate",
+      "newDependents": "New Dependents"
+    }
+  },
+  "tabs": {
+    "all": "All",
+    "events": "Events",
+    "participants": "Participants",
+    "dependents": "Dependents"
+  },
+  "filters": {
+    "label": "Time Period",
+    "all": "All Time",
+    "month": "Last Month",
+    "quarter": "Last Quarter",
+    "year": "Last Year"
+  },
+  "chartInfo": {
+    "eventType": "Event distribution by type",
+    "eventStatus": "Current status of events",
+    "topCategories": "Most popular categories",
+    "budgetDistribution": "Budget distribution",
+    "monthlyEvents": "Monthly event growth",
+    "participantRole": "Participant distribution by role",
+    "attendanceRate": "Attendance rate",
+    "registrationGrowth": "Monthly participant growth",
+    "dependentAge": "Distribution by age group",
+    "dependentsPerParticipant": "Average dependents per participant",
+    "dependentConversion": "Conversion rate by dependents"
+  },
+  "chartDetails": {
+    "eventType": {
+      "title": "Event Type Distribution Details",
+      "description": "Detailed analysis of events by type. This analysis helps to understand the mixture of event types in your organization."
+    },
+    "eventStatus": {
+      "title": "Event Status Distribution Details",
+      "description": "Comprehensive analysis of event statuses. Track the proportion of events in different phases of their lifecycle."
+    },
+    "topCategories": {
+      "title": "Category Distribution Details",
+      "description": "In-depth analysis of event categories. Identify which categories are most common and may deserve more attention."
+    },
+    "budgetDistribution": {
+      "title": "Budget Distribution Details",
+      "description": "Detailed analysis of event budgets by category. Understand how financial resources are allocated across different types of events."
+    },
+    "monthlyGrowth": {
+      "title": "Event Growth Trend Details",
+      "description": "Comprehensive view of event creation trends over time. Identify seasonal patterns and growth trajectories."
+    },
+    "participantRole": {
+      "title": "Participant Role Distribution Details",
+      "description": "In-depth analysis of participant types. Understand your audience composition across different roles."
+    },
+    "participantStatus": {
+      "title": "Participant Status Details",
+      "description": "Comprehensive analysis of participant registration statuses. Track confirmation rates and identify potential issues."
+    },
+    "attendanceRate": {
+      "title": "Attendance Rate Analysis",
+      "description": "Detailed attendance metrics for events. Compare actual attendance with registrations to optimize future events."
+    },
+    "registrationGrowth": {
+      "title": "Registration Growth Details",
+      "description": "Comprehensive view of participant registration trends over time. Identify patterns and growth opportunities."
+    },
+    "dependentAge": {
+      "title": "Dependent Age Distribution Details",
+      "description": "Detailed analysis of dependent demographics by age group. Better understand family attendance patterns."
+    },
+    "dependentsPerParticipant": {
+      "title": "Dependents per Participant Analysis",
+      "description": "In-depth view of how many dependents accompany each participant. Optimize family-oriented events with this data."
+    },
+    "dependentGrowth": {
+      "title": "Dependent Growth Trend Details",
+      "description": "Comprehensive view of dependent registration trends over time. Track patterns in family participation growth."
+    },
+    "dependentConversion": {
+      "title": "Dependent Conversion Rate",
+      "description": "Compares attendance rate between participants with dependents and those without dependents."
+    },
+    "distributionsTitle": "Statistical Distributions",
+    "distributions": "Distributions"
+  },
+  "metrics": {
+    "totalEvents": "Total Events",
+    "totalParticipants": "Total Participants",
+    "totalDependents": "Total Dependents",
+    "totalBudget": "Total Budget",
+    "averageBudget": "Average Budget",
+    "avgDependentsPerParticipant": "Average Dependents per Participant",
+    "attendanceRate": "Attendance Rate"
+  },
+  "distributions": {
+    "byType": "Distribution by Type",
+    "byStatus": "Distribution by Status",
+    "byRole": "Distribution by Role",
+    "byCategory": "Distribution by Category",
+    "byAgeGroup": "Distribution by Age Group",
+    "budgetByCategory": "Budget by Category",
+    "dependentsDistribution": "Dependents Distribution",
+    "byMonth": "Monthly Distribution"
+  },
+  "dependents": "dependents",
+  "noDataAvailable": "No data available for this chart",
+  "common": {
+    "information": "Information",
+    "minimize": "Minimize",
+    "maximize": "Maximize"
+  },
+  "header": {
+    "events": "Total Events",
+    "participants": "Total Participants",
+    "futureEvents": "Future Events",
+    "doneEvents": "Completed Events",
+    "relation": "compared to previous year"
+  },
+  "insights": {
+    "title": "Data Analysis",
+    "noData": {
+      "title": "Not enough data to generate insights.",
+      "description": "Add events and participants to view statistics."
+    },
+    "categories": {
+      "uncategorized": "Uncategorized"
+    },
+    "locations": {
+      "unspecified": "Unspecified location"
+    },
+    "types": {
+      "unspecified": "Unspecified type"
+    },
+    "events": {
+      "unnamed": "Unnamed event"
+    },
+    "justification": {
+      "title": "Calculation Details",
+      "hoverInfo": "Hover to see more details",
+      "viewDetails": "View detailed calculations",
+      "breakdown": "Data Used",
+      "examples": "Examples",
+      "totalEvents": "Total events",
+      "eventsThisMonth": "Events this month",
+      "eventsLastMonth": "Events last month",
+      "growthRate": "Growth rate",
+      "totalParticipants": "Total participants",
+      "attendedParticipants": "Participants who attended",
+      "attendanceRate": "Attendance rate",
+      "cancelledParticipants": "Participants who canceled",
+      "cancellationRate": "Cancellation rate",
+      "recurringParticipants": "Total recurring attendances",
+      "uniqueRecurringParticipants": "Unique recurring participants",
+      "recurringRate": "Recurrence rate",
+      "eventsAttended": "events attended",
+      "averageBudget": "Average budget",
+      "maxBudget": "Highest budget",
+      "minBudget": "Lowest budget",
+      "eventsWithBudget": "Events with budget",
+      "budget": "Budget",
+      "totalBudget": "Total budget",
+      "growthExplanation": "The growth rate of {{rate}}% was calculated considering {{eventsThisMonth}} events in the current month ({{currentMonth}}) relative to the total of {{totalEvents}} events.",
+      "budgetExplanation": "The average budget of {{average}}€ was calculated by adding the total budget amount ({{totalBudget}}€) and dividing by the number of events with a budget ({{eventsWithBudget}}).",
+      "dayExplanation": "{{day}} is the most frequent day of the week for events, representing {{percentage}}% of all events.",
+      "categoryExplanation": "The category {{category}} is the most frequent with {{count}} events out of a total of {{total}}, representing {{percentage}}% of all events.",
+      "locationExplanation": "The location {{location}} is the most frequent with {{count}} events out of a total of {{total}}, representing {{percentage}}% of all events.",
+      "typeExplanation": "{{type}} are the most common with {{count}} events out of a total of {{total}}, representing {{percentage}}% of all events.",
+      "cancellationExplanation": "The cancellation rate of {{rate}}% was calculated considering {{cancelledParticipants}} participants who canceled relative to the total of {{totalParticipants}} participants.",
+      "attendanceExplanation": "The attendance rate of {{rate}}% was calculated considering {{attendedParticipants}} participants who attended relative to the total of {{totalParticipants}} participants.",
+      "recurringExplanation": "The recurrence rate of {{rate}}% was calculated considering {{uniqueRecurringParticipants}} participants who attended multiple events, out of a total of {{recurringParticipants}} recurring attendances."
+    },
+    "monthlyGrowth": {
+      "text": "monthly growth",
+      "description": "Events added this month compared to the total"
+    },
+    "averageBudget": {
+      "text": "average budget",
+      "description": "Average value of event budgets"
+    },
+    "mostFrequentDay": {
+      "text": "of events",
+      "description": "Most common day of the week for events"
+    },
+    "attendanceRate": {
+      "text": "attendance rate",
+      "description": "Percentage of participants who attended events"
+    },
+    "recurringRate": {
+      "text": "recurring participants",
+      "description": "Participants who registered for more than one event"
+    },
+    "mostFrequentCategory": {
+      "text": "Most frequent category:",
+      "description": "of events"
+    },
+    "mostFrequentLocation": {
+      "text": "of events",
+      "description": "Most frequent venue for events"
+    },
+    "eventType": {
+      "publicText": "Public events",
+      "privateText": "Private events",
+      "description": "Majority of events by type"
+    },
+    "cancellationRate": {
+      "text": "Cancellation rate:",
+      "description": "Percentage of participants who canceled their attendance"
+    }
+  }
+}

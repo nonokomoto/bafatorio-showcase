@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite: {{eventName}}</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        .container { box-sizing: border-box; width: 100%; max-width: 600px; margin: 0 auto; padding: 20px; }
+        .header { background-color: #0093EB; color: white; padding: 10px; text-align: center; }
+        .content { background-color: #f8f8f8; padding: 20px; }
+        .footer { text-align: center; margin-top: 20px; font-size: 0.8em; color: #666; }
+        .cta-button { display: inline-block; background: #0093EB; color: #fff; padding: 12px 30px; border-radius: 5px; text-decoration: none; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Convite para Evento</h1>
+        </div>
+        <div class="content">
+            <p>Olá {{participantName}},</p>
+            <p>Foi convidado(a) para participar no evento <strong>{{eventName}}</strong>.</p>
+            <h2>Detalhes do Evento</h2>
+            <ul>
+                <li><strong>Data:</strong> {{eventDate}}</li>
+                {{#if eventTime}}
+                <li><strong>Hora:</strong> {{eventTime}}</li>
+                {{/if}}
+                {{#if eventLocation}}
+                <li><strong>Local:</strong> {{eventLocation}}</li>
+                {{/if}}
+                <li><strong>Organizador:</strong> {{eventManagerName}} ({{eventManagerContact}})</li>
+            </ul>
+            <div style="text-align:center;">
+                <a href="{{confirmationLink}}" class="cta-button">Confirmar Presença</a>
+            </div>
+            <p>Se tiver dúvidas ou necessitar de mais informações, por favor entre em contacto com o organizador.</p>
+            <p>Esperamos vê-lo no evento!</p>
+        </div>
+        <div class="footer">
+            <p>Esta é uma mensagem automática. Por favor, não responda a este e-mail.</p>
+        </div>
+    </div>
+</body>
+</html>
